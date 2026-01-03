@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1767268508847
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767370853190
+  login: 1767370080467
+money: '0'
+last-account-name: p3rseus
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -30.615242085347212
+  y: 68.0
+  z: 269.65637264795834
+  yaw: -90.828369140625
+  pitch: 12.924642562866211
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: 40.892125470142844
+  y: 70.0
+  z: 257.84716078246396
+  yaw: -340.004638671875
+  pitch: 1.3905079364776611

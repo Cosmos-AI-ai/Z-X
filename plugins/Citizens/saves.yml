@@ -1,0 +1,196 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 15
+npc:
+  '12':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTc2NzM2NDQ0NDg2OSwKICAicHJvZmlsZUlkIiA6ICJlYzcwYmNhZjcwMmY0YmI4YjQ4ZDI3NmZhNTJhNzgwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTkzZjZmYzQwNDg4ZjE4NzdjZGE5NGE4MzBiNTRlOWY2ZjU0YWI1OGE1NDUzYmFkNWM5NDc3MjZkZDFmNDczIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: dream
+      cached-skin-uuid: ec70bcaf-702f-4bb8-b48d-276fa52a780c
+      player-skin-signature: EfpgfXeC45VrIc6csWEbHCyX5+/Ch3XutY0XEqZ009XT8IC+lgkW6lReKoKxwNmSF3pX0DXNwzuUiQtz8u7Rwfmhs0Ug5r0z/zI8u333nTFJBXr5CWQUEBen11nCWyHEGDPXOBpT4QhzSTyHHKpA9AhQHPXT2Fao8VfGhajFNLUKhf36o4hRpmW/Ma2mFcgVcb11QuTd9Xuq63/cFxuwp48THmAfdfXuDS1KdTCFBWIIVEXCHOlLcDIe0SzTHMqZY8XhaAcgbndL3Tna1yWvF+X9PF87ipK6X/VwT1aGEkQgj0IjYsk4JHGJNn4lZYjkZqXYFaHdvN+AB/bC1EasevvF3gUlWGdteEcnCiAHIS4eIUrYjDLs5Gf9y0oFrJH+qG8DBX3Ud6tZ1omLx7+sB0kATBY98ymtO9lmcsBP54lA5m8mhiNikcE1k45Nd/UbZbeU8ROidY04pIPPz1yeoeDhpatFCOfvOtFuXyghKz3Lb50GS3URFMo9NEwxKStRWvqB/ElTkBl8a6GFh/V5uawGTZufB7EjAEOXgg55Q6+oEr10wgK+3sHR3zJqth47Zv63Zh4a3wMINL21LExdDBenLKAEIS5fb3wKbxpaAohhOzS38yim0eSLL34MeYlZHaz833aREJyhJlbSo7QQSx0dLqZEZH68frP7Wvx5L1E=
+    name: §a§lDream
+    uuid: b7ed8f40-b0a8-4fd5-86e2-b58dd50366ad
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        world: world
+        x: '1.91764985049E7'
+        y: '72.0'
+        z: '-2.33295314851E7'
+        yaw: '-159.54837036132812'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      inventory:
+        '0':
+          type: BOW
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            displayname: §6OP Bow
+          enchantments:
+            DURABILITY: 3
+            ARROW_DAMAGE: 5
+            ARROW_KNOCKBACK: 2
+            ARROW_FIRE: 1
+            ARROW_INFINITE: 1
+      equipment:
+        hand:
+          type: BOW
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            displayname: §6OP Bow
+          enchantments:
+            DURABILITY: 3
+            ARROW_DAMAGE: 5
+            ARROW_KNOCKBACK: 2
+            ARROW_FIRE: 1
+            ARROW_INFINITE: 1
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: PRO_BRO
+        uuid: b5584e1b-4b62-3c2f-a050-06703efbcf83
+    traitnames: type,inventory,spawned,equipment,location,owner,gravity,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTc2NzM2NDQ1MDY3MywKICAicHJvZmlsZUlkIiA6ICJiODc2ZWMzMmUzOTY0NzZiYTExNTg0MzhkODNjNjdkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWNobm9ibGFkZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YzkwN2E3ZjRmMGMzYTZjOWM5Yjc5MzQ4ZjdiZjE5OTM2OTViNmQyZWFlMmZhYjcwNGExYTRkOWI4Mjg4Y2JlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: technoblade
+      cached-skin-uuid: b876ec32-e396-476b-a115-8438d83c67d4
+      player-skin-signature: jYy9xkuBLxBbfGk4qeUEB7njFR5uFpecgflPXz7F2HwkS7yczHGfDZhOaFs020xorczftWKxgE7n+QWGecYcQJZbbgkf4WqOv6MtLkREOMotSk+VkK4XwR+4UHMAawGvCT4tFV0fZBfUwo5RlQlswJhNS9knCVzccZiLJg/UbTfRnRyh/P9b+fJiwIW8q2UbBjGqAjsDX7RJfrXphzMrAcpdxUS0WnaCR8UiGkF16egPiyuNxbEmMU1BljoNOKAgEUoIHbXqjKvq9ja3p+fPnji3Ct2nVkJddnXqlm+b472isHHGaXODFTkotKI5Ltdaa0+ltnih7Vx8UXUuVjLvjCW8UxEfmkgTyL3Rwhttkcr2TGYhYc3IFUPduZEr0j5FDdUd/G5p9Pg6FpqO214yLOiNuPH+bSISlesjXplVISfHdK64l8US4U8+kMMzz3vMHjknbn4eTXupq7cYzZzh0T+9vtw28rOmOIIE/Ev9FokTcRIf/W0VI7AqKkvhnzTk2GbShjk6ta8HRAe2sgljJhEJqifOldCFqca471HX1FwUhsfQnl4KzLY5y0oqHqDYCU+Kw69b9pctNARU6P+PwBs1xa7nGXqryOtK1QosIgHlfUcqcxuOA12dEbjvkocNR89JSGyvnCcupx6U4B0sUNUZy+MFag8B9t/HF7rLyp8=
+    name: §c§lTechnoblade
+    uuid: 20981f38-f995-45c2-965c-03ff24d973fb
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        world: world
+        x: '1.91765035236E7'
+        y: '72.0'
+        z: '-2.33295313574E7'
+        yaw: '151.78021240234375'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      inventory:
+        '0':
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            lore:
+              '0': Unstoppable
+              '1': Power
+            displayname: §6OP Sword
+          enchantments:
+            DAMAGE_ALL: 5
+            FIRE_ASPECT: 2
+            LOOT_BONUS_MOBS: 3
+            DURABILITY: 3
+      equipment:
+        hand:
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            lore:
+              '0': Unstoppable
+              '1': Power
+            displayname: §6OP Sword
+          enchantments:
+            DAMAGE_ALL: 5
+            FIRE_ASPECT: 2
+            LOOT_BONUS_MOBS: 3
+            DURABILITY: 3
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: PRO_BRO
+        uuid: b5584e1b-4b62-3c2f-a050-06703efbcf83
+    traitnames: type,inventory,spawned,equipment,location,owner,gravity,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTc2NzM2NDQ1MDAyOCwKICAicHJvZmlsZUlkIiA6ICI1ZTAxNWRlODNiMWU0NjJiYmY3ZDc5ZDhhMzlhYjI1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLdWxlRHVkMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDA4ODIxNGQyYzkwMWM1NjZmNTgzYTIzNThiMDE1OGQzYjkyZGFmZDEyZGU0NDcwMzE1MTRlODZhMTllNTgwIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: kuledud3
+      cached-skin-uuid: 5e015de8-3b1e-462b-bf7d-79d8a39ab257
+      player-skin-name: kuledud3
+      player-skin-signature: totCdMXX1fPU7GR0Pn7B1/2OWLP2IJUtnKKybwzOqamtcEwvGD4wDvEztQCSuTcM8mW57ojbAfkfMusv/sryUuPVumh9gLfppEybY/J/JJZDfm7ox9PyvviaNt7+L/u/uFv7aube5n1C8pA3R94HFOoLnRLx9uGMn1BfkPy2vH6lvpixqud3BLYG8P/+Gxr5B8KtyCJo+2xeacyI/ZkMM6X5aTwBriiDRwnglpA5hSWyrjaOs44qd0LLw32zRPChNy7Xdj0vRl3GQWeGPbsRopmITiydusIF3tBQDGLX1mxxE+S1paAa3eorCZ1BslvOdbB7bLaq6RRoZiN/Tl/OUqZppiTGbPI2ebhGC0urfA4EdjLS+C94sKbDEV2sFJCBczSj597mrIM0/YUbSpPcerBo7ecPIHn+m0Mxn70iX+GYdbwo9Y3CUMFQN0+7Cc1FMFNaOmXm9aGrHmUDtysQAD/QHaQDQpwdfKL2HN94XT9+te4RVx2pOIxJigKOfqxK8eMD+guJjaijPo08QTRzdJzOjuPDwc7McgG1dJ71V7orvQlRmTKzBvAZt/bsI5wNu3SkftOBUe8XKq7x0Vddw6LSLzwzWMaJPt9pSvCjwSRWa0VM0wQDnV1S2J0X0OUPgqBDtS3PYI2Os0suu+1rlnbww4z8qfCILMNrJozo7ME=
+      swim: true
+    name: §cServer
+    uuid: 731e3dac-8651-419e-b88b-5a2416073c33
+    traits:
+      inventory:
+        '0':
+          type: BOOK
+          amount: 1
+          durability: 0
+          mdata: 0
+        '27':
+          type: MAP
+          amount: 1
+          durability: 7
+          mdata: 7
+      spawned: true
+      type: PLAYER
+      equipment:
+        hand:
+          type: BOOK
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: world
+        x: '-38.0073'
+        y: '68.0'
+        z: '210.4927'
+        yaw: '-86.81623077392578'
+        pitch: '0.0'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      gravity:
+        enabled: false
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&6Welcome to &cZ &9X &6Server'
+      speech: chat
+      owner:
+        owner: PRO_BRO
+        uuid: b5584e1b-4b62-3c2f-a050-06703efbcf83
+    traitnames: type,spawned,inventory,equipment,text,location,owner,speech,gravity,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

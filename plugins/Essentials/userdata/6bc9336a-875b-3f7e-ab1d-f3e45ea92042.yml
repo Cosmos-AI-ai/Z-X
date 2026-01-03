@@ -1,0 +1,84 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: true
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1767370794229
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767370388561
+  login: 1767370389366
+  kits:
+    opkit: 1765455124217
+    dtools: 1765274949896
+    tools: 1765281514456
+money: '66491.52'
+last-account-name: XxSM00THxX
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: 1.9176501449752178E7
+  y: 72.5
+  z: -2.3329539964361787E7
+  yaw: -2.509735107421875
+  pitch: 16.94997787475586
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -380.97480454665475
+  y: 72.0
+  z: 702.6255462577594
+  yaw: -97.79965209960938
+  pitch: 11.700017929077148
+homes:
+  home:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: -385.36898386271986
+    y: 69.0
+    z: 706.9627628270131
+    yaw: -179.84957885742188
+    pitch: 19.35000228881836
+  mine:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 47.07873707157302
+    y: 67.0
+    z: 335.18843754183916
+    yaw: -359.25
+    pitch: 6.599992752075195
+  ss:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 96.12398643507787
+    y: 68.0
+    z: 279.613794523288
+    yaw: 174.00048828125
+    pitch: 8.400142669677734
+  blaze:
+    world: d24e40bb-2d5e-4aeb-aaf2-6b717cce30d9
+    world-name: world_nether
+    x: -111.72622940042302
+    y: 77.0
+    z: 86.37421426104116
+    yaw: 17.240867614746094
+    pitch: 11.999983787536621
+  sss:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 1.4677555391038178E7
+    y: 70.49064323361056
+    z: -1.9109638277085308E7
+    yaw: -34.31439208984375
+    pitch: 33.89994430541992
+nickname: §0§lXx§4§lSM00TH§0§lxX

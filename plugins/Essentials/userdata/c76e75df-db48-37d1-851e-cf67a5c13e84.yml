@@ -1,0 +1,53 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765289347460
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767371794620
+  login: 1767371799872
+  kits:
+    opkit: 1765121215432
+    dtools: 1765120253344
+    tools: 1765120881341
+    artmap: 1765120417953
+money: '12337.999'
+last-account-name: xFernann
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: 22.343315253826816
+  y: 75.73791154181666
+  z: 282.8590841743562
+  yaw: -158.8549346923828
+  pitch: 49.20000076293945
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -37.99811200784134
+  y: 70.0
+  z: 192.02407647285355
+  yaw: -358.5
+  pitch: 7.199992656707764
+homes:
+  home:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: -175.30000001192093
+    y: 6.0
+    z: -90.30206986684726
+    yaw: 263.9203796386719
+    pitch: 22.049972534179688
+nickname: §5§nx§dFer§d§mna§d§lnn

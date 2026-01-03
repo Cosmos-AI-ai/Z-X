@@ -1,0 +1,52 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765466054964
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765466854843
+  login: 1765466368195
+  kits:
+    tools: 1765460044959
+    dtools: 1765271231838
+    artmap: 1765269160944
+money: '0'
+last-account-name: BMW
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: 1.917680276478926E7
+  y: 98.0
+  z: -2.332959071270086E7
+  yaw: 44.7291259765625
+  pitch: 4.4809184074401855
+nickname: §0§m§lBMW
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -1.063663133966767
+  y: 67.0
+  z: 259.28739655160854
+  yaw: -301.39892578125
+  pitch: -10.904851913452148
+homes:
+  home:
+    world: d24e40bb-2d5e-4aeb-aaf2-6b717cce30d9
+    world-name: world_nether
+    x: -105.30000001192093
+    y: 77.0
+    z: 85.30000001192093
+    yaw: 46.719482421875
+    pitch: -0.0882534310221672

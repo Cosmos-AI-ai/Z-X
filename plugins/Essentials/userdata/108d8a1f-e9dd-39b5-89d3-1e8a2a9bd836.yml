@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765466070193
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767270472172
+  login: 1767270313304
+  kits:
+    opkit: 1764931307994
+    firework: 1763208976730
+    color: 1763208985535
+    notch: 1763034558612
+    dtools: 1765024757536
+    tools: 1764931194490
+money: '7219.0'
+last-account-name: _parasog_
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: 58.66942022809409
+  y: 80.0
+  z: 242.2964219562303
+  yaw: -17.249267578125
+  pitch: 24.588422775268555
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -30.707252415313448
+  y: 68.0
+  z: 237.69999998807907
+  yaw: 67.85507202148438
+  pitch: -13.002025604248047
+homes:
+  home:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 48.97682781482045
+    y: 71.0
+    z: 258.5231919738359
+    yaw: -89.49494934082031
+    pitch: 48.2535285949707
+  b:
+    world: d24e40bb-2d5e-4aeb-aaf2-6b717cce30d9
+    world-name: world_nether
+    x: -38.273285670049916
+    y: 74.0
+    z: -0.6934242802672083
+    yaw: -268.0812072753906
+    pitch: 27.226974487304688
+nickname: §0_§4§oparasog§0_

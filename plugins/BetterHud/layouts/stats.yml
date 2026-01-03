@@ -1,0 +1,30 @@
+# The Translucent "Glass" Box
+server_stats_bg:
+  type: "image"
+  file: "image.png" # Make sure you uploaded the glass.png from before
+  x: 5
+  y: 130      # Moved up slightly to fit the title
+  width: 120  # Made slightly wider for the title
+  height: 65  # Made taller to fit the title + stats
+
+# YOUR TITLE: &4Z &0X &bServer
+stats_title:
+  type: "text"
+  text: "&4Z &0X &bServer"
+  x: 10
+  y: 135      # Placed at the very top of the box
+  scale: 1.1  # Made it slightly bigger than the stats
+
+# The Ping Line
+ping_display:
+  type: "text"
+  text: "&7Ping: &a%player_ping%ms"
+  x: 10
+  y: 155      # Moved down to leave room for title
+
+# The TPS Line (Server Speed)
+tps_display:
+  type: "text"
+  text: "&7TPS: &a%server_tps_1%"
+  x: 10
+  y: 170

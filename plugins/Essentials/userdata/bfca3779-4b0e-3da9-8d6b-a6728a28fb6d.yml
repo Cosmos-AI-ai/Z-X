@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1767371906495
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767371746174
+  login: 1767371748926
+money: '0'
+last-account-name: Watermellon_man
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -44.54037885146056
+  y: 59.0
+  z: 249.4359690337687
+  yaw: 100.00653076171875
+  pitch: 3.898900032043457
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -37.57421971729218
+  y: 70.0
+  z: 193.00427134615225
+  yaw: -308.25482177734375
+  pitch: 18.88799285888672
+nickname: husband

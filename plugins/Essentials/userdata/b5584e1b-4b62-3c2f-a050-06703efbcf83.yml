@@ -1,0 +1,84 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1767370309904
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767370406648
+  login: 1767366034828
+  kits:
+    tools: 1760310358197
+    opkit: 1765466511679
+    artmap: 1767364991263
+    dtools: 1765188214861
+    firework: 1765364499091
+    notch: 1765289552479
+    pots1: 1765453578613
+    night: 1765453743336
+    pot1: 1765454530551
+    bow: 1767360687000
+    starter: 1767361290795
+money: '90.0'
+last-account-name: PRO_BRO
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -39.602283321583904
+  y: 76.0
+  z: 194.20327458979813
+  yaw: -339.6000061035156
+  pitch: 11.84998607635498
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -19.20884111635784
+  y: 73.0
+  z: 343.7875434559817
+  yaw: -196.1571807861328
+  pitch: 16.34995460510254
+homes:
+  home:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 1.9176790070589907E7
+    y: 103.0
+    z: -2.3329589983671866E7
+    yaw: 292.5341796875
+    pitch: 7.724190711975098
+  a:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 1.917679169969719E7
+    y: 103.0
+    z: -2.3329589005078677E7
+    yaw: 292.5341796875
+    pitch: 7.724190711975098
+  red:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 444.30497708763545
+    y: 6.0
+    z: -541.7436913464625
+    yaw: -100.01463317871094
+    pitch: -11.246356964111328
+  k:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 1.4677568521179244E7
+    y: 79.7283502290349
+    z: -1.9109638841414925E7
+    yaw: 318.486572265625
+    pitch: 19.199918746948242
+nickname: §4§mPRO§0§l_BRO
