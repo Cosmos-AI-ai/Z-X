@@ -1,0 +1,7 @@
+{
+  "port": 2252,
+  "start_time_ist": "15:00",
+  "stop_time_ist": "19:00",
+  "warning_minutes": 10,
+  "tunnel_service": "e4mc"
+}
