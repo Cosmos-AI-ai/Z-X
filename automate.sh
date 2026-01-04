@@ -49,7 +49,7 @@ fi
 
 # --- 6. START MINECRAFT ---
 # Use 'tail -f' to keep the pipe open
-tail -f server_input | java -Xmx4G -jar server.jar nogui &
+tail -f server_input | bash ./run.sh &
 SERVER_PID=$!
 
 # --- 7. SHUTDOWN SEQUENCE ---
