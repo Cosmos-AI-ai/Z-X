@@ -1,44 +1,64 @@
 #!/bin/bash
 
 # --- 1. SET YOUR CUSTOM NAME ---
-# Change this to whatever you want! (e.g., "cool-server-2026")
 SUBDOMAIN="zx-play"
 
+# --- 2. SETUP ENVIRONMENT ---
+# Generate SSH keys if they don't exist (Fixes empty tunnel.log in many environments)
+if [ ! -f ~/.ssh/id_ed25519 ]; then
+    mkdir -p ~/.ssh
+    ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N "" -q
+fi
+
 # Create a Named Pipe for server input
+rm -f server_input
 mkfifo server_input
 
-# --- 2. Start Serveo Tunnel ---
-# We request your custom name on port 80 (to get a web/WSS link)
-ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 \
+# --- 3. START SERVEO TUNNEL ---
+# -tt: Forces a terminal (prevents silent failure)
+# -o UserKnownHostsFile=/dev/null: Prevents host key errors
+# > tunnel.log 2>&1: Captures ALL errors and output
+ssh -tt -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+    -o ServerAliveInterval=60 \
     -R ${SUBDOMAIN}:80:localhost:25565 \
     serveo.net > tunnel.log 2>&1 &
 
-# --- 3. Extract the URL ---
+# --- 4. EXTRACT THE URL (RETRY LOOP) ---
 echo "Requesting custom name: $SUBDOMAIN..."
-sleep 5
-ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.serveo\.net" tunnel.log | head -n 1)
+ADDRESS=""
+for i in {1..20}; do
+    ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.serveo\.net" tunnel.log | head -n 1)
+    if [ -n "$ADDRESS" ]; then
+        echo "✅ Connection established: $ADDRESS"
+        break
+    fi
+    echo "⏳ Waiting for Serveo... ($i/20)"
+    sleep 2
+done
 
-# If your custom name was taken, Serveo gives you a random one.
-# We extract whatever it gave us to be safe.
 WSS_ADDRESS="wss://$ADDRESS"
 
-# --- 4. Discord Notification ---
+# --- 5. DISCORD NOTIFICATION ---
 if [ -z "$ADDRESS" ]; then
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"❌ **Tunnel Error:** Could not connect to Serveo.\"}" $DISCORD_WEBHOOK
+    # Log the last few lines of the error to Discord for debugging
+    ERROR_MSG=$(tail -n 3 tunnel.log)
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"❌ **Tunnel Error:** Could not connect.\n\`\`\`$ERROR_MSG\`\`\`\"}" $DISCORD_WEBHOOK
 else
     curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🏰 **Server is ONLINE!**\n🔗 **WSS IP:** \`$WSS_ADDRESS\`\n🌍 **Web URL:** \`https://$ADDRESS\`\"}" $DISCORD_WEBHOOK
 fi
 
-# --- 5. Start Minecraft ---
+# --- 6. START MINECRAFT ---
+# Use 'tail -f' to keep the pipe open
 tail -f server_input | java -Xmx4G -jar server.jar nogui &
 SERVER_PID=$!
 
-# --- 6. Shutdown Sequence ---
+# --- 7. SHUTDOWN SEQUENCE ---
+# 13800 seconds = 3 hours 50 mins
 sleep 13800
 echo "stop" > server_input
 wait $SERVER_PID
 
-# Git save logic...
+# --- 8. GIT SAVE LOGIC ---
 git add .
 git commit -m "Auto-save world: $(date)"
 git push origin main
