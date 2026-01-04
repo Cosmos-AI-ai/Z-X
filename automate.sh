@@ -1,81 +1,86 @@
 #!/bin/bash
 
-# --- 1. SET YOUR CUSTOM NAME ---
-SUBDOMAIN="zx"
+# --- 1. CONFIGURATION ---
+# We use a unique subdomain to avoid the 'console' redirect
+SUBDOMAIN="zx-$RANDOM"
+DISCORD_WEBHOOK="YOUR_DISCORD_WEBHOOK_HERE"
 
 # --- 2. SETUP ENVIRONMENT ---
+# Generate SSH keys for Serveo if missing
 if [ ! -f ~/.ssh/id_ed25519 ]; then
     mkdir -p ~/.ssh
     ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N "" -q
 fi
 
+# Create a Pipe to carry your typing into the server
 rm -f server_input
 mkfifo server_input
 
-# --- 3. START LIVE CONSOLE (Owner Access) ---
+# --- 3. START LIVE CONSOLE (tmate) ---
+# This gives you a browser-based terminal to control the server
 sudo apt-get update && sudo apt-get install -y tmate
 tmate -S /tmp/tmate.sock new-session -d
 tmate -S /tmp/tmate.sock wait tmate-ready
 CONSOLE_URL=$(tmate -S /tmp/tmate.sock display -p '#{tmate_web}')
 
-# --- 4. START SERVEO TUNNEL (WITH FALLBACK) ---
-echo "Attempting to get name: $SUBDOMAIN..."
-ssh -tt -o StrictHostKeyChecking=no -o ServerAliveInterval=60 \
+# --- 4. START SERVEO TUNNEL ---
+echo "🚀 Requesting unique tunnel: $SUBDOMAIN"
+ssh -tt -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+    -o ServerAliveInterval=60 \
     -R ${SUBDOMAIN}:80:localhost:25565 \
     serveo.net > tunnel.log 2>&1 &
 
+# Extract URL (Wait up to 30 seconds)
 ADDRESS=""
-# Try for 10 attempts (about 20-30 seconds)
-for i in {1..10}; do
-    # Search for a URL that is NOT 'console'
+for i in {1..15}; do
+    # Filters out the fake 'console' URL
     ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.serveo\.net" tunnel.log | grep -v "console" | head -n 1)
-    
-    if [ -n "$ADDRESS" ]; then
-        echo "✅ Success! Using: $ADDRESS"
-        break
-    fi
-    echo "⏳ Attempt $i: Name taken or pending..."
-    sleep 3
+    if [ -n "$ADDRESS" ]; then break; fi
+    sleep 2
 done
 
-# --- FALLBACK: IF CUSTOM NAME FAILED ---
+# Fallback to entirely random name if custom one fails
 if [ -z "$ADDRESS" ]; then
-    echo "⚠️ Custom name failed. Switching to ENTIRELY RANDOM name..."
-    pkill -f "ssh.*serveo.net" # Kill the stuck attempt
-    > tunnel.log               # Clear the log
-    
-    # Run WITHOUT the ${SUBDOMAIN}: part. Serveo will assign a random one.
-    ssh -tt -o StrictHostKeyChecking=no -o ServerAliveInterval=60 \
-        -R 80:localhost:25565 \
-        serveo.net > tunnel.log 2>&1 &
-        
-    # Wait for the random URL
-    for i in {1..10}; do
-        ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.serveo\.net" tunnel.log | grep -v "console" | head -n 1)
-        [ -n "$ADDRESS" ] && break
-        sleep 2
-    done
+    echo "⚠️ Subdomain taken. Trying random..."
+    pkill -f "ssh.*serveo.net"
+    ssh -tt -o StrictHostKeyChecking=no -R 80:localhost:25565 serveo.net > tunnel.log 2>&1 &
+    sleep 10
+    ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.serveo\.net" tunnel.log | grep -v "console" | head -n 1)
 fi
 
-WSS_ADDRESS="wss://$ADDRESS"
+# --- 5. DISCORD NOTIFICATION (Safe JSON) ---
+# Heredoc ensures no special characters break the Discord payload
+PAYLOAD=$(cat <<EOF
+{
+  "embeds": [{
+    "title": "🏰 Server Online!",
+    "color": 5763719,
+    "fields": [
+      { "name": "🔗 Eaglercraft IP", "value": "\`wss://$ADDRESS\`" },
+      { "name": "🌍 Web Client", "value": "\`https://$ADDRESS\`" },
+      { "name": "🛠️ Owner Console", "value": "[Click to Open]($CONSOLE_URL)" }
+    ]
+  }]
+}
+EOF
+)
 
-# --- 5. DISCORD NOTIFICATION ---
-if [ -z "$ADDRESS" ]; then
-    ERROR_MSG=$(tail -n 3 tunnel.log)
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"❌ **Critical Tunnel Error**\n\`\`\`$ERROR_MSG\`\`\`\"}" $DISCORD_WEBHOOK
-else
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🏰 **Eaglercraft Online!**\n🔗 **IP:** \`$WSS_ADDRESS\`\n🛠️ **Owner Console:** $CONSOLE_URL\"}" $DISCORD_WEBHOOK
-fi
+curl -H "Content-Type: application/json" -X POST -d "$PAYLOAD" "$DISCORD_WEBHOOK"
 
 # --- 6. START MINECRAFT ---
+# Pipes your browser-console typing into the server
+echo "Starting Minecraft..."
 tail -f server_input | bash ./run.sh &
 SERVER_PID=$!
 
-# --- 7. SHUTDOWN & SAVE ---
+# --- 7. SHUTDOWN & AUTO-SAVE ---
+# Run for ~4 hours before saving and closing
 sleep 13800
+echo "say Server is saving and restarting..." > server_input
 echo "stop" > server_input
 wait $SERVER_PID
 
+# Git Save
 git add .
 git commit -m "Auto-save world: $(date) [skip ci]"
 git push origin main
