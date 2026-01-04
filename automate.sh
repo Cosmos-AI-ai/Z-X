@@ -1,64 +1,67 @@
 #!/bin/bash
 
 # --- 1. SET YOUR CUSTOM NAME ---
-SUBDOMAIN="zx-play"
+# Added a random number so you don't get the 'console.serveo.net' error
+SUBDOMAIN="zx$RANDOM"
 
 # --- 2. SETUP ENVIRONMENT ---
-# Generate SSH keys if they don't exist (Fixes empty tunnel.log in many environments)
 if [ ! -f ~/.ssh/id_ed25519 ]; then
     mkdir -p ~/.ssh
     ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N "" -q
 fi
 
-# Create a Named Pipe for server input
 rm -f server_input
 mkfifo server_input
 
-# --- 3. START SERVEO TUNNEL ---
-# -tt: Forces a terminal (prevents silent failure)
-# -o UserKnownHostsFile=/dev/null: Prevents host key errors
-# > tunnel.log 2>&1: Captures ALL errors and output
+# --- 3. START LIVE CONSOLE (For the Owner) ---
+# This gives you a link to type into the server live!
+sudo apt-get update && sudo apt-get install -y tmate
+tmate -S /tmp/tmate.sock new-session -d
+tmate -S /tmp/tmate.sock wait tmate-ready
+CONSOLE_URL=$(tmate -S /tmp/tmate.sock display -p '#{tmate_web}')
+
+# --- 4. START SERVEO TUNNEL ---
+# We use port 80 so Serveo provides the SSL for wss://
 ssh -tt -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
     -o ServerAliveInterval=60 \
     -R ${SUBDOMAIN}:80:localhost:25565 \
     serveo.net > tunnel.log 2>&1 &
 
-# --- 4. EXTRACT THE URL (RETRY LOOP) ---
-echo "Requesting custom name: $SUBDOMAIN..."
+# --- 5. EXTRACT THE REAL URL ---
+echo "Requesting unique name: $SUBDOMAIN..."
 ADDRESS=""
-for i in {1..20}; do
-    ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.serveo\.net" tunnel.log | head -n 1)
+for i in {1..30}; do
+    # This specifically ignores 'console.serveo.net'
+    ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.serveo\.net" tunnel.log | grep -v "console" | head -n 1)
     if [ -n "$ADDRESS" ]; then
         echo "✅ Connection established: $ADDRESS"
         break
     fi
-    echo "⏳ Waiting for Serveo... ($i/20)"
+    echo "⏳ Waiting for valid tunnel... ($i/30)"
     sleep 2
 done
 
 WSS_ADDRESS="wss://$ADDRESS"
 
-# --- 5. DISCORD NOTIFICATION ---
+# --- 6. DISCORD NOTIFICATION ---
 if [ -z "$ADDRESS" ]; then
-    # Log the last few lines of the error to Discord for debugging
-    ERROR_MSG=$(tail -n 3 tunnel.log)
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"❌ **Tunnel Error:** Could not connect.\n\`\`\`$ERROR_MSG\`\`\`\"}" $DISCORD_WEBHOOK
+    ERROR_MSG=$(tail -n 5 tunnel.log)
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"❌ **Tunnel Error:**\n\`\`\`$ERROR_MSG\`\`\`\"}" $DISCORD_WEBHOOK
 else
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🏰 **Server is ONLINE!**\n🔗 **WSS IP:** \`$WSS_ADDRESS\`\n🌍 **Web URL:** \`https://$ADDRESS\`\"}" $DISCORD_WEBHOOK
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🏰 **Eaglercraft ONLINE!**\n🔗 **IP:** \`$WSS_ADDRESS\`\n🛠️ **Owner Console:** $CONSOLE_URL\"}" $DISCORD_WEBHOOK
 fi
 
-# --- 6. START MINECRAFT ---
-# Use 'tail -f' to keep the pipe open
+# --- 7. START MINECRAFT ---
+# Use 'tail -f' to keep the pipe open for your commands
 tail -f server_input | bash ./run.sh &
 SERVER_PID=$!
 
-# --- 7. SHUTDOWN SEQUENCE ---
-# 13800 seconds = 3 hours 50 mins
+# --- 8. SHUTDOWN SEQUENCE ---
 sleep 13800
 echo "stop" > server_input
 wait $SERVER_PID
 
-# --- 8. GIT SAVE LOGIC ---
+# --- 9. GIT SAVE LOGIC ---
 git add .
-git commit -m "Auto-save world: $(date)"
+git commit -m "Auto-save world: $(date) [skip ci]"
 git push origin main
