@@ -1,5 +1,5 @@
 {
-  "port": 2252,
+  "port": 25565,
   "start_time_ist": "15:00",
   "stop_time_ist": "19:00",
   "warning_minutes": 10,
