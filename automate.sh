@@ -1,78 +1,52 @@
 #!/bin/bash
 
-# --- 1. CONFIGURATION ---
-# We use the variable from your GitHub Secrets
-# If it's empty, the script will show a warning
-if [ -z "$DISCORD_WEBHOOK" ]; then
-    echo "⚠️ WARNING: DISCORD_WEBHOOK secret is not set!"
-fi
-
-# --- 2. SETUP ENVIRONMENT ---
+# --- 1. SETUP ---
+# Ensure SSH keys exist for the tunnel
 if [ ! -f ~/.ssh/id_ed25519 ]; then
     mkdir -p ~/.ssh
     ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N "" -q
 fi
 
-rm -f server_input
-mkfifo server_input
+# Create pipe for server input
+rm -f server_input && mkfifo server_input
 
-# --- 3. START LIVE CONSOLE (tmate) ---
-echo "📦 Installing tmate..."
-sudo apt-get update && sudo apt-get install -y tmate > /dev/null 2>&1
-tmate -S /tmp/tmate.sock new-session -d
-tmate -S /tmp/tmate.sock wait tmate-ready
-CONSOLE_URL=$(tmate -S /tmp/tmate.sock display -p '#{tmate_web}')
-
-echo "************************************************"
-echo "🛠️ OWNER CONSOLE URL: $CONSOLE_URL"
-echo "************************************************"
-
-# --- 4. START LOCALHOST.RUN TUNNEL ---
-echo "🚀 Starting tunnel via localhost.run..."
+# --- 2. START TUNNEL (Localhost.run) ---
+echo "🚀 Requesting default tunnel..."
+# We tunnel port 25565 to the web via port 80 (to get SSL for wss://)
 ssh -tt -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
     -o ServerAliveInterval=60 \
     -R 80:localhost:25565 \
     lhr.life > tunnel.log 2>&1 &
 
-# Extract URL (Wait up to 30 seconds)
+# Wait and extract the URL
 ADDRESS=""
-for i in {1..15}; do
-    # This grep is more robust: it removes http:// if present
-    ADDRESS=$(grep -oE "https?://[a-zA-Z0-9.-]+\.lhr\.life" tunnel.log | sed -E 's/https?:\/\///' | head -n 1)
-    if [ -n "$ADDRESS" ]; then break; fi
+for i in {1..20}; do
+    ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.lhr\.life" tunnel.log | head -n 1)
+    if [ -n "$ADDRESS" ]; then
+        echo "✅ URL Found: $ADDRESS"
+        break
+    fi
+    echo "⏳ Waiting for tunnel... ($i/20)"
     sleep 2
 done
 
-# --- 5. DISCORD NOTIFICATION ---
+# --- 3. SEND TO DISCORD ---
 if [ -z "$ADDRESS" ]; then
-    ERROR_DATA=$(tail -n 5 tunnel.log)
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"❌ **Tunnel Failed**\n\`\`\`$ERROR_DATA\`\`\`\"}" "$DISCORD_WEBHOOK"
+    echo "❌ Tunnel failed. Check tunnel.log"
+    # Send error to Discord if possible
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"❌ Tunnel failed to start.\"}" "$DISCORD_WEBHOOK"
 else
-    WSS_ADDRESS="wss://$ADDRESS"
+    WSS_URL="wss://$ADDRESS"
+    # Simple JSON payload
     PAYLOAD=$(cat <<EOF
 {
-  "embeds": [{
-    "title": "Z X Server Online!",
-    "description": "The tunnel is active via localhost.run",
-    "color": 3066993,
-    "fields": [
-      { "name": "🔗 WebSocket IP", "value": "\`$WSS_ADDRESS\`" },
-    ]
-  }]
+  "content": "🛠️ **Eaglercraft Test Online**\n🔗 **WSS IP:** \`$WSS_URL\`\n🌍 **Web:** \`https://$ADDRESS\`"
 }
 EOF
 )
     curl -H "Content-Type: application/json" -X POST -d "$PAYLOAD" "$DISCORD_WEBHOOK"
 fi
 
-# --- 6. START MINECRAFT ---
+# --- 4. START MINECRAFT ---
 echo "Starting Minecraft..."
-# Added a small delay to ensure the pipe is ready
-sleep 2
-tail -f server_input | bash ./run.sh &
-SERVER_PID=$!
-
-# --- 7. SHUTDOWN & AUTO-SAVE ---
-# 13800 seconds = ~3.8 hours
-sleep 13800
-echo "say Server is saving and restarting..."
+tail -f server_input | bash ./run.sh
