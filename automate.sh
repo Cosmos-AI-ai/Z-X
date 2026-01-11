@@ -1,52 +1,44 @@
 #!/bin/bash
 
 # --- 1. SETUP ---
-# Ensure SSH keys exist for the tunnel
-if [ ! -f ~/.ssh/id_ed25519 ]; then
-    mkdir -p ~/.ssh
-    ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -N "" -q
-fi
-
-# Create pipe for server input
+mkdir -p ~/.ssh
+rm -f tunnel.log
 rm -f server_input && mkfifo server_input
 
-# --- 2. START TUNNEL (Localhost.run) ---
-echo "🚀 Requesting default tunnel..."
-# We tunnel port 25565 to the web via port 80 (to get SSL for wss://)
-ssh -tt -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
-    -o ServerAliveInterval=60 \
-    -R 80:localhost:25565 \
-    lhr.life > tunnel.log 2>&1 &
+# --- 2. START TUNNEL ---
+ssh -R 80:localhost:25565 nokey@localhost.run \
+    -o StrictHostKeyChecking=no \
+    -o UserKnownHostsFile=/dev/null \
+    -o ServerAliveInterval=60 > tunnel.log 2>&1 &
 
-# Wait and extract the URL
+# --- 3. WAIT FOR URL & DISCORD ---
 ADDRESS=""
 for i in {1..20}; do
-    ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.lhr\.life" tunnel.log | head -n 1)
-    if [ -n "$ADDRESS" ]; then
-        echo "✅ URL Found: $ADDRESS"
-        break
-    fi
-    echo "⏳ Waiting for tunnel... ($i/20)"
-    sleep 2
+    ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.lhr\.(life|pro)" tunnel.log | head -n 1)
+    if [ -n "$ADDRESS" ]; then break; fi
+    sleep 3
 done
 
-# --- 3. SEND TO DISCORD ---
-if [ -z "$ADDRESS" ]; then
-    echo "❌ Tunnel failed. Check tunnel.log"
-    # Send error to Discord if possible
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"❌ Tunnel failed to start.\"}" "$DISCORD_WEBHOOK"
-else
-    WSS_URL="wss://$ADDRESS"
-    # Simple JSON payload
-    PAYLOAD=$(cat <<EOF
-{
-  "content": "🛠️ **Eaglercraft Test Online**\n🔗 **WSS IP:** \`$WSS_URL\`\n🌍 **Web:** \`https://$ADDRESS\`"
-}
-EOF
-)
-    curl -H "Content-Type: application/json" -X POST -d "$PAYLOAD" "$DISCORD_WEBHOOK"
+if [ -n "$ADDRESS" ]; then
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🛠️ **Eaglercraft Online** (3PM-7PM IST)\\n🔗 **IP:** \`wss://$ADDRESS\`\"}" "$DISCORD_WEBHOOK"
 fi
 
-# --- 4. START MINECRAFT ---
-echo "Starting Minecraft..."
+# --- 4. 4-HOUR TIMER WITH 30s COUNTDOWN ---
+(
+  sleep 1770 # Wait until 6:59:30 PM IST   14370
+  for i in {30..1}; do
+    echo "say [System] Server closing in $i seconds! Saving world..." > server_input
+    sleep 1
+  done
+  echo "stop" > server_input
+) &
+
+# --- 5. START SERVER ---
 tail -f server_input | bash ./run.sh
+
+# --- 6. PUSH BACK TO GITHUB ---
+git config --global user.name "github-actions[bot]"
+git config --global user.email "github-actions[bot]@users.noreply.github.com"
+git add .
+git commit -m "Automated Save: $(date)" || echo "No changes to save"
+git push origin main
