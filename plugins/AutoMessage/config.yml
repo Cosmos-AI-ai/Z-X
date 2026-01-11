@@ -1,4 +1,4 @@
-timer: 600
+timer: 200
 Random: false
 UseTellRawMessages: false
 Messages:
@@ -6,6 +6,11 @@ Messages:
 - :)
 - '&2Wanna Be VIP!Check out /warp shop'
 - XXX
+- '&4Bored go to /warp pvp1'
+- '&2Want tags go to /warp tags
+- '&6Check out our discord server for good events'
+- '&8Happy to see you guys play'
+- '&4Wanna invite you friend .Tell him to join our discord server:https://discord.gg/QUfNxTDvk9'
 TellRawMessages:
 - '{"text":"[Get more info on TellRaws here: minecraft.tools/en/tellraw.php ]","color":"dark_purple"}'
 - '{"text":"[This is a test message!] ","color":"aqua"}'
