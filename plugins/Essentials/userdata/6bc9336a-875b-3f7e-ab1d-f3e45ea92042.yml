@@ -4,42 +4,42 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1%0
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1767370794229
+  lastteleport: 1768037118941
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1767370388561
-  login: 1767370389366
+  logout: 1768037211356
+  login: 1768035915614
   kits:
     opkit: 1765455124217
     dtools: 1765274949896
     tools: 1765281514456
-money: '66491.52'
+money: '73491.52'
 last-account-name: XxSM00THxX
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.9176501449752178E7
-  y: 72.5
-  z: -2.3329539964361787E7
-  yaw: -2.509735107421875
-  pitch: 16.94997787475586
+  x: -386.10405089455577
+  y: 69.0
+  z: 705.6754063834094
+  yaw: -57.806793212890625
+  pitch: 3.3262805938720703
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -380.97480454665475
-  y: 72.0
-  z: 702.6255462577594
-  yaw: -97.79965209960938
-  pitch: 11.700017929077148
+  x: 1.9176499300000012E7
+  y: 73.0
+  z: -2.3329544699999988E7
+  yaw: -20.008399963378906
+  pitch: 35.143035888671875
 homes:
   home:
     world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
@@ -81,4 +81,4 @@ homes:
     z: -1.9109638277085308E7
     yaw: -34.31439208984375
     pitch: 33.89994430541992
-nickname: §0§lXx§4§lSM00TH§0§lxX
+nickname: §0§l§m§oXx§6§l§oSM§e§l§o§m00§6§l§oTH§0§l§m§oxX

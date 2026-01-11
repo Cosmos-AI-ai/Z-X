@@ -166,3 +166,12 @@ brew:
     x: -54.90143878246013
     y: 61.11144097027907
     z: 244.3291447582799
+tags:
+  lines:
+  - '&4Have your tags in server'
+  - '&6Buy from here &b:)'
+  position:
+    world: world
+    x: 1.917676983304109E7
+    y: 79.78933217982654
+    z: -2.33295725438619E7

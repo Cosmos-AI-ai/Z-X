@@ -4,34 +4,34 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1%0
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1767371339040
+  lastteleport: 1768036772956
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1767367498941
-  login: 1767368109423
+  login: 1768036086158
   kits:
     artmap: 1767366577141
     dtools: 1767366580064
     starter: 1767367405420
-money: '0.0'
+money: '5000.0'
 last-account-name: Critical
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 33.25690591869594
-  y: 67.78502770378924
-  z: 280.3149386284457
-  yaw: -355.378662109375
-  pitch: 14.864178657531738
+  x: -4.385610464778425
+  y: 64.0
+  z: 94.87858967347368
+  yaw: 171.95849609375
+  pitch: 26.763275146484375
 nickname: §5§lCriti§0§l§mcal
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760

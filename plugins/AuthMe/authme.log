@@ -5372,20 +5372,20 @@
 [01-02 16:36:45]: [FINE] xFernann logged in 0:0:0:0:0:0:0:1%0
 [01-02 16:41:43]: [FINE] unknown3211 logged in 0:0:0:0:0:0:0:1%0
 [01-02 16:42:39]: [FINE] STAR_LighT logged in 0:0:0:0:0:0:0:1%0
-[01-11 14:22:55]: [INFO] SQLite Setup finished
-[01-11 14:22:55]: [INFO] Hooked into Vault!
-[01-11 14:22:55]: [INFO] Hooked successfully into Essentials
-[01-11 14:22:55]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[01-11 14:22:55]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[01-11 14:22:55]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[01-11 14:22:55]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[01-11 14:22:55]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[01-11 14:22:55]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[01-11 14:22:55]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-05 15:21:49]: [INFO] SQLite Setup finished
+[01-05 15:21:49]: [INFO] Hooked into Vault!
+[01-05 15:21:49]: [INFO] Hooked successfully into Essentials
+[01-05 15:21:50]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-05 15:21:50]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-05 15:21:50]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-05 15:21:50]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-05 15:21:50]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-05 15:21:50]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-05 15:21:50]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
 	at java.base/java.io.RandomAccessFile.open0(Native Method)
-	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
 	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
 	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
 	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
@@ -5393,26 +5393,25 @@
 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[01-11 14:23:19]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
-[01-11 14:28:29]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
-[01-11 15:16:50]: [INFO] SQLite Setup finished
-[01-11 15:16:50]: [INFO] Hooked into Vault!
-[01-11 15:16:50]: [INFO] Hooked successfully into Essentials
-[01-11 15:16:50]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[01-11 15:16:50]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[01-11 15:16:50]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[01-11 15:16:50]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[01-11 15:16:50]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[01-11 15:16:50]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[01-11 15:16:50]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-05 15:23:10]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-05 23:40:09]: [INFO] SQLite Setup finished
+[01-05 23:40:09]: [INFO] Hooked into Vault!
+[01-05 23:40:10]: [INFO] Hooked successfully into Essentials
+[01-05 23:40:10]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-05 23:40:10]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-05 23:40:10]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-05 23:40:10]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-05 23:40:10]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-05 23:40:11]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-05 23:40:11]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
 	at java.base/java.io.RandomAccessFile.open0(Native Method)
-	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
-	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
 	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
 	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
 	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
@@ -5420,9 +5419,346 @@
 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[01-11 15:18:10]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
-[01-11 15:46:37]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[01-05 23:40:42]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-05 23:42:07]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[01-06 00:17:37]: [INFO] SQLite Setup finished
+[01-06 00:17:37]: [INFO] Hooked into Vault!
+[01-06 00:17:37]: [INFO] Hooked successfully into Essentials
+[01-06 00:17:37]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-06 00:17:37]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-06 00:17:38]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-06 00:17:38]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-06 00:17:38]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-06 00:17:38]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-06 00:17:38]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-06 00:17:54]: [FINE] P3rcy logged in 0:0:0:0:0:0:0:1%0
+[01-06 00:18:00]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-07 17:45:45]: [INFO] SQLite Setup finished
+[01-07 17:45:45]: [INFO] Hooked into Vault!
+[01-07 17:45:45]: [INFO] Hooked successfully into Essentials
+[01-07 17:45:45]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-07 17:45:45]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-07 17:45:45]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-07 17:45:45]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-07 17:45:45]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-07 17:45:45]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-07 17:45:45]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-07 17:46:08]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-07 17:46:23]: [FINE] P3rcy logged in 0:0:0:0:0:0:0:1%0
+[01-08 12:29:34]: [INFO] SQLite Setup finished
+[01-08 12:29:34]: [INFO] Hooked into Vault!
+[01-08 12:29:34]: [INFO] Hooked successfully into Essentials
+[01-08 12:29:34]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-08 12:29:34]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-08 12:29:35]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-08 12:29:35]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-08 12:29:35]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-08 12:29:35]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-08 12:29:35]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-08 12:31:27]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-08 12:47:31]: [FINE] _parasog_ logged in 0:0:0:0:0:0:0:1%0
+[01-08 12:50:05]: [FINE] XxSM00THxX logged in 0:0:0:0:0:0:0:1%0
+[01-08 12:59:10]: [INFO] SQLite Setup finished
+[01-08 12:59:10]: [INFO] Hooked into Vault!
+[01-08 12:59:10]: [INFO] Hooked successfully into Essentials
+[01-08 12:59:10]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-08 12:59:10]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-08 12:59:11]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-08 12:59:11]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-08 12:59:11]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-08 12:59:11]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-08 12:59:11]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-08 13:04:59]: [FINE] STAR_LighT used the wrong password
+[01-08 13:05:10]: [FINE] STAR_LighT logged in 0:0:0:0:0:0:0:1%0
+[01-08 13:09:56]: [FINE] PRO_BRO used the wrong password
+[01-08 13:10:09]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-08 13:17:34]: [FINE] STAR_LighT logged in 0:0:0:0:0:0:0:1%0
+[01-08 13:35:26]: [FINE] XxSM00THxX logged in 0:0:0:0:0:0:0:1%0
+[01-08 13:36:32]: [FINE] Marvel registered 0:0:0:0:0:0:0:1%0
+[01-08 13:36:38]: [FINE] Marvel logged in 0:0:0:0:0:0:0:1%0
+[01-08 13:41:33]: [FINE] STAR_LighT_ registered 0:0:0:0:0:0:0:1%0
+[01-08 13:41:38]: [FINE] STAR_LighT_ logged in 0:0:0:0:0:0:0:1%0
+[01-08 13:44:34]: [FINE] XxSM00THxX logged in 0:0:0:0:0:0:0:1%0
+[01-08 13:44:58]: [FINE] Marvel logged in 0:0:0:0:0:0:0:1%0
+[01-08 13:45:03]: [FINE] __STAR_LighT__ registered 0:0:0:0:0:0:0:1%0
+[01-08 13:45:10]: [FINE] __STAR_LighT__ logged in 0:0:0:0:0:0:0:1%0
+[01-08 13:53:31]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[01-08 13:53:57]: [INFO] SQLite Setup finished
+[01-08 13:53:57]: [INFO] Hooked into Vault!
+[01-08 13:53:57]: [INFO] Hooked successfully into Essentials
+[01-08 13:53:57]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-08 13:53:57]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-08 13:53:57]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-08 13:53:57]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-08 13:53:57]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-08 13:53:57]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-08 13:53:57]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-08 14:00:07]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[01-08 14:00:30]: [INFO] SQLite Setup finished
+[01-08 14:00:30]: [INFO] Hooked into Vault!
+[01-08 14:00:30]: [INFO] Hooked successfully into Essentials
+[01-08 14:00:30]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-08 14:00:30]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-08 14:00:30]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-08 14:00:30]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-08 14:00:30]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-08 14:00:30]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-08 14:00:30]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-08 14:01:22]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-08 14:12:14]: [FINE] STAR_LighT__ registered 0:0:0:0:0:0:0:1%0
+[01-08 14:12:19]: [FINE] STAR_LighT__ logged in 0:0:0:0:0:0:0:1%0
+[01-08 14:15:14]: [FINE] PRO_BRO used the wrong password
+[01-08 14:15:31]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-08 14:24:32]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-08 14:42:24]: [FINE] Watermellon_man logged in 0:0:0:0:0:0:0:1%0
+[01-08 14:47:12]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-08 15:01:00]: [FINE] __STAR_LighT___ registered 0:0:0:0:0:0:0:1%0
+[01-08 15:01:07]: [FINE] __STAR_LighT___ logged in 0:0:0:0:0:0:0:1%0
+[01-08 15:08:55]: [FINE] __STAR_LighT___ logged in 0:0:0:0:0:0:0:1%0
+[01-08 15:19:06]: [FINE] __STAR_LighT___ logged in 0:0:0:0:0:0:0:1%0
+[01-08 15:26:24]: [FINE] __STAR_LighT___ logged in 0:0:0:0:0:0:0:1%0
+[01-08 15:38:40]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-08 15:39:58]: [FINE] __STAR_LighT___ logged in 0:0:0:0:0:0:0:1%0
+[01-08 15:41:12]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-08 15:50:35]: [FINE] STAR_LighT logged in 0:0:0:0:0:0:0:1%0
+[01-08 15:59:20]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[01-08 17:39:50]: [INFO] SQLite Setup finished
+[01-08 17:39:50]: [INFO] Hooked into Vault!
+[01-08 17:39:50]: [INFO] Hooked successfully into Essentials
+[01-08 17:39:50]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-08 17:39:50]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-08 17:39:50]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-08 17:39:50]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-08 17:39:50]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-08 17:39:50]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-08 17:39:50]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-10 08:25:48]: [INFO] SQLite Setup finished
+[01-10 08:25:48]: [INFO] Hooked into Vault!
+[01-10 08:25:48]: [INFO] Hooked successfully into Essentials
+[01-10 08:25:48]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-10 08:25:48]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-10 08:25:48]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-10 08:25:48]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-10 08:25:48]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-10 08:25:48]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-10 08:25:48]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-10 08:26:26]: [FINE] unknown3211 logged in 0:0:0:0:0:0:0:1%0
+[01-10 08:50:56]: [FINE] unknown3211 logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:03:12]: [INFO] SQLite Setup finished
+[01-10 09:03:12]: [INFO] Hooked into Vault!
+[01-10 09:03:12]: [INFO] Hooked successfully into Essentials
+[01-10 09:03:12]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-10 09:03:13]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-10 09:03:13]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-10 09:03:13]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-10 09:03:13]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-10 09:03:13]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-10 09:03:13]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-10 09:03:20]: [FINE] unknown3211 logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:05:21]: [FINE] XxSM00THxX logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:06:25]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:06:42]: [FINE] AagManPrime registered 0:0:0:0:0:0:0:1%0
+[01-10 09:06:52]: [FINE] AagManPrime logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:08:10]: [FINE] Critical logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:09:01]: [FINE] anujboiii registered 0:0:0:0:0:0:0:1%0
+[01-10 09:09:05]: [FINE] anujboiii logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:28:32]: [FINE] anujboiii logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:41:32]: [INFO] SQLite Setup finished
+[01-10 09:41:32]: [INFO] Hooked into Vault!
+[01-10 09:41:32]: [INFO] Hooked successfully into Essentials
+[01-10 09:41:32]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-10 09:41:32]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-10 09:41:32]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-10 09:41:32]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-10 09:41:32]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-10 09:41:33]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-10 09:41:33]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-10 09:42:14]: [FINE] unknown3211 logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:45:09]: [FINE] AagManPrime logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:48:19]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-10 09:53:15]: [FINE] AagManPrime logged in 0:0:0:0:0:0:0:1%0
+[01-10 15:06:02]: [INFO] SQLite Setup finished
+[01-10 15:06:02]: [INFO] Hooked into Vault!
+[01-10 15:06:02]: [INFO] Hooked successfully into Essentials
+[01-10 15:06:02]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01-10 15:06:03]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[01-10 15:06:03]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01-10 15:06:03]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01-10 15:06:03]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01-10 15:06:03]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[01-10 15:06:03]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01-10 15:07:15]: [FINE] unknown3211 logged in 0:0:0:0:0:0:0:1%0
+[01-10 15:12:15]: [FINE] AagManPrime logged in 0:0:0:0:0:0:0:1%0
+[01-10 15:12:40]: [FINE] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
+[01-10 15:17:51]: [FINE] PRO_BRO__ registered 0:0:0:0:0:0:0:1%0
+[01-10 15:17:53]: [FINE] PRO_BRO__ logged in 0:0:0:0:0:0:0:1%0
+[01-10 15:19:00]: [FINE] AagManPrime logged in 0:0:0:0:0:0:0:1%0

@@ -11,35 +11,35 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1767372114333
+  lastteleport: 1768058356183
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1767372004985
-  login: 1767372098846
+  logout: 1768034699225
+  login: 1768057629297
   kits:
-    opkit: 1765380855135
+    opkit: 1768037019119
     tools: 1765468558026
-    dtools: 1765280902987
-money: '20874.55'
+    dtools: 1768038235877
+money: '18134.55'
 last-account-name: unknown3211
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.9176504158133455E7
-  y: 73.50133597911214
-  z: -2.33295396440504E7
-  yaw: 282.38311767578125
-  pitch: 28.753276824951172
+  x: 1.9176777045533095E7
+  y: 78.0
+  z: -2.3329576161888912E7
+  yaw: 30.674468994140625
+  pitch: 28.83962631225586
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.9176497994966127E7
-  y: 74.1707870772188
-  z: -2.3329540238359783E7
-  yaw: 90.331298828125
-  pitch: 20.298900604248047
+  x: 38.39535928851833
+  y: 67.0
+  z: 301.98171530300067
+  yaw: 179.5189208984375
+  pitch: 5.728296756744385
 nickname: §0§lunknown§4§m3211
 homes:
   home:
@@ -50,3 +50,19 @@ homes:
     z: 37.945946670902586
     yaw: 5.1279296875
     pitch: 34.75596237182617
+  ag:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 1.9176764450069267E7
+    y: 78.0
+    z: -2.332957316902615E7
+    yaw: 89.086181640625
+    pitch: 19.659461975097656
+  am:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: 1.917676035732986E7
+    y: 78.0
+    z: -2.332957315113823E7
+    yaw: 89.086181640625
+    pitch: 19.659461975097656

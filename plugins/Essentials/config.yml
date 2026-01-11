@@ -482,7 +482,7 @@ remove-god-on-disconnect: false
 # After this timeout in seconds, the player will be set as AFK.
 # This feature requires the player to have the 'essentials.afk.auto' permission.
 # Set to -1 for no timeout.
-auto-afk: 300
+auto-afk: 30
 
 # After this timeout in seconds, the player will either be kicked from
 # the server or commands in 'afk-timeout-commands' will be executed.
@@ -843,6 +843,7 @@ starting-balance: 0
 # Some commands like /repair have sub-costs. Check the wiki for more information.
 command-costs:
   kit opkit: 1500
+  kit dtools: 600
 
   # To make /example cost $1000 PER USE:
   #example: 1000
