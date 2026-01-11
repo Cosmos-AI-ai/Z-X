@@ -14,22 +14,27 @@ else
     echo "⚠️ Warning: EssentialsDiscord config not found at $CONFIG_PATH"
 fi
 
-# --- 2. START TUNNEL ---
-ssh -R 80:localhost:25565 nokey@localhost.run \
-    -o StrictHostKeyChecking=no \
-    -o UserKnownHostsFile=/dev/null \
-    -o ServerAliveInterval=60 > tunnel.log 2>&1 &
+# --- 2. INSTALL BORE ---
+echo "📥 Installing Bore..."
+curl -Ls https://github.com/ekzhang/bore/releases/download/v0.5.1/bore-v0.5.1-x86_64-unknown-linux-musl.tar.gz | tar zx -C .
+chmod +x ./bore
 
-# --- 3. WAIT FOR URL & DISCORD ---
-ADDRESS=""
-for i in {1..20}; do
-    ADDRESS=$(grep -oE "[a-zA-Z0-9.-]+\.lhr\.(life|pro)" tunnel.log | head -n 1)
-    if [ -n "$ADDRESS" ]; then break; fi
-    sleep 3
-done
+# --- 3. START TUNNEL ---
+echo "🌐 Starting Bore Tunnel..."
+# This opens a tunnel to port 25565. 
+# It will give you a random port on bore.pub (e.g., bore.pub:12345)
+./bore local 25565 --to bore.pub > bore.log 2>&1 &
+
+# --- 4. WAIT FOR URL & SEND TO DISCORD ---
+sleep 5
+ADDRESS=$(grep -oE "bore.pub:[0-9]+" bore.log | head -n 1)
 
 if [ -n "$ADDRESS" ]; then
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🛠️ **Eaglercraft Online** (3PM-7PM IST)\\n🔗 **IP:** \`wss://$ADDRESS\`\"}" "$DISCORD_WEBHOOK"
+    IP="wss://$ADDRESS"
+    echo "✅ Server Live at: $IP"
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🚀 **Server Online!**\\n🔗 **IP:** \`$IP\`\"}" "$DISCORD_WEBHOOK"
+else
+    echo "❌ Failed to get Bore address. Check bore.log"
 fi
 
 # --- 4. 4-HOUR TIMER WITH 30s COUNTDOWN ---
