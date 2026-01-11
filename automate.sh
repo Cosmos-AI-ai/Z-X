@@ -4,6 +4,15 @@
 mkdir -p ~/.ssh
 rm -f tunnel.log
 rm -f server_input && mkfifo server_input
+CONFIG_PATH="plugins/EssentialsDiscord/config.yml"
+
+if [ -f "$CONFIG_PATH" ]; then
+    echo "🔐 Injecting Discord Token..."
+    # Replace any existing token value with the secret from GitHub
+    sed -i "s/token: \".*\"/token: \"$ESSENTIALS_DISCORD_TOKEN\"/" "$CONFIG_PATH"
+else
+    echo "⚠️ Warning: EssentialsDiscord config not found at $CONFIG_PATH"
+fi
 
 # --- 2. START TUNNEL ---
 ssh -R 80:localhost:25565 nokey@localhost.run \
