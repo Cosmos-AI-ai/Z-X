@@ -14,29 +14,35 @@ else
     echo "⚠️ Warning: EssentialsDiscord config not found at $CONFIG_PATH"
 fi
 
-# --- 2. INSTALL BORE ---
-echo "📥 Installing Bore..."
-curl -Ls https://github.com/ekzhang/bore/releases/download/v0.5.1/bore-v0.5.1-x86_64-unknown-linux-musl.tar.gz | tar zx -C .
-chmod +x ./bore
 
-# --- 3. START TUNNEL ---
-echo "🌐 Starting Bore Tunnel..."
-# This opens a tunnel to port 25565. 
-# It will give you a random port on bore.pub (e.g., bore.pub:12345)
-./bore local 25565 --to bore.pub > bore.log 2>&1 &
+# --- 2. INSTALL CLOUDFLARE ---
+echo "📥 Installing Cloudflared..."
+wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
+chmod +x cloudflared
+
+# --- 3. START TUNNEL (AUTO-RESTARTING) ---
+echo "🌐 Starting Cloudflare Quick Tunnel..."
+(
+    while true; do
+        ./cloudflared tunnel --url http://localhost:25565 >> tunnel.log 2>&1
+        sleep 5 # If it crashes, wait 5 seconds and restart
+    done
+) &
 
 # --- 4. WAIT FOR URL & SEND TO DISCORD ---
-sleep 5
-ADDRESS=$(grep -oE "bore.pub:[0-9]+" bore.log | head -n 1)
+echo "⏳ Waiting for Cloudflare to generate link..."
+sleep 10
+ADDRESS=$(grep -oE "https://[a-zA-Z0-9.-]+\.trycloudflare\.com" tunnel.log | head -n 1)
 
 if [ -n "$ADDRESS" ]; then
-    IP="wss://$ADDRESS"
+    # Convert https:// to wss:// for Eaglercraft
+    IP=${ADDRESS/https/wss}
     echo "✅ Server Live at: $IP"
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🚀 **Server Online!**\\n🔗 **IP:** \`$IP\`\"}" "$DISCORD_WEBHOOK"
+    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🚀 **Server Online (Cloudflare)!**\\n🔗 **IP:** \`$IP\`\\n⏰ **Status:** Online for 4 hours.\"}" "$DISCORD_WEBHOOK"
 else
-    echo "❌ Failed to get Bore address. Check bore.log"
+    echo "❌ Failed to get Cloudflare URL. Printing logs:"
+    cat tunnel.log
 fi
-
 # --- 4. 4-HOUR TIMER WITH 30s COUNTDOWN ---
 (
   sleep 1770 # Wait until 6:59:30 PM IST   14370
