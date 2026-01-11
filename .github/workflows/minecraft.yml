@@ -28,6 +28,7 @@ jobs:
       - name: Run Server Automation
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          ESSENTIALS_DISCORD_TOKEN: ${{ secrets.ESSENTIALS_DISCORD_TOKEN }} # Add this line
         run: |
           chmod +x automate.sh
           ./automate.sh
