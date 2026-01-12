@@ -22,12 +22,8 @@ chmod +x cloudflared
 
 # --- 3. START TUNNEL (AUTO-RESTARTING) ---
 echo "🌐 Starting Cloudflare Quick Tunnel..."
-(
-    while true; do
-        ./cloudflared tunnel --url http://localhost:25565 >> tunnel.log 2>&1
-        sleep 5 # If it crashes, wait 5 seconds and restart
-    done
-) &
+# Added --header for better compatibility
+./cloudflared tunnel --url http://127.0.0.1:25565 --no-chunked-encoding > tunnel.log 2>&1 &
 
 # --- 4. WAIT FOR URL & SEND TO DISCORD ---
 echo "⏳ Waiting for Cloudflare to generate link..."
