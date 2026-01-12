@@ -45,7 +45,7 @@ else
 fi
 # --- 4. 4-HOUR TIMER WITH 30s COUNTDOWN ---
 (
-  sleep 1770 # Wait until 6:59:30 PM IST   14370
+  sleep 14370 # Wait until 6:59:30 PM IST   14370
   for i in {30..1}; do
     echo "say [System] Server closing in $i seconds! Saving world..." > server_input
     sleep 1
@@ -59,6 +59,13 @@ tail -f server_input | bash ./run.sh
 # --- 6. PUSH BACK TO GITHUB ---
 git config --global user.name "github-actions[bot]"
 git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+# 1. Stage everything
 git add .
+
+# 2. Specifically unstage the config file so it won't be committed
+git reset "$CONFIG_PATH"
+
+# 3. Commit and push the rest
 git commit -m "Automated Save: $(date)" || echo "No changes to save"
 git push origin main
