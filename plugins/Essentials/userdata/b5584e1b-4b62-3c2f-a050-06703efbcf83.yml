@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1%0
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1768058250863
-  login: 1768057946425
+  logout: 1768227511422
+  login: 1768226800834
   kits:
     tools: 1760310358197
     opkit: 1767660680475
@@ -35,11 +35,11 @@ last-account-name: PRO_BRO
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.9176774371440455E7
+  x: 1.9176767262496065E7
   y: 78.0
-  z: -2.332957228634757E7
-  yaw: 190.835205078125
-  pitch: 17.74124526977539
+  z: -2.332957241870375E7
+  yaw: -131.96482849121094
+  pitch: 18.49124526977539
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world

@@ -65,6 +65,7 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    remove-corrupt-tile-entities: false
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
     portal-search-radius: 128
@@ -74,7 +75,6 @@ world-settings:
     delay-chunk-unloads-by: 10s
     max-auto-save-chunks-per-tick: 24
     save-queue-limit-for-auto-save: 50
-    remove-corrupt-tile-entities: false
     max-chunk-sends-per-tick: 81
     max-chunk-gens-per-tick: 10
     game-mechanics:
@@ -174,8 +174,8 @@ world-settings:
     baby-zombie-movement-speed: 0.5
     spawner-nerfed-mobs-should-jump: false
     allow-leashing-undead-horse: false
-    all-chunks-are-slime-chunks: false
     mob-spawner-tick-rate: 1
+    all-chunks-are-slime-chunks: false
     squid-spawn-height:
       maximum: 0.0
     disable-teleportation-suffocation-check: false
