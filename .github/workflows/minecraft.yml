@@ -27,6 +27,7 @@ jobs:
 
       - name: Run Server Automation
         env:
+          MY_DOMAIN: ${{ secrets.MY_DOMAIN }}
           CLOUDFLARE_TUNNEL_TOKEN: ${{ secrets.CLOUDFLARE_TUNNEL_TOKEN }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           ESSENTIALS_DISCORD_TOKEN: ${{ secrets.ESSENTIALS_DISCORD_TOKEN }} # Add this line
