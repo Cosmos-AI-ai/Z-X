@@ -1,6 +1,6 @@
-enable_custom_pause_menu: false
+enable_custom_pause_menu: true
 server_info_button:
-  enable_button: true
+  enable_button: false
   button_text: 'Server Info'
   button_mode_open_new_tab: false
   server_info_embed_url: ''
