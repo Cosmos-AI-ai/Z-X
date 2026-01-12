@@ -20,29 +20,22 @@ echo "📥 Installing Cloudflared..."
 wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
 chmod +x cloudflared
 
-# --- 3. START TUNNEL (AUTO-RESTARTING) ---
-echo "🌐 Starting Cloudflare Quick Tunnel..."
-(
-    while true; do
-        ./cloudflared tunnel --url http://localhost:25565 >> tunnel.log 2>&1
-        sleep 5 # If it crashes, wait 5 seconds and restart
-    done
-) &
+# --- 3. START TUNNEL ---
+echo "🌐 Starting Permanent Tunnel..."
+# This starts the tunnel in the background so the script can keep moving
+./cloudflared tunnel --no-autoupdate run --token "$CLOUDFLARE_TUNNEL_TOKEN" > tunnel.log 2>&1 &
 
-# --- 4. WAIT FOR URL & SEND TO DISCORD ---
-echo "⏳ Waiting for Cloudflare to generate link..."
-sleep 10
-ADDRESS=$(grep -oE "https://[a-zA-Z0-9.-]+\.trycloudflare\.com" tunnel.log | head -n 1)
+# --- 4. NOTIFY DISCORD ---
+echo "⏳ Waiting for connection..."
+sleep 10 # Increased to 10s to give the tunnel more time to handshake
 
-if [ -n "$ADDRESS" ]; then
-    # Convert https:// to wss:// for Eaglercraft
-    IP=${ADDRESS/https/wss}
-    echo "✅ Server Live at: $IP"
-    curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🚀 **Server Online (Cloudflare)!**\\n🔗 **IP:** \`$IP\`\\n⏰ **Status:** Online for 4 hours.\"}" "$DISCORD_WEBHOOK"
-else
-    echo "❌ Failed to get Cloudflare URL. Printing logs:"
-    cat tunnel.log
-fi
+# Use the domain you set in GitHub Secrets
+# This line tells the script to use the domain from your GitHub Secrets
+DOMAIN_NAME="${MY_DOMAIN}"
+IP="wss://$DOMAIN_NAME"
+
+echo "✅ Server Live at: $IP"
+curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"🚀 **Server Online (Permanent Domain)!**\\n🔗 **IP:** \`$IP\`\\n⏰ **Status:** Online for 4 hours.\"}" "$DISCORD_WEBHOOK"
 # --- 4. 4-HOUR TIMER WITH 30s COUNTDOWN ---
 (
   sleep 14370 # Wait until 6:59:30 PM IST   14370
