@@ -1,13 +1,15 @@
-timer: 10
+timer: 200
 Random: false
 UseTellRawMessages: false
 Messages:
-- '&eThis is default message 1, Please change this in &cconfig.yml'
-- '&cThis is default message 2, You can change this in &cconfig.yml'
-- '&fThis is default message 3, You can change this in &cconfig.yml'
-- '&bThis is default message 4, You can change this in &cconfig.yml'
-- '&6This is default message 5, You can change this in &cconfig.yml'
-- '&7This is default message 6, You can change this in &cconfig.yml'
+- '&2Wanna be &6VIP&2.Check out in &4/warp shop'
+- ':) '
+- '&2Join our discord server:https://discord.gg/QUfNxTDvk9'
+- '&2Bored ? Try out &4/warp pvp1'
+- '&2Check out new tags in &4/warp tags'
+- 'XXX'
+- '&2Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9'
+- ':)'
 TellRawMessages:
 - '{"text":"[Get more info on TellRaws here: minecraft.tools/en/tellraw.php ]","color":"dark_purple"}'
 - '{"text":"[This is a test message!] ","color":"aqua"}'
