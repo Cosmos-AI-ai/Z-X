@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1768315437992
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1768318001264
+  login: 1768317964862
+money: '0.0'
+last-account-name: XxVaibhavxX
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -57.10848862784178
+  y: 59.0
+  z: 245.56445321362364
+  yaw: -244.6393280029297
+  pitch: 16.644004821777344
+nickname: §0§n§lXx§4§lVaibhav§0§n§lxX
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: 1.917650009218352E7
+  y: 73.0
+  z: -2.3329540433147054E7
+  yaw: -64.0266342163086
+  pitch: 28.623579025268555

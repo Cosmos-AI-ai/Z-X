@@ -4,10 +4,10 @@ last-created-npc-id: 15
 npc:
   '12':
     metadata:
-      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTc2ODMwMDQ1ODgwNCwKICAicHJvZmlsZUlkIiA6ICJlYzcwYmNhZjcwMmY0YmI4YjQ4ZDI3NmZhNTJhNzgwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTkzZjZmYzQwNDg4ZjE4NzdjZGE5NGE4MzBiNTRlOWY2ZjU0YWI1OGE1NDUzYmFkNWM5NDc3MjZkZDFmNDczIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTc2ODMwMzYxODcxNSwKICAicHJvZmlsZUlkIiA6ICJlYzcwYmNhZjcwMmY0YmI4YjQ4ZDI3NmZhNTJhNzgwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTkzZjZmYzQwNDg4ZjE4NzdjZGE5NGE4MzBiNTRlOWY2ZjU0YWI1OGE1NDUzYmFkNWM5NDc3MjZkZDFmNDczIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       cached-skin-uuid-name: dream
       cached-skin-uuid: ec70bcaf-702f-4bb8-b48d-276fa52a780c
-      player-skin-signature: xoPIlUjmmax2BNzJ/KVVh0afjUKSQJJ0sLYL0M3scnfAIseslvlWK2vkqVltzmaXdcn0ZoZK6t0aZqbw0lfvuMTZFkA/+3KxmoU/wZZdIrGI/HuOwj2y/zYBgV59FwV1KRHBUg9qPmsFY20W6qK3BTa3FFmQ6NTnjs6ZJE8J8puUC2e6um+amW8ysUFNaKYK+DkGu16+9gKtdp3l6kEfbH1p5036C7Ojx/fAWDxlnsU/stFHWEccUminiiWS56qyeRECqr8DIqziT+ebdkMmlAWnXLHVrkKJGJ7zb6481sJbuhxKskyuh5UbGSNrcyoSry/RRuMfJg2h/4Po0jvYGdnxOUBX6XwD412UlyzPagUbDZBgOOkUeayVsWwEaVuHxZ0eOrLjyTogK70fw9t/14sZZNAlQEkTwDoYUH5eHBTHr5uDeA9jPD0LmhLjcAPG8/FjUXFFIRjxpYdsKnQQVrz47GEtus714SpLTHw1FvhH0f6BitlZrRPvOjsg/9aXUjAaKKh96bDxLKPqc5HvO5gOMnVftWlTEejvvoNaFJgoMtMIuq8mrjgUsfC8BIFvUCefTf8VAr5mZXP7JDjXbwccZWVhWEHMuWiugbG43DztD2BVJsGCXJt6iz0HWKlFp8OydgUx1ks1sxPIUy1YZyeCpWf9O5UIhV2BGhik42M=
+      player-skin-signature: iVJGlTBOKOBu47FTQ9jqvwrD4lCLQ4T/dovcw+vWSewE5GGJveExdvhn9xLV6uPsc07q5IZkTW68nhzOIbdf4bsML4V5L1p3d9E8etaoA1akPXvccEAXnU5QUonjtr1gdcHgHwmlw3WrTgq+GIutiGmU3TTuax/vxeOeGI8G+A5IqHsR1A8pv7+xkFPrP4IfULpps4pxqgQ0DG7pUNQ0AGIXsmUQdtadVYpKm5g6HZrVK/lVioO+2MXAGfRZXPpedULvw+s3va1nih8EBzxQIzZbZ9BYUeCIoM69OtqsWLhcBTRcvHamsMvvnSRYO0ULIsLx1ZVKk+OxbHom4VBGerMh9g34mwG4fkY2pv5XTJ59Ggk43z0iKIlDJCJ0zPz6Sd1/dvaGqqXha8nyARXYRn9StanDhN2hs4xdi9jPrRS462d2P74CQRsMiTq8A55obmpF8dvSzOVMxkYKGZVldHYanefhGDAFMinLSUwE0G5f7Wcr3+zdZ2QCKrloxuDuSi9qhAD9zOZb03g4xIxYmM/Byjz6m+mo2UpHTbGpnKMvph1jHIjIoI8SqVcogvU3hbTv8O8TOQ36xCcFHh4SobtRlGvIT7SkhNRu4WMBnXzKzQ4eDKJXpsQwBxjUZ79k7r51vb4lGWP/u5YYrbKMHHBmfYhFRoaV+Jg4h9MVXv8=
     name: §a§lDream
     uuid: b7ed8f40-b0a8-4fd5-86e2-b58dd50366ad
     traits:
@@ -18,7 +18,7 @@ npc:
         x: '1.91764985049E7'
         y: '72.0'
         z: '-2.33295314851E7'
-        yaw: '-148.08184814453125'
+        yaw: '156.85755920410156'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -61,17 +61,17 @@ npc:
       owner:
         owner: PRO_BRO
         uuid: b5584e1b-4b62-3c2f-a050-06703efbcf83
-    traitnames: mounttrait,equipment,inventory,type,lookclose,owner,location,spawned
+    traitnames: spawned,mounttrait,gravity,type,lookclose,equipment,inventory,owner,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '11':
     metadata:
-      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTc2ODMwMDQ1OTIwNCwKICAicHJvZmlsZUlkIiA6ICJiODc2ZWMzMmUzOTY0NzZiYTExNTg0MzhkODNjNjdkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWNobm9ibGFkZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YzkwN2E3ZjRmMGMzYTZjOWM5Yjc5MzQ4ZjdiZjE5OTM2OTViNmQyZWFlMmZhYjcwNGExYTRkOWI4Mjg4Y2JlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTc2ODMwMzYxOTEwMCwKICAicHJvZmlsZUlkIiA6ICJiODc2ZWMzMmUzOTY0NzZiYTExNTg0MzhkODNjNjdkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWNobm9ibGFkZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YzkwN2E3ZjRmMGMzYTZjOWM5Yjc5MzQ4ZjdiZjE5OTM2OTViNmQyZWFlMmZhYjcwNGExYTRkOWI4Mjg4Y2JlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
       cached-skin-uuid-name: technoblade
       cached-skin-uuid: b876ec32-e396-476b-a115-8438d83c67d4
-      player-skin-signature: AvY5JOUWSDP08O/t3QjCXOmFk6KpWdiHL6xCIKcCz8gZmFm5JVL2wkjymZEMMzLqBI+r06sbDvSVnL/DS6MbaGkcCun1HmlrYdRvgd5Jl1sIwXt76+tQhFHy5X8mhX01J7SglrigLrjDAvb6S9vxzzpQitKWNNLBRX7MM5go+vaJyGHHnzOFmPDdsdZ4It1xc5s5T04yaI7tS2N5pdMJ9QwGnuw1O6TZutpYudQ0nBM8D+jhL/C5SVDJA1p0gK+S/sBJPNpiqTvQZGEH5vrvOrpotLGRJugoqySxyC6SUowx7zTL5isd62PVa2eYsVJV7VP9LSn1ZYV3T8dnFd3zXvDZqxIFBIDAgBci5JO0NDzGmLTqQjyCEEYmAMI3lVV8vs02AtIGAcUNILBUNVD/ZSsCGPMr1nsk7KfgRdn9lWTC+AuOEHIVzQ6BfqHaf1jOfR11aYEnloFhb/uGjTtNrCm0f94xmGkB0jOLRvuiiZ23qASv8WTV7YMsOGdmDHPKb6p2xMGLSVD9PAE8xpPf0l3kJa9uIXw3hxP/vwYdHRjjHDEQq+Hm0M3td7snGNq7n/vOw0aE6gMgOrg/KS91UATWrKg6mnLV1kJqSU7y+aGQ2SrYahRZb5QVjfBzpUrd0XF+ulAN9JWxXqHAC//dThB42qsgcySrMgmxjiZCo2I=
+      player-skin-signature: k2VKnKyXHtxFsXbuhIppLaVfpkiXZuvS0GCxBcW4wMKM4ftAsuh+5+MXSR3tG/Z7wtdVPN0wHz+S+WwluOWHworNFuYUqfo+ue+jgLsoPdlwEciU96qB8hFrc3Xg7fW6hH4AuJf9IxSMxsLYwNpaGCITN2aAMB16NlFGFO+r05tGDRKwtcSkfWG+Wb1NVonoLA/VC5QXU5DsWgMHCxrIaqtnPwUgC9bn+OzfPkOnjORpOxYGPSvO0VQEyUeH5lh7H6OT0U8HV2gW16Cprvf/YYCCB+xFGyHItMX7kjIawwbPwJTTVTaSVX48uyCq3iQSMmUdPWaerLvfBncW5PJIurbwSOdnwK8EWKmpkYb24rCby32CIZEgObOdmMUu/PlECGOsEB1OIFGsGv120csviKpzoQFWGPSjsAmd/NSrpFLAHGC0DIgdczAz1vWAiR8vCjJml4PRVQ9f1VSd9i1g9zwbS0eQixs7yy9MPXpCHXt6jUBACRm/SUfkcCfE7pEph2HInxogZDfaP+1lR+Kn1WuLeA8kg5i7undvkqtSW5/EM1al3aE0mDl/nSLQkPw9HZKVf4t1+UGR/QVbGlhSM8qKo6AOMFHbHq3wF4Wzwf9ERJYUmfpdM35q8DVuzhqltH58yo3/xiq84QQyFDfO2rfPaZzlQDxpqr1SwHyngdg=
     name: §c§lTechnoblade
     uuid: 20981f38-f995-45c2-965c-03ff24d973fb
     traits:
@@ -82,7 +82,7 @@ npc:
         x: '1.91765035236E7'
         y: '72.0'
         z: '-2.33295313574E7'
-        yaw: '-159.29019165039062'
+        yaw: '149.2202606201172'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -129,18 +129,18 @@ npc:
       owner:
         owner: PRO_BRO
         uuid: b5584e1b-4b62-3c2f-a050-06703efbcf83
-    traitnames: mounttrait,equipment,inventory,type,lookclose,location,owner,spawned
+    traitnames: spawned,mounttrait,gravity,type,equipment,lookclose,inventory,owner,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '14':
     metadata:
-      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTc2ODMwMDQ1ODg2NiwKICAicHJvZmlsZUlkIiA6ICI1ZTAxNWRlODNiMWU0NjJiYmY3ZDc5ZDhhMzlhYjI1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLdWxlRHVkMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDA4ODIxNGQyYzkwMWM1NjZmNTgzYTIzNThiMDE1OGQzYjkyZGFmZDEyZGU0NDcwMzE1MTRlODZhMTllNTgwIgogICAgfQogIH0KfQ==
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTc2ODMwMzYxODc4MSwKICAicHJvZmlsZUlkIiA6ICI1ZTAxNWRlODNiMWU0NjJiYmY3ZDc5ZDhhMzlhYjI1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLdWxlRHVkMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDA4ODIxNGQyYzkwMWM1NjZmNTgzYTIzNThiMDE1OGQzYjkyZGFmZDEyZGU0NDcwMzE1MTRlODZhMTllNTgwIgogICAgfQogIH0KfQ==
       cached-skin-uuid-name: kuledud3
       cached-skin-uuid: 5e015de8-3b1e-462b-bf7d-79d8a39ab257
       player-skin-name: kuledud3
-      player-skin-signature: s7qXjkNfPiB4+vwA9HM3+xpz6MHA5EVwHVkuP6LBWPq0QA4SHb6Gja0TawNXMGi5bXR7zDfJkJVItX2eK6si/j0PUDE3a6hTaCZ0+U3jSGZHEZXSAF4ILvT9Dw538UmTOdDKs5+QflYSHEuYVCMTbF75znXST2BDAg2/7BKubolox8AyjYcoeYjNo70CT5cEy2JhjnQfgqNHNEXTqoXh6HJeiXdwpgATUVO5cqCtiYXXG0NP7R9NLAKvgJCIVZLXAPnmIIZ+jPguvEY2OtxuSb/8FvqXxdKu5UeG/JMP/iO35k+XP1/CO+A1FS98cTtMyDItT0QSYsBCMUfsX91xNDczWabtYpQfDhJQX7RkaOBTKYZIKnqVmbFhuMsnbU0fbOS+ArBoJVHQhE7nCAwZ6Qat0aCQhtEdBaNJWvfRbAh2AfwuXfi3XI3mXmJej0d6DMGeiebuVqdiYWGxoQ9vM4DhZy5Bt2A7ba5CcSXDw74/Lt746ui5gKrMCpBoYHwNeZx4k6HxWFVbXlhomfc+gKTMtbWD45EPNS7eRxgCj9Mu2Os0vpZ9vPV/nKM6OY/CTj4wOeo48kEKXxXHgHvUaDObG3XhGEOQTKWHMVDj89EEQCBs1pG3xJO0IqBWww/FO+VCTfohIq6XSMLGya33QjGS3ZQDYESVz2dk/pmTDKI=
+      player-skin-signature: nDK28NZEdKyhHtDw+rCboRYFr24s7Bp/kK9oinsIDR7+M89mQDV4axuicYxcuBTFVViQAeFSJRKl9OPj7sb8fQNs0BUMGPmt8QNs5qFJmOXymg5Ez+NpFlW7nNN6t6o1IARweZth+58f0VMUIfZTYjQ41TQX0fXY+9reATqT8RXcrVCZQ7nnb3cYTi2Wxf4zRNO6eicIIeOhTx1GD/FSGobiGwCTrzUvDJxBz3pUk1D2X3iLrCe/yuMyI/7jM11fBOSNqZJLtTYUBt9fUZ27+q4NkP8+U/hCmvYkQr4mduXToAvbx8tyQrD/HjmAZ2EB5T193D2LUQ9eLptM+r1KAf90gIgV7l2H6ijPKgGXeX4m0HgFcigtqgQ4fbYDYDWoJHRBjzUk0reHubD+db3X+a4BuPatJWihvW6uqWZxUt5ETEJkNVx6x8uZrZCY1RJj3sByf7QRbL1kfR/S0BTkPfCvSjjjMJgnmCLy0LLPsPXBg7siWSYnayR+QE0SEDJ184x5ZPfmoxJikqyGblW5yiHLcdktyDXNHmS8ZqJXWnrftag1Tmr+D7ORdPi41vFO9eVuibhVK99dHjrp0VxpSwWjfVsAa7muHfeXkCDRciH1BV2ZJ78XBPRAlVN2ns6SHSuJEyCbRcI0kQX5gU3k7tvJn3msON+dwr/cXM1Ctvo=
       swim: true
     name: §cServer
     uuid: 731e3dac-8651-419e-b88b-5a2416073c33
@@ -169,7 +169,7 @@ npc:
         x: '-38.0073'
         y: '68.0'
         z: '210.4927'
-        yaw: '4.9549713134765625'
+        yaw: '-23.345008850097656'
         pitch: '0.0'
       lookclose:
         enabled: true
@@ -189,7 +189,7 @@ npc:
       owner:
         owner: PRO_BRO
         uuid: b5584e1b-4b62-3c2f-a050-06703efbcf83
-    traitnames: mounttrait,equipment,inventory,type,lookclose,speech,text,location,owner,gravity,spawned
+    traitnames: spawned,mounttrait,text,gravity,type,lookclose,equipment,inventory,owner,location,speech
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

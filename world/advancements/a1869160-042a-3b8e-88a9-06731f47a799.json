@@ -1,7 +1,25 @@
 {
+  "minecraft:recipes/redstone/noteblock": {
+    "criteria": {
+      "has_redstone": "2026-01-13 13:38:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2026-01-10 09:47:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-01-13 13:31:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_at_least_9_diamond": "2026-01-13 13:37:49 +0000"
     },
     "done": true
   },
@@ -11,57 +29,87 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2026-01-13 13:38:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2026-01-13 13:35:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2026-01-10 09:47:51 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
+  "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
-      "has_lots_of_items": "2026-01-10 15:12:26 +0000"
+      "has_diamond": "2026-01-13 13:37:27 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/stone_sword": {
+  "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
-      "has_cobblestone": "2026-01-10 09:47:51 +0000"
+      "has_diamond": "2026-01-13 13:37:27 +0000"
     },
     "done": true
   },
-  "minecraft:story/upgrade_tools": {
+  "minecraft:recipes/tools/compass": {
     "criteria": {
-      "stone_pickaxe": "2026-01-10 09:06:27 +0000"
+      "has_redstone": "2026-01-13 13:38:30 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cobblestone_wall": {
+  "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
-      "has_cobblestone": "2026-01-10 09:47:51 +0000"
+      "has_diamond": "2026-01-13 13:37:27 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/torch": {
+  "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
-      "has_stone_pickaxe": "2026-01-10 09:06:27 +0000"
+      "has_stone": "2026-01-13 13:36:16 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_pickaxe": {
+  "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
-      "has_cobblestone": "2026-01-10 09:47:51 +0000"
+      "has_diamond": "2026-01-13 13:37:27 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_axe": {
+  "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
-      "has_cobblestone": "2026-01-10 09:47:51 +0000"
+      "has_stone": "2026-01-13 13:36:48 +0000"
     },
     "done": true
   },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2026-01-10 09:47:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2026-01-13 13:38:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2026-01-13 13:40:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2026-01-13 13:37:27 +0000"
     },
     "done": true
   },
@@ -92,5 +140,146 @@
       "roofed_forest": "2026-01-10 09:51:17 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2026-01-13 13:37:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2026-01-13 13:38:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-01-10 15:12:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2026-01-13 13:31:15 +0000",
+      "diamond_helmet": "2026-01-13 13:31:15 +0000",
+      "diamond_chestplate": "2026-01-13 13:31:15 +0000",
+      "diamond_boots": "2026-01-13 13:31:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_the_recipe": "2026-01-13 13:37:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2026-01-13 13:35:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-01-10 09:47:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2026-01-13 13:37:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2026-01-13 13:37:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2026-01-13 13:36:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2026-01-10 09:06:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-01-10 09:47:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2026-01-13 13:37:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2026-01-10 09:06:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2026-01-13 13:35:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-01-10 09:47:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2026-01-13 13:38:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2026-01-13 13:37:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-01-10 09:47:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2026-01-13 13:35:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2026-01-13 13:35:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2026-01-13 13:35:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2026-01-13 13:37:27 +0000"
+    },
+    "done": true
   }
 }

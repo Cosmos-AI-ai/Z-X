@@ -38,7 +38,7 @@ hi_criteria:
 loops: -1
 loop_delay: 1
 uses_limit: 0
-uses_tally: 12
+uses_tally: 13
 protectedBlocks:
 - world,19176771,79,-23329567
 displayInternalMessages: true

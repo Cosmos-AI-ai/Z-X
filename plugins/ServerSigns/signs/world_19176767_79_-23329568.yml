@@ -16,7 +16,7 @@ confirmationMessage: ''
 cancel_mode: ALWAYS
 commands:
   '0':
-    command: lp user <player> meta setprefix 10 "&8[&6Legend&8] "
+    command: lp user <player> meta addprefix 1000 "&8[&6Legend&8]"
     type: SERVER_COMMAND
     delay: 0
     grantPerms: []
@@ -38,7 +38,7 @@ hi_criteria:
 loops: -1
 loop_delay: 1
 uses_limit: 0
-uses_tally: 0
+uses_tally: 2
 protectedBlocks:
 - world,19176767,79,-23329567
 displayInternalMessages: true

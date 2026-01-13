@@ -170,6 +170,9 @@ tags:
   lines:
   - '&4Have your tags in server'
   - '&6Buy from here &b:)'
+  - '&uThese tags are Forever'
+  - '&6If you wanna change your tag'
+  - '&6First remove your old tag then buy new'
   position:
     world: world
     x: 1.917676983304109E7
