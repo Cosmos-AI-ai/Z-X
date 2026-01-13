@@ -22,8 +22,12 @@ chmod +x cloudflared
 
 # --- 3. START TUNNEL (AUTO-RESTARTING) ---
 echo "🌐 Starting Cloudflare Quick Tunnel..."
-# Added --header for better compatibility
-./cloudflared tunnel --url http://127.0.0.1:25565 --no-chunked-encoding > tunnel.log 2>&1 &
+(
+    while true; do
+        ./cloudflared tunnel --url http://localhost:25565 >> tunnel.log 2>&1
+        sleep 5 # If it crashes, wait 5 seconds and restart
+    done
+) &
 
 # --- 4. WAIT FOR URL & SEND TO DISCORD ---
 echo "⏳ Waiting for Cloudflare to generate link..."
@@ -41,7 +45,7 @@ else
 fi
 # --- 4. 4-HOUR TIMER WITH 30s COUNTDOWN ---
 (
-  sleep 14370 # Wait until 6:59:30 PM IST   14370
+  sleep 1770 # Wait until 6:59:30 PM IST   14370
   for i in {30..1}; do
     echo "say [System] Server closing in $i seconds! Saving world..." > server_input
     sleep 1
