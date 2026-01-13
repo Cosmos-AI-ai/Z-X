@@ -63,7 +63,6 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -76,6 +75,7 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
+    mob-spawn-range: 4
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
@@ -118,9 +118,9 @@ world-settings:
       exp: 3.0
     view-distance: 6
     arrow-despawn-rate: 1200
-    nerf-spawner-mobs: false
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
+    nerf-spawner-mobs: false
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     max-entity-collisions: 8

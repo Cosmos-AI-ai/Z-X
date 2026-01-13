@@ -68,21 +68,6 @@ world-settings:
     prevent-moving-into-unloaded-chunks: false
     use-vanilla-world-scoreboard-name-coloring: false
     portal-search-radius: 128
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 600
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    falling-block-height-nerf: 0
-    tnt-entity-height-nerf: 0
-    water-over-lava-flow-speed: 5
-    fast-drain:
-      lava: false
-      water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
     queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
@@ -104,6 +89,21 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 600
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    falling-block-height-nerf: 0
+    tnt-entity-height-nerf: 0
+    water-over-lava-flow-speed: 5
+    fast-drain:
+      lava: false
+      water: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
     lootables:
       auto-replenish: false
       restrict-player-reloot: true
