@@ -60,10 +60,5 @@ tail -f server_input | bash ./run.sh
 git config --global user.name "github-actions[bot]"
 git config --global user.email "github-actions[bot]@users.noreply.github.com"
 git add .
-
-# 2. Specifically unstage the config file so it won't be committed
-git reset "$CONFIG_PATH"
-
-# 3. Commit and push the rest
 git commit -m "Automated Save: $(date)" || echo "No changes to save"
 git push origin main
