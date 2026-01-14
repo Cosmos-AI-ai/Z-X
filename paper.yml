@@ -14,6 +14,8 @@ config-version: 13
 settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
+  min-chunk-load-threads: 2
+  suggest-player-names-when-null-tab-completions: true
   sleep-between-chunk-saves: false
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
@@ -21,8 +23,6 @@ settings:
   remove-invalid-statistics: false
   save-player-data: true
   use-alternative-luck-formula: false
-  min-chunk-load-threads: 2
-  suggest-player-names-when-null-tab-completions: true
   watchdog:
     early-warning-every: 5000
     early-warning-delay: 10000
@@ -37,9 +37,9 @@ settings:
   max-player-auto-save-per-tick: -1
 messages:
   kick:
-    authentication-servers-down: ''
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
+    authentication-servers-down: ''
 timings:
   enabled: true
   verbose: true
@@ -123,15 +123,16 @@ world-settings:
     remove-corrupt-tile-entities: false
     keep-spawn-loaded-range: 6
     auto-save-interval: -1
-    parrots-are-unaffected-by-player-movement: false
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
+    parrots-are-unaffected-by-player-movement: false
     frosted-ice:
       enabled: true
       delay:
         min: 20
         max: 40
     container-update-tick-rate: 1
+    all-chunks-are-slime-chunks: false
     disable-explosion-knockback: false
     elytra-hit-wall-damage: true
     grass-spread-tick-rate: 1
@@ -139,7 +140,6 @@ world-settings:
     bed-search-radius: 1
     prevent-tnt-from-moving-in-water: false
     non-player-arrow-despawn-rate: -1
-    mob-spawner-tick-rate: 1
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
@@ -175,7 +175,7 @@ world-settings:
     baby-zombie-movement-speed: 0.5
     spawner-nerfed-mobs-should-jump: false
     allow-leashing-undead-horse: false
-    all-chunks-are-slime-chunks: false
+    mob-spawner-tick-rate: 1
     squid-spawn-height:
       maximum: 0.0
     disable-teleportation-suffocation-check: false
