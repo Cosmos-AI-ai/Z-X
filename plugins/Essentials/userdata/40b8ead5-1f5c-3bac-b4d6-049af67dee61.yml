@@ -16,11 +16,11 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1768307071039
-  login: 1768306458396
+  logout: 1768392000001
+  login: 1768391947296
   kits:
     opkit: 1768306697925
-money: '11500.0'
+money: '1500.0'
 last-account-name: aruj_gamer
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
@@ -34,8 +34,8 @@ nickname: §8§laruj§0_gamer
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.9176762225920323E7
+  x: 1.9176761745021723E7
   y: 78.0
-  z: -2.3329572915242545E7
-  yaw: 73.533935546875
-  pitch: 19.500017166137695
+  z: -2.3329573551869106E7
+  yaw: -77.0661392211914
+  pitch: 29.999996185302734

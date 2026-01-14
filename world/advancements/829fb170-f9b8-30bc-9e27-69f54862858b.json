@@ -14,6 +14,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2025-12-03 12:26:12 +0000",
+      "birch_forest": "2026-01-14 11:38:31 +0000",
       "forest_hills": "2025-12-03 12:24:51 +0000",
       "plains": "2025-12-03 12:27:10 +0000",
       "roofed_forest": "2025-12-03 12:27:04 +0000"

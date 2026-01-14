@@ -16,14 +16,14 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1768313431096
-  login: 1768312915047
+  logout: 1768392216552
+  login: 1768391866971
   kits:
     opkit: 1765121215432
     dtools: 1765120253344
     tools: 1765120881341
     artmap: 1765120417953
-money: '337.999'
+money: '10337.999'
 last-account-name: xFernann
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
@@ -36,11 +36,11 @@ lastlocation:
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.9176759287066877E7
+  x: 1.9176756105511956E7
   y: 78.0
-  z: -2.332957089930284E7
-  yaw: 84.3404541015625
-  pitch: 61.65000534057617
+  z: -2.3329569699999988E7
+  yaw: -289.00982666015625
+  pitch: 49.95002746582031
 homes:
   home:
     world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760

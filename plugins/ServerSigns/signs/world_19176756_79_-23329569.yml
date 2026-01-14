@@ -3,10 +3,10 @@ permissionMessage: ''
 cancelPermission: ''
 cancelPermissionMessage: ''
 world: world
-X: -26
-Y: 68
-Z: 210
-price: 0.0
+X: 19176756
+Y: 79
+Z: -23329569
+price: 600000.0
 exp: 0
 cooldown: 0
 globalCooldown: 0
@@ -16,8 +16,8 @@ confirmationMessage: ''
 cancel_mode: ALWAYS
 commands:
   '0':
-    command: /BALTOP
-    type: PLAYER_COMMAND
+    command: lp user <player> meta addprefix 1000 "&8[&kGlich&8]"
+    type: SERVER_COMMAND
     delay: 0
     grantPerms: []
     alwaysPersisted: false
@@ -38,9 +38,9 @@ hi_criteria:
 loops: -1
 loop_delay: 1
 uses_limit: 0
-uses_tally: 227
+uses_tally: 1
 protectedBlocks:
-- world,-25,68,210
+- world,19176755,79,-23329569
 displayInternalMessages: true
 timeLimitMaximum: 0
 timeLimitMinimum: 0
