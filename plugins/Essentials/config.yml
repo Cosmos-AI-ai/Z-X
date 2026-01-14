@@ -482,7 +482,7 @@ remove-god-on-disconnect: false
 # After this timeout in seconds, the player will be set as AFK.
 # This feature requires the player to have the 'essentials.afk.auto' permission.
 # Set to -1 for no timeout.
-auto-afk: 30
+auto-afk: 50
 
 # After this timeout in seconds, the player will either be kicked from
 # the server or commands in 'afk-timeout-commands' will be executed.
@@ -1254,7 +1254,7 @@ newbies:
   # This kit will be given regardless of cost and permissions and won't trigger any kit delay (cooldown).
   # Set to '' to disable.
   #kit: ''
-  kit: tools
+  kit: starter
 
 # What priority should Essentials use for handling respawns?
 # Set this to 'none' if you want vanilla respawning behavior.
@@ -1268,7 +1268,7 @@ respawn-listener-priority: high
 # See 'respawn-listener-priority' above for possible values.
 # Note: Changing this may impact or break 'spawn-on-join' functionality below.
 # Note: Changes will not apply until after the server is restarted.
-spawn-join-listener-priority: high
+spawn-join-listener-priority: low
 
 # When players die, should they respawn at their first home or bed instead of the spawnpoint?
 respawn-at-home: false
@@ -1292,7 +1292,7 @@ random-spawn-location: "none"
 random-respawn-location: "none"
 
 # Teleport all joining players to their spawnpoint.
-spawn-on-join: true
+spawn-on-join: false
 # The following value of 'guests' states that all players in the 'guests' group will be teleported to spawn when joining.
 #spawn-on-join: guests
 # The following list value states that all players in the 'guests' or 'admin' groups will be teleported to spawn when joining.
