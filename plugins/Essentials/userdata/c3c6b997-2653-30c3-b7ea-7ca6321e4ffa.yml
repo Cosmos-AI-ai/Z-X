@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1768484465505
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1768484826588
+  login: 1768484778290
+money: '0'
+last-account-name: XxHarshaxX
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -38.5
+  y: 70.0
+  z: 192.5
+  yaw: -268.04998779296875
+  pitch: -0.9000079035758972
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -41.166239283512425
+  y: 68.03584062504456
+  z: 203.77426106628351
+  yaw: 28.050039291381836
+  pitch: 23.699995040893555
