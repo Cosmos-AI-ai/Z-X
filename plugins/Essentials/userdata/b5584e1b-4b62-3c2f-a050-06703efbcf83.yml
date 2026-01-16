@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1768479767377
-  login: 1768476975298
+  logout: 1768559402163
+  login: 1768559401358
   kits:
     tools: 1760310358197
     opkit: 1768474070077
@@ -35,11 +35,11 @@ last-account-name: PRO_BRO
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.9176768996133942E7
-  y: 80.46175286443759
-  z: -2.332956924233385E7
-  yaw: 275.7391052246094
-  pitch: 26.40001106262207
+  x: 1.9176827501113847E7
+  y: 65.0
+  z: -2.332972764773674E7
+  yaw: 88.98431396484375
+  pitch: 3.899991989135742
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
