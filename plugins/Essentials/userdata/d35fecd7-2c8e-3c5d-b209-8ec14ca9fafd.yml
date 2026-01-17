@@ -2,7 +2,7 @@ teleportenabled: true
 teleportauto: false
 godmode: false
 muted: false
-jailed: false
+jailed: true
 ip-address: 0:0:0:0:0:0:0:1%0
 afk: false
 socialspy: false
@@ -11,35 +11,35 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1768568909528
+  lastteleport: 1768648535122
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1768568964583
-  login: 1768568656498
+  logout: 1768649532308
+  login: 1768647224534
   kits:
     opkit: 1768037019119
     tools: 1765468558026
     dtools: 1768038235877
-money: '18773.55'
+money: '18727.55'
 last-account-name: unknown3211
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 8.621778358894405
-  y: 58.0
-  z: 344.84308298516726
-  yaw: -62.8669319152832
-  pitch: 27.727373123168945
+  x: -25.25855402966775
+  y: 69.24918707874468
+  z: 237.56598486760015
+  yaw: 102.44004821777344
+  pitch: 39.416690826416016
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -34.98798413194826
-  y: 67.0
-  z: 204.92908377319873
-  yaw: -86.5819320678711
-  pitch: 22.412633895874023
+  x: 1.9176796320872314E7
+  y: 98.0
+  z: -2.3329587367326416E7
+  yaw: 244.21568298339844
+  pitch: 19.820655822753906
 nickname: §0§lunknown§4§m3211
 homes:
   home:
@@ -66,3 +66,4 @@ homes:
     z: 465.32432541364216
     yaw: 92.6199951171875
     pitch: 8.667682647705078
+jail: a

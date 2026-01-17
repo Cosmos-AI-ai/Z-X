@@ -11,37 +11,37 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1768400581074
+  lastteleport: 1768655330853
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1768400981446
-  login: 1768399960874
+  logout: 1768655647966
+  login: 1768655436501
   kits:
     tools: 1768036428657
     opkit: 1768311075587
     bow: 1768311751504
     starter: 1768400473696
-money: '345.0'
+money: '0.0'
 last-account-name: AagManPrime
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -53.75027652123616
+  x: -47.35243592760079
   y: 59.0
-  z: 248.0937899195243
-  yaw: 92.99993896484375
-  pitch: 39.9000129699707
+  z: 252.01840918674753
+  yaw: -78.30023193359375
+  pitch: 9.749993324279785
 nickname: §6§mAag§rM§1a§rn§2§lPrime
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -52.590269192150565
-  y: 27.0
-  z: 246.2681251470218
-  yaw: 80.849853515625
-  pitch: 37.49998474121094
+  x: 1.917650095778371E7
+  y: 73.0
+  z: -2.3329542844117906E7
+  yaw: -189.25975036621094
+  pitch: 13.349977493286133
 homes:
   home:
     world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760

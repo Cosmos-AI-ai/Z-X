@@ -11,29 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1768583945920
+  lastteleport: 0
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1768649228909
-  login: 1768649122753
-money: '0.0'
-last-account-name: p3rseus
+  logout: 1768647984110
+  login: 1768647976158
+money: '0'
+last-account-name: aruj_game
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -122.58863214980946
-  y: 67.0
-  z: 297.8213483389549
-  yaw: -107.53619384765625
-  pitch: 15.874743461608887
+  x: 1.9176827501113847E7
+  y: 65.0
+  z: -2.332972764773674E7
+  yaw: 88.98431396484375
+  pitch: 3.899991989135742
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -72.1501922985796
-  y: 67.0
-  z: 358.67136882765914
-  yaw: -267.8484802246094
-  pitch: 76.2299575805664
-nickname: §1§l§np§9§l§n3§3§l§nr§b§l§ns§f§l§neus
+  x: -38.5
+  y: 70.0
+  z: 192.5
+  yaw: -268.04998779296875
+  pitch: -0.9000079035758972
