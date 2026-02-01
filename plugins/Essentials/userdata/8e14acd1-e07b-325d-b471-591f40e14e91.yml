@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1768657152101
-  login: 1768656927289
+  logout: 1769945510292
+  login: 1769943431500
   kits:
     dtools: 1761921658197
     opkit: 1765380192088
@@ -36,11 +36,11 @@ lastlocation:
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -38.14853337877666
-  y: 70.0
-  z: 195.02047063091402
-  yaw: -61.34649658203125
-  pitch: 34.350006103515625
+  x: 16.572182198917915
+  y: 67.0
+  z: 348.5731155244606
+  yaw: -94.796630859375
+  pitch: 6.149909496307373
 homes:
   home:
     world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760

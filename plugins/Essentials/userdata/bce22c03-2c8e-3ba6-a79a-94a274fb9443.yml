@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1769939983979
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1769940146929
+  login: 1769939943705
+money: '5000'
+last-account-name: Cloudyy__me_
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: 1.9176827469414983E7
+  y: 64.0
+  z: -2.3329728498961918E7
+  yaw: -76.46570587158203
+  pitch: 5.249988555908203
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -43.69999998807907
+  y: 66.0
+  z: 203.69999998807907
+  yaw: -172.50018310546875
+  pitch: 22.949993133544922

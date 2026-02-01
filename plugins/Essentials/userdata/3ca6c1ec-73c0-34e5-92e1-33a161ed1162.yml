@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1769951539579
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1769951658328
+  login: 1769951594828
+money: '0.0'
+last-account-name: H1cker
+lastlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: 1.9176767531414613E7
+  y: 78.0
+  z: -2.332957208143726E7
+  yaw: -98.66680908203125
+  pitch: 12.599976539611816
+logoutlocation:
+  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+  world-name: world
+  x: -19.819985346715725
+  y: 67.0
+  z: 230.2515783915327
+  yaw: 338.7244873046875
+  pitch: 9.911551475524902
