@@ -16,12 +16,13 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1769945016892
-  login: 1769944522893
+  logout: 1770031955964
+  login: 1770031418699
   kits:
     artmap: 1769944693555
     tools: 1769944761163
-    bow: 1769944782963
+    bow: 1770031730213
+    starter: 1770031720416
 money: '0'
 last-account-name: Not_Dakshanand
 lastlocation:
@@ -35,8 +36,8 @@ lastlocation:
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 81.69999998807907
-  y: 75.0
-  z: 218.40955858466867
-  yaw: -95.39999389648438
-  pitch: -35.85000991821289
+  x: -40.96294147145023
+  y: 67.0
+  z: 211.15253260224128
+  yaw: -179.84999084472656
+  pitch: 14.699993133544922

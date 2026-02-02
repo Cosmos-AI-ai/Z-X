@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1769951984479
-  login: 1769951781478
+  logout: 1770027468477
+  login: 1770027424875
   kits:
     tools: 1760310358197
     opkit: 1768474070077
@@ -30,7 +30,7 @@ timestamps:
     pot1: 1765454530551
     bow: 1767360687000
     starter: 1767659838511
-money: '4999999300000.0'
+money: '10000000000000'
 last-account-name: PRO_BRO
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
