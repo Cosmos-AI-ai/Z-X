@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1769940598699
-  login: 1769940578594
+  logout: 1770113477122
+  login: 1770113463536
   kits:
     tools: 1765460044959
     dtools: 1765271231838
@@ -39,8 +39,8 @@ logoutlocation:
   x: 1.9176827501113847E7
   y: 65.0
   z: -2.332972764773674E7
-  yaw: 87.48429870605469
-  pitch: 4.799992084503174
+  yaw: 87.48431396484375
+  pitch: 26.54999542236328
 homes:
   home:
     world: d6698210-a44c-4be3-8091-be5a69f93971

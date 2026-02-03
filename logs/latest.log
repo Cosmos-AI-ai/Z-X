@@ -1,173 +1,173 @@
-[10:11:19] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[10:11:19] [Server thread/INFO]: Loading properties
-[10:11:19] [Server thread/WARN]: You have used the Spigot command line EULA agreement flag.
-[10:11:19] [Server thread/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
-[10:11:19] [Server thread/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
-[10:11:19] [Server thread/INFO]: Default game type: SURVIVAL
-[10:11:19] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[10:11:20] [Server thread/INFO]: Debug logging is disabled
-[10:11:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:11:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:11:20] [Server thread/INFO]: Generating keypair
-[10:11:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:11:20] [Server thread/INFO]: Using epoll channel type
-[10:11:20] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[10:11:21] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
-[10:11:21] [Server thread/INFO]: [ImageMaps] Loading ImageMaps v1.0.10
-[10:11:21] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.7
-[10:11:21] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[10:11:21] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v1.0
-[10:11:21] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.3.3-SNAPSHOT
-[10:11:21] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[10:11:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[10:11:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[10:11:21] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[10:11:21] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[10:11:21] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[10:11:22] [Server thread/INFO]: [DuelMe] Loading DuelMe v0.18.3
-[10:11:22] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
-[10:11:22] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.3.2
-[10:11:22] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
-[10:11:22] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.7
-[10:11:22] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.0
-[10:11:22] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.9.3
-[10:11:22] [Server thread/INFO]: [EaglerXServer] Loading EaglercraftXServer v1.0.7
-[10:11:22] [Server thread/INFO]: [EaglerXServer] (Platform: Bukkit)
-[10:11:22] [Server thread/WARN]: [EaglerXServer] Note: Its highly recommended to install EaglerXServer on BungeeCord or Velocity instead, you will have a much better experience
-[10:11:22] [Server thread/WARN]: [EaglerXServer] Note: If you are not using Spigot (or a derivative like Paper) or a version above 1.12.2, things probably won't work right
-[10:11:22] [Server thread/INFO]: [EaglerXServer] Server Name: "Z X Server"
-[10:11:22] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading ViaRewind-Legacy-Support v1.5.2
-[10:11:22] [Server thread/INFO]: [EaglerXRewind-1.5] Loading EaglercraftXRewind-1-5 v1.0.2
-[10:11:22] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[10:11:22] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1487)
-[10:11:22] [Server thread/INFO]: [Essentials] Loading Essentials v2.22.0-dev+39-adf77dc
-[10:11:22] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.22.0-dev+39-adf77dc
-[10:11:22] [Server thread/INFO]: [ServerSigns] Loading ServerSigns v4.10.1
-[10:11:22] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.22.0-dev+39-adf77dc
-[10:11:22] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.2
-[10:11:22] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
-[10:11:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:11:22] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
-[10:11:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[10:11:22] [Server thread/INFO]:         __    
-[10:11:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[10:11:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[10:11:22] [Server thread/INFO]: 
-[10:11:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[10:11:23] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[10:11:23] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[10:11:23] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[10:11:23] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1314ms)
-[10:11:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.3
-[10:11:24] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.12.2[32;1m.[0;39m
-[10:11:24] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
-[10:11:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.9.3]
-[10:11:24] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
-[10:11:24] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
-[10:11:24] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
-[10:11:24] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[10:11:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[10:11:24] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[10:11:24] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[10:11:24] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[10:11:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:11:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:11:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:11:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:11:24] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[10:11:24] [Server thread/INFO]: Preparing level "world"
-[10:11:24] [Server thread/INFO]: -------- World Settings For [world] --------
-[10:11:24] [Server thread/INFO]: Max TNT Explosions: 100
-[10:11:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:11:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[10:11:24] [Server thread/INFO]: Mob Spawn Range: 4
-[10:11:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:11:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:11:24] [Server thread/INFO]: Random Lighting Updates: false
-[10:11:24] [Server thread/INFO]: Structure Info Saving: true
-[10:11:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[10:11:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:11:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:11:24] [Server thread/INFO]: View Distance: 6
-[10:11:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:11:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:11:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:11:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:11:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:11:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[10:11:24] [Server thread/INFO]: Max TNT Explosions: 100
-[10:11:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:11:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[10:11:24] [Server thread/INFO]: Mob Spawn Range: 4
-[10:11:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:11:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:11:24] [Server thread/INFO]: Random Lighting Updates: false
-[10:11:24] [Server thread/INFO]: Structure Info Saving: true
-[10:11:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[10:11:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:11:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:11:24] [Server thread/INFO]: View Distance: 6
-[10:11:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:11:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:11:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:11:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:11:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:11:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[10:11:24] [Server thread/INFO]: Max TNT Explosions: 100
-[10:11:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:11:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[10:11:24] [Server thread/INFO]: Mob Spawn Range: 4
-[10:11:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:11:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[10:11:24] [Server thread/INFO]: Random Lighting Updates: false
-[10:11:24] [Server thread/INFO]: Structure Info Saving: true
-[10:11:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[10:11:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:11:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:11:24] [Server thread/INFO]: View Distance: 6
-[10:11:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:11:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:11:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:11:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:11:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:11:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:11:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7868718580419906769)
-[10:11:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6924948886385984839)
-[10:11:25] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6924948886385984839)
-[10:11:25] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
-[10:11:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[10:11:25] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
-[10:11:25] [Server thread/INFO]: [ImageMaps] Enabling ImageMaps v1.0.10
-[10:11:25] [Server thread/ERROR]: Error occurred while enabling ImageMaps v1.0.10 (Is it up to date?)
+[10:03:52] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[10:03:52] [Server thread/INFO]: Loading properties
+[10:03:52] [Server thread/WARN]: You have used the Spigot command line EULA agreement flag.
+[10:03:52] [Server thread/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[10:03:52] [Server thread/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[10:03:52] [Server thread/INFO]: Default game type: SURVIVAL
+[10:03:52] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[10:03:53] [Server thread/INFO]: Debug logging is disabled
+[10:03:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:03:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:03:53] [Server thread/INFO]: Generating keypair
+[10:03:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:03:53] [Server thread/INFO]: Using epoll channel type
+[10:03:53] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[10:03:54] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[10:03:54] [Server thread/INFO]: [ImageMaps] Loading ImageMaps v1.0.10
+[10:03:54] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.7
+[10:03:54] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[10:03:54] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v1.0
+[10:03:54] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.3.3-SNAPSHOT
+[10:03:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[10:03:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[10:03:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[10:03:54] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[10:03:54] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[10:03:55] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[10:03:55] [Server thread/INFO]: [DuelMe] Loading DuelMe v0.18.3
+[10:03:55] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[10:03:55] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.3.2
+[10:03:55] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[10:03:55] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.7
+[10:03:55] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.0
+[10:03:55] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.10.0
+[10:03:55] [Server thread/INFO]: [EaglerXServer] Loading EaglercraftXServer v1.0.7
+[10:03:55] [Server thread/INFO]: [EaglerXServer] (Platform: Bukkit)
+[10:03:55] [Server thread/WARN]: [EaglerXServer] Note: Its highly recommended to install EaglerXServer on BungeeCord or Velocity instead, you will have a much better experience
+[10:03:55] [Server thread/WARN]: [EaglerXServer] Note: If you are not using Spigot (or a derivative like Paper) or a version above 1.12.2, things probably won't work right
+[10:03:55] [Server thread/INFO]: [EaglerXServer] Server Name: "Z X Server"
+[10:03:55] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading ViaRewind-Legacy-Support v1.5.2
+[10:03:55] [Server thread/INFO]: [EaglerXRewind-1.5] Loading EaglercraftXRewind-1-5 v1.0.2
+[10:03:55] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[10:03:55] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1487)
+[10:03:55] [Server thread/INFO]: [Essentials] Loading Essentials v2.22.0-dev+39-adf77dc
+[10:03:55] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.22.0-dev+39-adf77dc
+[10:03:55] [Server thread/INFO]: [ServerSigns] Loading ServerSigns v4.10.1
+[10:03:55] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.22.0-dev+39-adf77dc
+[10:03:55] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.2
+[10:03:55] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[10:03:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:03:55] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[10:03:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[10:03:55] [Server thread/INFO]:         __    
+[10:03:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[10:03:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:03:55] [Server thread/INFO]: 
+[10:03:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:03:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:03:56] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:03:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:03:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1606ms)
+[10:03:57] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[10:03:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.12.2[32;1m.[0;39m
+[10:03:58] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[10:03:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.10.0]
+[10:03:58] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+[10:03:58] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[10:03:58] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[10:03:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:03:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:03:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:03:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:03:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[10:03:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:03:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:03:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:03:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:03:58] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[10:03:58] [Server thread/INFO]: Preparing level "world"
+[10:03:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:03:58] [Server thread/INFO]: Mob Spawn Range: 4
+[10:03:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:03:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:03:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:03:58] [Server thread/INFO]: Random Lighting Updates: false
+[10:03:58] [Server thread/INFO]: Structure Info Saving: true
+[10:03:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:03:58] [Server thread/INFO]: Max TNT Explosions: 100
+[10:03:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:03:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:03:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:03:58] [Server thread/INFO]: View Distance: 6
+[10:03:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:03:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:03:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:03:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:03:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:03:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:03:58] [Server thread/INFO]: Mob Spawn Range: 4
+[10:03:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:03:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:03:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:03:58] [Server thread/INFO]: Random Lighting Updates: false
+[10:03:58] [Server thread/INFO]: Structure Info Saving: true
+[10:03:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:03:58] [Server thread/INFO]: Max TNT Explosions: 100
+[10:03:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:03:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:03:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:03:58] [Server thread/INFO]: View Distance: 6
+[10:03:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:03:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:03:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:03:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:03:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:03:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:03:58] [Server thread/INFO]: Mob Spawn Range: 4
+[10:03:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[10:03:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:03:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[10:03:58] [Server thread/INFO]: Random Lighting Updates: false
+[10:03:58] [Server thread/INFO]: Structure Info Saving: true
+[10:03:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:03:58] [Server thread/INFO]: Max TNT Explosions: 100
+[10:03:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:03:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:03:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:03:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:03:58] [Server thread/INFO]: View Distance: 6
+[10:03:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:03:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:03:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:03:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:03:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:03:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7868718580419906769)
+[10:03:59] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6924948886385984839)
+[10:03:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6924948886385984839)
+[10:03:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[10:03:59] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[10:03:59] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[10:03:59] [Server thread/INFO]: [ImageMaps] Enabling ImageMaps v1.0.10
+[10:03:59] [Server thread/ERROR]: Error occurred while enabling ImageMaps v1.0.10 (Is it up to date?)
 java.lang.NoSuchFieldError: WOODEN_HOE
 	at net.craftcitizen.imagemaps.ImageMaps.onEnable(ImageMaps.java:81) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -181,750 +181,1075 @@ java.lang.NoSuchFieldError: WOODEN_HOE
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:840) [?:?]
-[10:11:25] [Server thread/INFO]: [ImageMaps] Disabling ImageMaps v1.0.10
-[10:11:25] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
-[10:11:25] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[10:11:25] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[10:11:25] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
-[10:11:26] [Server thread/INFO]: [ClearLag] Loading modules...
-[10:11:26] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[10:11:26] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[10:11:26] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[10:11:26] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v1.0
-[10:11:26] [Thread-8/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
-[10:11:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
-[10:11:26] [Server thread/INFO]: [DuelMe] Enabling DuelMe v0.18.3
-[10:11:26] [Server thread/INFO]: [DuelMe] [Info] Enabling.
-[10:11:26] [Server thread/INFO]: [DuelMe] [Info] WorldEdit found!
-[10:11:26] [Server thread/INFO]: [DuelMe] [Info] Successfully loaded 1 Duel Arena(s).
-[10:11:26] [Server thread/INFO]: [DuelMe] [Info] Server NMS Version: v1_12_R1
-[10:11:26] [Server thread/INFO]: [DuelMe] [Info] Loading support for v1_12_R1
-[10:11:26] [Server thread/INFO]: [DuelMe] [Info] NMS Version setup complete
-[10:11:26] [Server thread/INFO]: [DuelMe] [Info] Successfully Enabled!
-[10:11:26] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
-[10:11:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
-[10:11:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[10:11:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[10:11:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
-[10:11:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[10:11:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[10:11:26] [Server thread/INFO]: [WorldGuard] Loading region data...
-[10:11:26] [Thread-8/INFO]: [ClearLag] No updates found!
-[10:11:26] [Server thread/INFO]: [EaglerXServer] Enabling EaglercraftXServer v1.0.7
-[10:11:26] [Server thread/INFO]: [EaglerXServer] Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[10:11:26] [Netty Epoll Server IO #0/INFO]: [EaglerXServer] Listener "default" injected into channel [id: 0xe63e7162, L:/[0:0:0:0:0:0:0:0%0]:25565] successfully (Generic Netty method)
-[10:11:26] [Server thread/INFO]: [EaglerXServer] Connected to skin cache database successfully!
-[10:11:26] [Server thread/ERROR]: [EaglerXServer] Plugin EaglercraftXServer v1.0.7 has failed to register events for class net.skinsrestorer.bukkit.listener.ForceAliveListener because org/bukkit/event/server/ServerLoadEvent does not exist.
-[10:11:26] [Server thread/INFO]: [EaglerXServer] Listening for SkinsRestorer skin apply event on vanilla players
-[10:11:26] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
-[10:11:26] [Server thread/INFO]: [EaglerXRewind-1.5] Enabling EaglercraftXRewind-1-5 v1.0.2
-[10:11:26] [Server thread/INFO]: [EaglerXRewind-1.5] EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
-[10:11:26] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1487)
-[10:11:26] [Server thread/INFO]: [Citizens] Could not fetch NMS field modifiers: [[modifiers.
-[10:11:26] [Server thread/INFO]: [Citizens] Could not fetch entity id mapping fields: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "modifiersField" is null.
-[10:11:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+39-adf77dc
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  Updates are available for EaglerXServer
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  ---------------------------------------
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]    :< Active: 1.0.7
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]    :> Latest: 1.0.8
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  https://lax1dude.net/eaglerxserver/
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  -----------------------------------
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
-[10:11:26] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
-[10:11:26] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsDiscord to the same version.
-[10:11:26] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[10:11:26] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[10:11:26] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
-[10:11:26] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
-[10:11:26] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
-[10:11:26] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[10:11:26] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[10:11:26] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
-[10:11:26] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[10:11:26] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
-[10:11:26] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
-[10:11:26] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[10:11:27] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
-[10:11:27] [Server thread/INFO]: [Essentials] Using locale en
-[10:11:27] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[10:11:27] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[10:11:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[10:11:27] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[10:11:27] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+39-adf77dc
-[10:11:27] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[10:11:27] [Server thread/INFO]: [ServerSigns] Enabling ServerSigns v4.10.1
-[10:11:27] [Server thread/INFO]: [ServerSigns] Version 4.10.1 is now enabled.
-[10:11:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+39-adf77dc
-[10:11:27] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[10:11:27] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2
-[10:11:27] [Server thread/WARN]: [EssentialsDiscord] Version mismatch! Please update all Essentials jars to the same version.
-[10:11:27] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
-[10:11:27] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
-[10:11:28] [Server thread/INFO]: [EssentialsDiscord] Successfully logged in as Survival#7641
-[10:11:28] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[10:11:28] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[10:11:28] [Server thread/INFO]: [AuthMe] Hooked into Vault!
-[10:11:28] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[10:11:28] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[10:11:28] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[10:11:28] [Server thread/INFO]: Done (4.419s)! For help, type "help" or "?"
-[10:11:28] [Server thread/INFO]: Timings Reset
-[10:11:28] [Craft Scheduler Thread - 6/INFO]: [Essentials] Fetching version information...
-[10:11:28] [Craft Scheduler Thread - 3/INFO]: [EaglerXServer] Reloaded certificate: /home/runner/work/Z-X/Z-X/plugins/EaglercraftXServer/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[10:11:28] [Craft Scheduler Thread - 3/WARN]: [EaglerXServer] Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[10:11:28] [Craft Scheduler Thread - 9/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[10:11:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
-[10:11:28] [Craft Scheduler Thread - 9/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[10:11:28] [Craft Scheduler Thread - 9/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[10:11:28] [Craft Scheduler Thread - 12/INFO]: [Vault] Checking for Updates ... 
-[10:11:28] [Craft Scheduler Thread - 9/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[10:11:28] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[10:11:28] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.18).
-[10:11:28] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[10:11:28] [Craft Scheduler Thread - 12/INFO]: [Vault] No new version available
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [31;1m15.9.3[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [31;1m989bf18[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    A new version ([32;1m15.10.0[36;1m) is available! Downloading update...[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] Downloading update...[0;39m
-[10:11:29] [Server thread/INFO]: [DuelMe] [Info] plugin is up to date!
-[10:11:29] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[10:11:29] [Craft Scheduler Thread - 7/INFO]: [Metrics] Connection refused
-[10:11:29] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[10:11:29] [Craft Scheduler Thread - 6/WARN]: [Essentials] You're 18 EssentialsX dev build(s) out of date!
-[10:11:29] [Craft Scheduler Thread - 6/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[10:11:29] [Server thread/INFO]: [Citizens] Loaded 3 NPCs.
-[10:11:29] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.7.1, you're on: 5.3.3-SNAPSHOT
-[10:11:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[10:11:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
-[10:11:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: string [1.0.7]
-[10:11:29] [Server thread/INFO]: 3 placeholder hook(s) registered!
-[10:11:29] [Craft Scheduler Thread - 6/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] Downloaded update in 500ms[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] Update saved as SkinsRestorer.jar[0;39m
-[10:11:29] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] The update will be loaded on the next server restart[0;39m
-[10:11:33] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
-[10:14:53] [Server thread/INFO]: :) 
-[10:17:02] [User Authenticator #1/INFO]: UUID of player PRO_BRO is b5584e1b-4b62-3c2f-a050-06703efbcf83
-[10:17:04] [Server thread/INFO]: PRO_BRO[/[0:0:0:0:0:0:0:1%0]:42658] logged in with entity id 146 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:17:15] [Craft Scheduler Thread - 29/INFO]: [AuthMe] PRO_BRO logged in 0:0:0:0:0:0:0:1%0
-[10:17:48] [Server thread/INFO]: PRO_BRO lost connection: Disconnected
-[10:17:48] [Server thread/INFO]: PRO_BRO left the game
-[10:18:13] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
-[10:18:23] [User Authenticator #2/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[10:18:24] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:60192] logged in with entity id 261 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:18:24] [Server thread/INFO]: XxAswanthxX has made the advancement [Isn't It Iron Pick]
-[10:18:49] [User Authenticator #2/INFO]: UUID of player Not_Dakshanand is 016ec78c-b6bf-337b-9040-b63a40970bed
-[10:18:50] [Server thread/INFO]: Not_Dakshanand[/[0:0:0:0:0:0:0:1%0]:45330] logged in with entity id 340 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:18:52] [Server thread/INFO]: [AuthMe] XxAswanthxX registered 0:0:0:0:0:0:0:1%0
-[10:19:09] [Server thread/WARN]: XxAswanthxX was kicked due to keepalive timeout!
-[10:19:09] [Server thread/INFO]: XxAswanthxX lost connection: Timed out
-[10:19:09] [Server thread/INFO]: XxAswanthxX left the game
-[10:19:09] [Server thread/WARN]: handleDisconnection() called twice
-[10:19:18] [User Authenticator #2/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[10:19:19] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:43694] logged in with entity id 1272 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:19:20] [Server thread/INFO]: Not_Dakshanand lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[10:19:20] [Server thread/INFO]: Not_Dakshanand left the game
-[10:19:20] [Server thread/WARN]: handleDisconnection() called twice
-[10:19:26] [User Authenticator #2/INFO]: UUID of player Not_Dakshanand is 016ec78c-b6bf-337b-9040-b63a40970bed
-[10:19:26] [Server thread/INFO]: Not_Dakshanand[/[0:0:0:0:0:0:0:1%0]:51900] logged in with entity id 1273 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:19:49] [Server thread/INFO]: XxAswanthxX lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[10:19:49] [Server thread/INFO]: XxAswanthxX left the game
-[10:19:49] [Server thread/WARN]: handleDisconnection() called twice
-[10:19:56] [Server thread/INFO]: Not_Dakshanand lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[10:19:56] [Server thread/INFO]: Not_Dakshanand left the game
-[10:19:56] [Server thread/WARN]: handleDisconnection() called twice
-[10:20:10] [User Authenticator #2/INFO]: UUID of player Not_Dakshanand is 016ec78c-b6bf-337b-9040-b63a40970bed
-[10:20:10] [Server thread/INFO]: Not_Dakshanand[/[0:0:0:0:0:0:0:1%0]:46426] logged in with entity id 1275 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:20:19] [Craft Scheduler Thread - 41/INFO]: [AuthMe] Not_Dakshanand logged in 0:0:0:0:0:0:0:1%0
-[10:20:36] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> hi
-[10:20:40] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> laggg
-[10:21:02] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> h
-[10:21:06] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> hii
-[10:21:14] [User Authenticator #3/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[10:21:15] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:33236] logged in with entity id 1468 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:21:26] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> game me kab aaoge?
-[10:21:28] [Craft Scheduler Thread - 43/INFO]: [AuthMe] XxAswanthxX logged in 0:0:0:0:0:0:0:1%0
-[10:21:29] [Craft Scheduler Thread - 46/INFO]: [Metrics] Connection refused
-[10:21:33] [Server thread/INFO]: Bored ? Try out /warp pvp1
-[10:21:46] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> krish ka gana sungea?
-[10:21:46] [Async Chat Thread - #0/INFO]: <[Owner]XxAswanthxX> is server laggy someone join and see
-[10:21:57] [Server thread/INFO]: Not_Dakshanand has made the advancement [Stone Age]
-[10:22:00] [Server thread/WARN]: XxAswanthxX was kicked due to keepalive timeout!
-[10:22:00] [Server thread/INFO]: XxAswanthxX lost connection: Timed out
-[10:22:00] [Server thread/INFO]: XxAswanthxX left the game
-[10:22:00] [Server thread/WARN]: handleDisconnection() called twice
-[10:22:18] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> anuj
-[10:22:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /lag 
-[10:22:35] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> mene messcraft me 1k kama liye
-[10:22:52] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> vip kitne me aati hai?
-[10:23:05] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> wth
-[10:23:28] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> bro bye me baad me aaya
-[10:23:32] [Async Chat Thread - #0/INFO]: <[Noob] Not_Dakshanand> maggie kha ke
-[10:23:39] [Server thread/INFO]: Not_Dakshanand lost connection: Disconnected
-[10:23:39] [Server thread/INFO]: Not_Dakshanand left the game
-[10:24:53] [Server thread/INFO]: Check out new tags in /warp tags
-[10:26:16] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gc 
-[10:26:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ping PRO_BRO
-[10:28:13] [Server thread/INFO]: XXX
-[10:30:10] [User Authenticator #4/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[10:30:11] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:48912] logged in with entity id 2056 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:30:16] [Craft Scheduler Thread - 81/INFO]: [AuthMe] XxAswanthxX logged in 0:0:0:0:0:0:0:1%0
-[10:30:31] [Async Chat Thread - #1/INFO]: <[Owner]XxAswanthxX> t
-[10:30:45] [Server thread/INFO]: XxAswanthxX issued server command: /warp tags
-[10:30:49] [Async Chat Thread - #1/INFO]: <[Owner]XxAswanthxX> t
-[10:30:56] [Server thread/WARN]: XxAswanthxX was kicked due to keepalive timeout!
-[10:30:56] [Server thread/INFO]: XxAswanthxX lost connection: Timed out
-[10:30:56] [Server thread/INFO]: XxAswanthxX left the game
-[10:30:56] [Server thread/WARN]: handleDisconnection() called twice
-[10:31:29] [Craft Scheduler Thread - 82/INFO]: [Metrics] Connection refused
-[10:31:33] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
-[10:32:49] [User Authenticator #5/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[10:32:50] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:33026] logged in with entity id 2304 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:32:55] [Craft Scheduler Thread - 87/INFO]: [AuthMe] XxAswanthxX logged in 0:0:0:0:0:0:0:1%0
-[10:33:23] [Async Chat Thread - #2/INFO]: <[Owner]XxAswanthxX> t
-[10:33:28] [Async Chat Thread - #2/INFO]: <[Owner]XxAswanthxX> am i in?
-[10:33:37] [Async Chat Thread - #2/INFO]: <[Owner]XxAswanthxX> i guess so
-[10:33:45] [Async Chat Thread - #2/INFO]: <[Owner]XxAswanthxX> hello
-[10:33:50] [Server thread/WARN]: XxAswanthxX was kicked due to keepalive timeout!
-[10:33:50] [Server thread/INFO]: XxAswanthxX lost connection: Timed out
-[10:33:50] [Server thread/INFO]: XxAswanthxX left the game
-[10:33:50] [Server thread/WARN]: handleDisconnection() called twice
-[10:34:06] [User Authenticator #6/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[10:34:06] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:54588] logged in with entity id 2462 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:34:15] [Craft Scheduler Thread - 95/INFO]: [AuthMe] XxAswanthxX logged in 0:0:0:0:0:0:0:1%0
-[10:34:53] [Async Chat Thread - #3/INFO]: <[Owner]XxAswanthxX> t
-[10:34:53] [Server thread/INFO]: :)
-[10:34:57] [Server thread/INFO]: XxAswanthxX issued server command: /lag
-[10:34:57] [Server thread/INFO]: [Essentials] XxAswanthxX was denied access to command.
-[10:35:16] [Server thread/WARN]: XxAswanthxX was kicked due to keepalive timeout!
-[10:35:16] [Server thread/INFO]: XxAswanthxX lost connection: Timed out
-[10:35:16] [Server thread/INFO]: XxAswanthxX left the game
-[10:35:16] [Server thread/WARN]: handleDisconnection() called twice
-[10:35:36] [User Authenticator #7/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[10:35:37] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:47122] logged in with entity id 2615 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[10:35:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ping XxAswanthxX
-[10:36:07] [Server thread/INFO]: XxAswanthxX lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[10:36:07] [Server thread/INFO]: XxAswanthxX left the game
-[10:36:07] [Server thread/WARN]: handleDisconnection() called twice
-[10:38:13] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
-[10:41:29] [Craft Scheduler Thread - 117/INFO]: [Metrics] Connection refused
-[10:41:33] [Server thread/INFO]: :) 
-[10:44:53] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
-[10:48:13] [Server thread/INFO]: Bored ? Try out /warp pvp1
-[10:51:29] [Craft Scheduler Thread - 161/INFO]: [Metrics] Connection refused
-[10:51:33] [Server thread/INFO]: Check out new tags in /warp tags
-[10:54:53] [Server thread/INFO]: XXX
-[10:58:13] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
-[11:01:29] [Craft Scheduler Thread - 201/INFO]: [Metrics] Connection refused
-[11:01:33] [Server thread/INFO]: :)
-[11:04:53] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
-[11:06:40] [User Authenticator #8/INFO]: UUID of player Cloudyy__me_ is bce22c03-2c8e-3ba6-a79a-94a274fb9443
-[11:06:40] [Server thread/INFO]: Cloudyy__me_[/[0:0:0:0:0:0:0:1%0]:46138] logged in with entity id 2710 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[11:06:46] [Craft Scheduler Thread - 217/INFO]: [AuthMe] Cloudyy__me_ logged in 0:0:0:0:0:0:0:1%0
-[11:06:56] [Async Chat Thread - #4/INFO]: <[Noob] Cloudyy__me_> hmhm
-[11:07:01] [Async Chat Thread - #4/INFO]: <[Noob] Cloudyy__me_> hi
-[11:07:08] [Server thread/INFO]: [Essentials] Created a User for Server (731e3dac-8651-219e-b88b-5a2416073c33) for non Bukkit type: net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC$PlayerNPC
-[11:07:57] [Async Chat Thread - #4/INFO]: <[Noob] Cloudyy__me_> ye server tum sabne khud se banaya hai ?
-[11:08:13] [Server thread/INFO]: :) 
-[11:08:21] [User Authenticator #9/INFO]: UUID of player AagManPrime is a1869160-042a-3b8e-88a9-06731f47a799
-[11:08:21] [Server thread/INFO]: AagManPrime[/[0:0:0:0:0:0:0:1%0]:43894] logged in with entity id 9185 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[11:08:23] [Server thread/INFO]: [Essentials] CommandBlock at -64,65,237 issued server command: /warp shop Cloudyy__me_
-[11:08:25] [Craft Scheduler Thread - 230/INFO]: [AuthMe] AagManPrime logged in 0:0:0:0:0:0:0:1%0
-[11:08:28] [Async Chat Thread - #4/INFO]: <[Noob] Cloudyy__me_> acha
-[11:08:30] [Async Chat Thread - #4/INFO]: <[Noob] Cloudyy__me_> nice!
-[11:08:30] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> yo guys kese ho
-[11:08:39] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> nice
-[11:08:40] [Async Chat Thread - #4/INFO]: <[Noob] Cloudyy__me_> badiya
-[11:09:01] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> acha hu
-[11:09:15] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> tum logo ko building athi he?
-[11:09:21] [Async Chat Thread - #4/INFO]: <[Noob] Cloudyy__me_> neh:<
-[11:09:23] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> ham log ek shop or farm ban sakte he
-[11:09:46] [Async Chat Thread - #4/INFO]: <[Noob] Cloudyy__me_> chlo bye sabhi
-[11:09:47] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> ohh nice
-[11:09:48] [Server thread/INFO]: Cloudyy__me_ lost connection: Disconnected
-[11:09:48] [Server thread/INFO]: Cloudyy__me_ left the game
-[11:09:53] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> slime farm ata he?
-[11:10:03] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> :/
-[11:10:07] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> koi bat nhi
-[11:10:12] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> gold farm?
-[11:10:23] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> bn skta he bro
-[11:10:41] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> anuj 1.8.8 pe gold farm he=
-[11:10:48] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> YOOO ASWANTHHHH
-[11:10:51] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> KESE HE BROOO
-[11:11:13] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> Aswanth will i be the mod?
-[11:11:24] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> 9 feb my credit card
-[11:11:29] [Craft Scheduler Thread - 238/INFO]: [Metrics] Connection refused
-[11:11:30] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> i will open this server 24/7
-[11:11:33] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
-[11:11:41] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> yes
-[11:11:51] [Server thread/INFO]: AagManPrime issued server command: /warp
-[11:11:53] [Server thread/INFO]: AagManPrime issued server command: /warp tags
-[11:12:23] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> Wow
-[11:12:28] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> mod
-[11:12:31] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> mod ngl
-[11:12:45] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> xxvaibhavxx i will make this server 24/7
-[11:13:20] [Server thread/INFO]: AagManPrime issued server command: /balancetop 1
-[11:13:25] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> XD
-[11:13:29] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> bro pro_bro
-[11:13:34] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> has 5 TRILLION DOLLA
-[11:13:56] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> pro bro?
-[11:14:02] [Server thread/INFO]: AagManPrime issued server command: /tell xxas bro
-[11:14:14] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> Aswanth can i have some money=
-[11:14:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco set PRO_BRO 99999999999999999999999
-[11:14:35] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> xxvaibhavxx code bta de
-[11:14:39] [Server thread/INFO]: AagManPrime issued server command: /topbalance 1
-[11:14:45] [Server thread/INFO]: AagManPrime issued server command: /topbalance 1
-[11:14:52] [Server thread/INFO]: AagManPrime issued server command: /topbalance1
-[11:14:53] [Server thread/INFO]: Bored ? Try out /warp pvp1
-[11:15:03] [Server thread/INFO]: AagManPrime issued server command: /balancetop 1
-[11:15:24] [Server thread/INFO]: AagManPrime issued server command: /bal XxAswanthxX
-[11:15:26] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> xd
-[11:15:49] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> bro?
-[11:15:57] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> xxvaibhavxx apna code bta de of u color name
-[11:16:02] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> i want to do this on this
-[11:16:15] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> pro bro
-[11:16:19] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> PRO_BRO
-[11:16:34] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> give me the code of vaibhav colorfull name
-[11:16:53] [Async Chat Thread - #4/INFO]: <[Cool]AagManPrime> lemme copy and tell on messcraft server
-[11:16:57] [Server thread/INFO]: AagManPrime lost connection: Disconnected
-[11:16:57] [Server thread/INFO]: AagManPrime left the game
-[11:18:13] [Server thread/INFO]: Check out new tags in /warp tags
-[11:21:29] [Craft Scheduler Thread - 277/INFO]: [Metrics] Connection refused
-[11:21:33] [Server thread/INFO]: XXX
-[11:23:38] [User Authenticator #10/INFO]: UUID of player Not_Dakshanand is 016ec78c-b6bf-337b-9040-b63a40970bed
-[11:23:38] [Server thread/INFO]: Not_Dakshanand[/[0:0:0:0:0:0:0:1%0]:49074] logged in with entity id 27695 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[11:23:46] [Craft Scheduler Thread - 285/INFO]: [AuthMe] Not_Dakshanand logged in 0:0:0:0:0:0:0:1%0
-[11:23:53] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> hhhhh
-[11:23:57] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> laggg
-[11:24:12] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> yoyee
-[11:24:21] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> laggg
-[11:24:23] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> h
-[11:24:31] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> krish ka gana sunega?
-[11:24:41] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> dil na diyaaa
-[11:24:46] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> dil na liyaa
-[11:24:54] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
-[11:25:00] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> to bolo na bolo na kya kiyaa
-[11:25:08] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> sari duniya
-[11:25:33] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> kon
-[11:25:37] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> kon hai be
-[11:25:59] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> abe pata hai aaj kya hua
-[11:26:06] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> no
-[11:26:25] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> aaj school me bahout tagri ladayi hui tthi
-[11:26:53] [Async Chat Thread - #5/INFO]: <[Noob] Not_Dakshanand> anuj kiske liye?
-[11:27:38] [User Authenticator #11/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[11:27:39] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:49268] logged in with entity id 28060 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[11:27:54] [Server thread/INFO]: Not_Dakshanand was shot by Skeleton
-[11:27:59] [Async Chat Thread - #6/INFO]: <[Noob] Not_Dakshanand> abeeeeeeeeeee
-[11:28:09] [Server thread/INFO]: XxAswanthxX lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[11:28:09] [Server thread/INFO]: XxAswanthxX left the game
-[11:28:09] [Server thread/WARN]: handleDisconnection() called twice
-[11:28:09] [Async Chat Thread - #6/INFO]: <[Noob] Not_Dakshanand> 2 creeper aake phate
-[11:28:14] [Server thread/INFO]: :)
-[11:28:15] [Async Chat Thread - #6/INFO]: <[Noob] Not_Dakshanand> 1 heart be bach agyaa
-[11:28:21] [Async Chat Thread - #6/INFO]: <[Noob] Not_Dakshanand> skeletion aake mar diya
-[11:28:40] [Server thread/INFO]: Not_Dakshanand issued server command: /kit starter
-[11:28:46] [Server thread/INFO]: Not_Dakshanand issued server command: /kit
-[11:28:50] [Server thread/INFO]: Not_Dakshanand issued server command: /kit bow
-[11:29:06] [User Authenticator #12/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[11:29:07] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:53376] logged in with entity id 32408 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[11:29:14] [Craft Scheduler Thread - 309/INFO]: [AuthMe] XxAswanthxX logged in 0:0:0:0:0:0:0:1%0
-[11:29:21] [Async Chat Thread - #7/INFO]: <[Owner]XxAswanthxX> :/
-[11:29:25] [Async Chat Thread - #7/INFO]: <[Owner]XxAswanthxX> stuck
-[11:29:30] [Async Chat Thread - #7/INFO]: <[Owner]XxAswanthxX> too laggy network
-[11:29:32] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> owner???????????????????????????
-[11:29:47] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> owner muje moderator banao
-[11:29:49] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> owner muje moderator banao
-[11:29:52] [Server thread/WARN]: XxAswanthxX was kicked due to keepalive timeout!
-[11:29:52] [Server thread/INFO]: XxAswanthxX lost connection: Timed out
-[11:29:52] [Server thread/INFO]: XxAswanthxX left the game
-[11:29:52] [Server thread/WARN]: handleDisconnection() called twice
-[11:30:10] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> aap mere yaha aajayiye
-[11:30:20] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> eheee
-[11:30:30] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> bahout jagah hai
-[11:30:35] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> madar
-[11:30:57] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> suno saare DC walw
-[11:30:59] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> suno saare DC wale
-[11:31:07] [User Authenticator #13/INFO]: UUID of player XxAswanthxX is 6832f4f5-3431-3902-bf80-9e18a99c37af
-[11:31:07] [Server thread/INFO]: XxAswanthxX[/[0:0:0:0:0:0:0:1%0]:45476] logged in with entity id 39080 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[11:31:16] [Async Chat Thread - #7/INFO]: <[Owner]XxAswanthxX> too laggy network
-[11:31:21] [Craft Scheduler Thread - 315/INFO]: [AuthMe] XxAswanthxX logged in 0:0:0:0:0:0:0:1%0
-[11:31:24] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> me jaise jaise bolunga waise baolna ok
-[11:31:29] [Craft Scheduler Thread - 315/INFO]: [Metrics] Connection refused
-[11:31:34] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
-[11:31:43] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> me bolunga ran a
-[11:31:49] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> koi aur bolega ran b
-[11:31:49] [Async Chat Thread - #7/INFO]: <[Owner]XxAswanthxX> he'
-[11:31:54] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> aise aise ok
-[11:31:55] [Async Chat Thread - #7/INFO]: <[Owner]XxAswanthxX> hello
-[11:32:02] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> ran A
-[11:32:03] [Async Chat Thread - #7/INFO]: <[Owner]XxAswanthxX> i am in
-[11:32:06] [Async Chat Thread - #7/INFO]: <[Owner]XxAswanthxX> finally
-[11:32:14] [Server thread/WARN]: Not_Dakshanand moved too quickly! 3.4689441704216506E-4,-0.519289123668301,-10.118804887466808
-[11:32:17] [Server thread/INFO]: Not_Dakshanand issued server command: /bal
-[11:32:22] [Server thread/INFO]: XxAswanthxX issued server command: /ifo colors
-[11:32:22] [Server thread/INFO]: [Essentials] XxAswanthxX was denied access to command.
-[11:32:26] [Async Chat Thread - #7/INFO]: <[Noob] Not_Dakshanand> me ja ra messcraft
-[11:32:35] [Server thread/INFO]: Not_Dakshanand lost connection: Disconnected
-[11:32:35] [Server thread/INFO]: Not_Dakshanand left the game
-[11:32:43] [Server thread/INFO]: Opped XxAswanthxX
-[11:32:50] [Server thread/INFO]: XxAswanthxX issued server command: /ifo colors
-[11:34:21] [Server thread/INFO]: XxAswanthxX issued server command: /nick &1&l&mXx&9&l&oAswanth&1&l&mxX
-[11:34:24] [Async Chat Thread - #8/INFO]: <[Owner]XxAswanthxX> kya?
-[11:34:54] [Server thread/INFO]: :) 
-[11:35:10] [Async Chat Thread - #8/INFO]: <[Owner]XxAswanthxX> emoji ya sticker nahi
-[11:35:21] [Server thread/WARN]: XxAswanthxX moved too quickly! -13.082102376967669,0.0,-9.042096462100744
-[11:35:41] [Async Chat Thread - #8/INFO]: <[Owner]XxAswanthxX> laggy he me
-[11:35:48] [Async Chat Thread - #8/INFO]: <[Owner]XxAswanthxX> hota he
-[11:35:57] [Async Chat Thread - #8/INFO]: <[Owner]XxAswanthxX> inchat me hoja
-[11:36:58] [Async Chat Thread - #9/INFO]: <[Owner]XxAswanthxX> t
-[11:38:14] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
-[11:38:33] [Async Chat Thread - #10/INFO]: <[Owner]XxAswanthxX> t
-[11:39:52] [Async Chat Thread - #11/INFO]: <[Owner]XxAswanthxX> tt
-[11:40:00] [Server thread/INFO]: XxAswanthxX issued server command: /gamemode 1
-[11:40:13] [Async Chat Thread - #11/INFO]: <[Owner]XxAswanthxX> some one come to server nah
-[11:40:14] [Async Chat Thread - #11/INFO]: <[Owner]XxAswanthxX> me alone
-[11:40:57] [Server thread/INFO]: XxAswanthxX issued server command: /ci
-[11:41:10] [Async Chat Thread - #11/INFO]: <[Owner]XxAswanthxX> tu ek kam kar
-[11:41:29] [Craft Scheduler Thread - 355/INFO]: [Metrics] Connection refused
-[11:41:34] [Server thread/INFO]: Bored ? Try out /warp pvp1
-[11:42:17] [Async Chat Thread - #12/INFO]: <[Owner]XxAswanthxX> t
-[11:42:40] [Async Chat Thread - #12/INFO]: <[Owner]XxAswanthxX> t
-[11:42:52] [Async Chat Thread - #12/INFO]: <[Owner]XxAswanthxX> server lag hoo raha he:/
-[11:43:03] [Async Chat Thread - #12/INFO]: <[Owner]XxAswanthxX> me laggy hu :/
-[11:43:53] [Server thread/INFO]: XxAswanthxX issued server command: /ci
-[11:43:57] [Server thread/INFO]: XxAswanthxX issued server command: /kit opkit
-[11:43:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast XxAswanthxX just got the OP kit!
-[11:43:57] [Server thread/INFO]: XxAswanthxX has made the advancement [Cover Me With Diamonds]
-[11:44:45] [Async Chat Thread - #13/INFO]: <[Owner]XxAswanthxX> t
-[11:44:54] [Server thread/INFO]: Check out new tags in /warp tags
-[11:48:14] [Server thread/INFO]: XXX
-[11:48:22] [Async Chat Thread - #14/INFO]: <[Owner]XxAswanthxX> t
-[11:49:15] [User Authenticator #14/INFO]: UUID of player XxVaibhavxX is 3419062b-4667-3e72-87a2-30dcc9a2db3a
-[11:49:16] [Server thread/INFO]: XxVaibhavxX[/[0:0:0:0:0:0:0:1%0]:34594] logged in with entity id 40017 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[11:49:34] [Craft Scheduler Thread - 382/INFO]: [AuthMe] XxVaibhavxX logged in 0:0:0:0:0:0:0:1%0
-[11:49:37] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> wsp
-[11:49:42] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> wsp
-[11:49:48] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> pro
-[11:49:51] [Server thread/INFO]: XxAswanthxX issued server command: /gamemode 0
-[11:49:52] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> yes
-[11:50:03] [Server thread/INFO]: XxAswanthxX issued server command: /warp pvp1
-[11:50:08] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> moderator do
-[11:50:12] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> t
-[11:50:17] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> laggy
-[11:50:33] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> :/
-[11:50:57] [Server thread/INFO]: XxVaibhavxX issued server command: /spawn
-[11:51:02] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> XxVaibhavxX
-[11:51:03] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> ashwanth
-[11:51:06] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> ha
-[11:51:08] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> bruh
-[11:51:13] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> pvp kare
-[11:51:13] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> bolo
-[11:51:20] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> pehle mod do
-[11:51:29] [Craft Scheduler Thread - 392/INFO]: [Metrics] Connection refused
-[11:51:34] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
-[11:51:34] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> server me mod perment hone ke bad
-[11:51:47] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> hogya me permanent
-[11:51:57] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> kese?
-[11:52:01] [Server thread/INFO]: XxVaibhavxX issued server command: /set nick Anuj
-[11:52:06] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> Anuj ne kiya
-[11:52:16] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> anuj nahi me karta hu
-[11:52:24] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> krdo fir
-[11:52:34] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> wese nahi
-[11:52:54] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> tu mod banenke keleye best he deka de
-[11:53:00] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> phele pvp?
-[11:53:05] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> kru kya pr :/
-[11:53:09] [Server thread/INFO]: XxVaibhavxX issued server command: /warp pvp1
-[11:53:16] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> pvp aur?
-[11:53:24] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> perma ke liye
-[11:53:29] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> pvp karo me bore hu
-[11:53:39] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> hm pata nahi
-[11:53:51] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> mod ke tara wewahar
-[11:53:54] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> armour to do tuta hua h mera
-[11:54:06] [Server thread/INFO]: XxAswanthxX issued server command: /opkit xxvai
-[11:54:13] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> laggy he
-[11:54:22] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> mod ke tarah wewhar ?
-[11:54:24] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> teleport?
-[11:54:39] [Server thread/INFO]: XxAswanthxX issued server command: /opkit xxvai
-[11:54:45] [Server thread/INFO]: XxAswanthxX issued server command: /kit opkit xxvai
-[11:54:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast XxVaibhavxX just got the OP kit!
-[11:54:54] [Server thread/INFO]: :)
-[11:54:55] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> okie phir me mod anuj and mod parasog jese ladai krta hu
-[11:55:06] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> :/
-[11:55:21] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> ek mod ladaye karta nahi ladye rokta he
-[11:55:32] [Async Chat Thread - #15/INFO]: <[Youtuber]XxVaibhavxX> rok di mene :/
-[11:55:56] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> laggy he
-[11:56:05] [Server thread/INFO]: XxAswanthxX has made the advancement [Take Aim]
-[11:56:24] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> apple katam:/
-[11:56:29] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> ek sec
-[11:56:33] [Server thread/INFO]: XxAswanthxX issued server command: /gamemode 1
-[11:56:43] [Server thread/INFO]: XxAswanthxX issued server command: /gamemode 0
-[11:56:47] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> chelo
-[11:56:56] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> maro
-[11:57:13] [Async Chat Thread - #15/INFO]: <[Owner]XxAswanthxX> maro
-[11:58:14] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
-[11:58:33] [Async Chat Thread - #16/INFO]: <[Owner]XxAswanthxX> lsaggy
-[11:58:36] [Async Chat Thread - #16/INFO]: <[Owner]XxAswanthxX> maro
-[11:58:37] [Async Chat Thread - #16/INFO]: <[Youtuber]XxVaibhavxX> ha
-[11:59:42] [Async Chat Thread - #17/INFO]: <[Owner]XxAswanthxX> me imortal
-[11:59:52] [Async Chat Thread - #17/INFO]: <[Owner]XxAswanthxX> he:>
-[12:00:02] [Async Chat Thread - #17/INFO]: <[Youtuber]XxVaibhavxX> ha ha chaba lo egap
-[12:00:25] [Async Chat Thread - #17/INFO]: <[Owner]XxAswanthxX> lagyg he
-[12:01:29] [Craft Scheduler Thread - 432/INFO]: [Metrics] Connection refused
-[12:01:34] [Server thread/INFO]: :) 
-[12:01:41] [Async Chat Thread - #18/INFO]: <[Owner]XxAswanthxX> all come on game guys
-[12:01:52] [Async Chat Thread - #18/INFO]: <[Owner]XxAswanthxX> from discord join the game
-[12:02:45] [Async Chat Thread - #18/INFO]: <[Owner]XxAswanthxX> nahi\
-[12:03:05] [Async Chat Thread - #18/INFO]: <[Owner]XxAswanthxX> mod mere hat he poll pe nahi
-[12:03:19] [Async Chat Thread - #18/INFO]: <[Owner]XxAswanthxX> ek sec
-[12:03:23] [Async Chat Thread - #18/INFO]: <[Owner]XxAswanthxX> mikkey on dm
-[12:04:06] [Server thread/INFO]: XxAswanthxX issued server command: /give @s potion[potion_contents={custom_effects:[{id:"minecraft:regeneration",amplifier:255,duration
-[12:04:31] [Server thread/INFO]: XxAswanthxX issued server command: /effect give @s minecraft:resistance 999999 255
-[12:04:49] [Server thread/INFO]: XxAswanthxX issued server command: /effect give @s minecraft:resistance 999999 255
-[12:04:54] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
-[12:05:03] [Server thread/INFO]: Opped XxaswanthxX
-[12:05:15] [Server thread/INFO]: XxAswanthxX issued server command: /effect give @s minecraft:resistance 999999 255
-[12:05:55] [Server thread/INFO]: XxAswanthxX issued server command: /give @p potion 1 0 {CustomPotionEffects:[{Id:11,Amplifier:255,Duration:999999}]}
-[12:06:13] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> xxvaibhav chelo
-[12:06:24] [Async Chat Thread - #19/INFO]: <[Youtuber]XxVaibhavxX> gap do
-[12:06:39] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> he nahi muje mar ke lello
-[12:07:18] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> laggy he
-[12:07:26] [Async Chat Thread - #19/INFO]: <[Youtuber]XxVaibhavxX> suno
-[12:07:31] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> kya?
-[12:07:39] [Async Chat Thread - #19/INFO]: <[Youtuber]XxVaibhavxX> pvp krte h without egap
-[12:07:44] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> :>
-[12:07:50] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> nahi :>
-[12:07:56] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> me rich
-[12:08:00] [Async Chat Thread - #19/INFO]: <[Youtuber]XxVaibhavxX> me jita to me owner ek din ke liye
-[12:08:14] [Server thread/INFO]: Bored ? Try out /warp pvp1
-[12:08:19] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> kabi nahi
-[12:08:26] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> kon?
-[12:08:34] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> sala
-[12:08:51] [Server thread/INFO]: XxAswanthxX issued server command: /rg info
-[12:09:01] [Async Chat Thread - #19/INFO]: <[Youtuber]XxVaibhavxX> bilal bhai ab single nhi rahe
-[12:09:18] [Server thread/INFO]: XxAswanthxX issued server command: /warp shop
-[12:09:24] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> t
-[12:09:27] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> laggy
-[12:09:30] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> when i warp
-[12:09:32] [Async Chat Thread - #19/INFO]: <[Owner]XxAswanthxX> :/
-[12:09:48] [Server thread/INFO]: XxAswanthxX issued server command: /
-[12:10:05] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco xxaswanthxx 10
-[12:10:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco set xxaswanthxx 10
-[12:10:34] [Server thread/INFO]: XxAswanthxX issued server command: /wa
-[12:10:41] [Server thread/INFO]: XxAswanthxX issued server command: /warp pvp1
-[12:10:48] [Async Chat Thread - #20/INFO]: <[Owner]XxAswanthxX> vaibhav a
-[12:10:55] [Async Chat Thread - #20/INFO]: <[Owner]XxAswanthxX> ao me bena armor
-[12:11:02] [Async Chat Thread - #20/INFO]: <[Owner]XxAswanthxX> serf egapple
-[12:11:04] [Async Chat Thread - #20/INFO]: <[Youtuber]XxVaibhavxX> aajap
-[12:11:29] [Craft Scheduler Thread - 471/INFO]: [Metrics] Connection refused
-[12:11:34] [Server thread/INFO]: Check out new tags in /warp tags
-[12:12:11] [Async Chat Thread - #21/INFO]: <[Youtuber]XxVaibhavxX> kutte
-[12:12:24] [Server thread/INFO]: XxAswanthxX lost connection: Disconnected
-[12:12:24] [Server thread/INFO]: XxAswanthxX left the game
-[12:12:28] [Async Chat Thread - #21/INFO]: <[Youtuber]XxVaibhavxX> abw
-[12:14:54] [Server thread/INFO]: XXX
-[12:18:14] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
-[12:18:21] [User Authenticator #15/INFO]: UUID of player Alvro_Messcraft is bc3fd587-a644-3270-9b57-6819a366254b
-[12:18:21] [Server thread/INFO]: Alvro_Messcraft[/[0:0:0:0:0:0:0:1%0]:53412] logged in with entity id 57486 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[12:18:40] [Async Chat Thread - #22/INFO]: <[Youtuber]XxVaibhavxX> Alvro Chotu
-[12:18:51] [Server thread/INFO]: Alvro_Messcraft lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[12:18:51] [Server thread/INFO]: Alvro_Messcraft left the game
-[12:18:51] [Server thread/WARN]: handleDisconnection() called twice
-[12:18:58] [Async Chat Thread - #22/INFO]: <[Youtuber]XxVaibhavxX> I mean Anuj chotu
-[12:19:19] [User Authenticator #15/INFO]: UUID of player Alvro_Messcraft is bc3fd587-a644-3270-9b57-6819a366254b
-[12:19:20] [Server thread/INFO]: Alvro_Messcraft[/[0:0:0:0:0:0:0:1%0]:44302] logged in with entity id 57874 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[12:19:50] [Server thread/INFO]: Alvro_Messcraft lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[12:19:50] [Server thread/INFO]: Alvro_Messcraft left the game
-[12:19:50] [Server thread/WARN]: handleDisconnection() called twice
-[12:20:04] [User Authenticator #15/INFO]: UUID of player Alvro_Messcraft is bc3fd587-a644-3270-9b57-6819a366254b
-[12:20:05] [Server thread/INFO]: Alvro_Messcraft[/[0:0:0:0:0:0:0:1%0]:51696] logged in with entity id 58068 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[12:20:35] [Server thread/INFO]: Alvro_Messcraft lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[12:20:35] [Server thread/INFO]: Alvro_Messcraft left the game
-[12:20:35] [Server thread/WARN]: handleDisconnection() called twice
-[12:21:00] [User Authenticator #15/INFO]: UUID of player Alvro_Messcraft is bc3fd587-a644-3270-9b57-6819a366254b
-[12:21:00] [Server thread/INFO]: Alvro_Messcraft[/[0:0:0:0:0:0:0:1%0]:37860] logged in with entity id 58184 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[12:21:27] [Server thread/INFO]: Alvro_Messcraft issued server command: /registersumeru sumeru
-[12:21:29] [Craft Scheduler Thread - 509/INFO]: [Metrics] Connection refused
-[12:21:31] [Server thread/INFO]: Alvro_Messcraft lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[12:21:31] [Server thread/INFO]: Alvro_Messcraft left the game
-[12:21:31] [Server thread/WARN]: handleDisconnection() called twice
-[12:21:34] [Server thread/INFO]: :)
-[12:21:38] [User Authenticator #15/INFO]: UUID of player Alvro_Messcraft is bc3fd587-a644-3270-9b57-6819a366254b
-[12:21:39] [Server thread/INFO]: Alvro_Messcraft[/[0:0:0:0:0:0:0:1%0]:41218] logged in with entity id 58285 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[12:22:08] [Craft Scheduler Thread - 500/INFO]: [AuthMe] Alvro_Messcraft logged in 0:0:0:0:0:0:0:1%0
-[12:22:28] [Server thread/INFO]: XxVaibhavxX lost connection: Disconnected
-[12:22:28] [Server thread/INFO]: XxVaibhavxX left the game
-[12:24:54] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
-[12:25:34] [Async Chat Thread - #23/INFO]: <[Noob] Alvro_Messcraft> hi
-[12:25:58] [Server thread/INFO]: [Essentials] CommandBlock at -59,65,214 issued server command: /warp pvp1 Alvro_Messcraft
-[12:27:18] [Async Chat Thread - #24/INFO]: <[Noob] Alvro_Messcraft> anuj muja kuchb4ole dee
-[12:27:51] [Server thread/INFO]: [Essentials] Created a User for Technoblade (20981f38-f995-25c2-965c-03ff24d973fb) for non Bukkit type: net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC$PlayerNPC
-[12:28:14] [Server thread/INFO]: :) 
-[12:30:57] [Server thread/INFO]: Alvro_Messcraft issued server command: /warp
-[12:31:29] [Craft Scheduler Thread - 546/INFO]: [Metrics] Connection refused
-[12:31:34] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
-[12:32:07] [Server thread/INFO]: Alvro_Messcraft issued server command: /warp spawn
-[12:34:54] [Server thread/INFO]: Bored ? Try out /warp pvp1
-[12:35:29] [Server thread/INFO]: Alvro_Messcraft issued server command: /warp shop
-[12:38:12] [Server thread/INFO]: Alvro_Messcraft lost connection: Disconnected
-[12:38:12] [Server thread/INFO]: Alvro_Messcraft left the game
-[12:38:14] [Server thread/INFO]: Check out new tags in /warp tags
-[12:41:29] [Craft Scheduler Thread - 583/INFO]: [Metrics] Connection refused
-[12:41:34] [Server thread/INFO]: XXX
-[12:44:54] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
-[12:45:09] [User Authenticator #16/INFO]: UUID of player Cloudyy__me_ is bce22c03-2c8e-3ba6-a79a-94a274fb9443
-[12:45:09] [Server thread/INFO]: Cloudyy__me_[/[0:0:0:0:0:0:0:1%0]:60220] logged in with entity id 106245 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
-[12:45:14] [Server thread/INFO]: Cloudyy__me_ lost connection: Disconnected
-[12:45:14] [Server thread/INFO]: Cloudyy__me_ left the game
-[12:48:14] [Server thread/INFO]: :)
-[12:51:29] [Craft Scheduler Thread - 622/INFO]: [Metrics] Connection refused
-[12:51:34] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
-[12:54:54] [Server thread/INFO]: :) 
-[12:58:14] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
-[13:01:29] [Craft Scheduler Thread - 662/INFO]: [Metrics] Connection refused
-[13:01:34] [Server thread/INFO]: Bored ? Try out /warp pvp1
-[13:04:54] [Server thread/INFO]: Check out new tags in /warp tags
-[13:08:14] [Server thread/INFO]: XXX
-[13:11:29] [Craft Scheduler Thread - 703/INFO]: [Metrics] Connection refused
-[13:11:34] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
-[13:14:54] [Server thread/INFO]: :)
-[13:18:14] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
-[13:21:29] [Craft Scheduler Thread - 744/INFO]: [Metrics] Connection refused
-[13:21:34] [Server thread/INFO]: :) 
-[13:24:54] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
-[13:28:14] [Server thread/INFO]: Bored ? Try out /warp pvp1
-[13:31:29] [Craft Scheduler Thread - 785/INFO]: [Metrics] Connection refused
-[13:31:34] [Server thread/INFO]: Check out new tags in /warp tags
-[13:34:54] [Server thread/INFO]: XXX
-[13:38:14] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
-[13:41:29] [Craft Scheduler Thread - 822/INFO]: [Metrics] Connection refused
-[13:41:34] [Server thread/INFO]: :)
-[13:44:54] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
-[13:48:14] [Server thread/INFO]: :) 
-[13:51:29] [Craft Scheduler Thread - 864/INFO]: [Metrics] Connection refused
-[13:51:34] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
-[13:54:54] [Server thread/INFO]: Bored ? Try out /warp pvp1
-[13:58:14] [Server thread/INFO]: Check out new tags in /warp tags
-[14:01:29] [Craft Scheduler Thread - 900/INFO]: [Metrics] Connection refused
-[14:01:34] [Server thread/INFO]: XXX
-[14:04:54] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
-[14:08:14] [Server thread/INFO]: :)
-[14:10:44] [Server thread/INFO]: [Server] [System] Server closing in 30 seconds! Saving world...
-[14:10:45] [Server thread/INFO]: [Server] [System] Server closing in 29 seconds! Saving world...
-[14:10:46] [Server thread/INFO]: [Server] [System] Server closing in 28 seconds! Saving world...
-[14:10:47] [Server thread/INFO]: [Server] [System] Server closing in 27 seconds! Saving world...
-[14:10:48] [Server thread/INFO]: [Server] [System] Server closing in 26 seconds! Saving world...
-[14:10:49] [Server thread/INFO]: [Server] [System] Server closing in 25 seconds! Saving world...
-[14:10:50] [Server thread/INFO]: [Server] [System] Server closing in 24 seconds! Saving world...
-[14:10:51] [Server thread/INFO]: [Server] [System] Server closing in 23 seconds! Saving world...
-[14:10:52] [Server thread/INFO]: [Server] [System] Server closing in 22 seconds! Saving world...
-[14:10:53] [Server thread/INFO]: [Server] [System] Server closing in 21 seconds! Saving world...
-[14:10:54] [Server thread/INFO]: [Server] [System] Server closing in 20 seconds! Saving world...
-[14:10:55] [Server thread/INFO]: [Server] [System] Server closing in 19 seconds! Saving world...
-[14:10:56] [Server thread/INFO]: [Server] [System] Server closing in 18 seconds! Saving world...
-[14:10:57] [Server thread/INFO]: [Server] [System] Server closing in 17 seconds! Saving world...
-[14:10:58] [Server thread/INFO]: [Server] [System] Server closing in 16 seconds! Saving world...
-[14:10:59] [Server thread/INFO]: [Server] [System] Server closing in 15 seconds! Saving world...
-[14:11:00] [Server thread/INFO]: [Server] [System] Server closing in 14 seconds! Saving world...
-[14:11:01] [Server thread/INFO]: [Server] [System] Server closing in 13 seconds! Saving world...
-[14:11:02] [Server thread/INFO]: [Server] [System] Server closing in 12 seconds! Saving world...
-[14:11:03] [Server thread/INFO]: [Server] [System] Server closing in 11 seconds! Saving world...
-[14:11:04] [Server thread/INFO]: [Server] [System] Server closing in 10 seconds! Saving world...
-[14:11:05] [Server thread/INFO]: [Server] [System] Server closing in 9 seconds! Saving world...
-[14:11:06] [Server thread/INFO]: [Server] [System] Server closing in 8 seconds! Saving world...
-[14:11:07] [Server thread/INFO]: [Server] [System] Server closing in 7 seconds! Saving world...
-[14:11:08] [Server thread/INFO]: [Server] [System] Server closing in 6 seconds! Saving world...
-[14:11:09] [Server thread/INFO]: [Server] [System] Server closing in 5 seconds! Saving world...
-[14:11:10] [Server thread/INFO]: [Server] [System] Server closing in 4 seconds! Saving world...
-[14:11:11] [Server thread/INFO]: [Server] [System] Server closing in 3 seconds! Saving world...
-[14:11:12] [Server thread/INFO]: [Server] [System] Server closing in 2 seconds! Saving world...
-[14:11:13] [Server thread/INFO]: [Server] [System] Server closing in 1 seconds! Saving world...
-[14:11:14] [Server thread/INFO]: Stopping the server
-[14:11:14] [Server thread/INFO]: Stopping server
-[14:11:14] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[14:11:14] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[14:11:14] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[14:11:14] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.21.2
-[14:11:15] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+39-adf77dc
-[14:11:15] [Server thread/INFO]: [ServerSigns] Disabling ServerSigns v4.10.1
-[14:11:15] [Server thread/INFO]: [ServerSigns] ServerSigns is now disabled.
-[14:11:15] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+39-adf77dc
-[14:11:15] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+39-adf77dc
-[14:11:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[14:11:15] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.22-SNAPSHOT (build 1487)
-[14:11:15] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[14:11:15] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
-[14:11:15] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
-[14:11:15] [Server thread/INFO]: [EaglerXRewind-1.5] Disabling EaglercraftXRewind-1-5 v1.0.2
-[14:11:15] [Server thread/INFO]: [EaglerXRewind-1.5] EaglerXRewind protocol for Eaglercraft 1.5.2 has been unregistered
-[14:11:15] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
-[14:11:15] [Server thread/INFO]: [EaglerXServer] Disabling EaglercraftXServer v1.0.7
-[14:11:15] [Server thread/INFO]: [EaglerXServer] Disconnecting from skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[14:11:15] [Server thread/INFO]: [EaglerXServer] Disconnected from skin cache database successfully!
-[14:11:15] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.3
-[14:11:15] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
-[14:11:15] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:11:15] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:11:15] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:11:15] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
-[14:11:15] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
-[14:11:15] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
-[14:11:15] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
-[14:11:15] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.4
-[14:11:15] [Server thread/INFO]: [DuelMe] Disabling DuelMe v0.18.3
-[14:11:15] [Server thread/INFO]: [DuelMe] [Info] Disabling.
-[14:11:15] [Server thread/INFO]: [DuelMe] [Info] Successfully saved 1 Duel Arena(s).
-[14:11:15] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
-[14:11:15] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
-[14:11:15] [Server thread/WARN]: [ViaVersion] Could not get handler DefaultChannelPipeline$TailContext#0
-[14:11:15] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[14:11:15] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v1.0
-[14:11:15] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[14:11:15] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[14:11:15] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
-[14:11:15] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
-[14:11:15] [Server thread/INFO]: Saving players
-[14:11:15] [Server thread/INFO]: Saving worlds
-[14:11:15] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[14:11:15] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[14:11:15] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+[10:03:59] [Server thread/INFO]: [ImageMaps] Disabling ImageMaps v1.0.10
+[10:03:59] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[10:03:59] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[10:03:59] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[10:03:59] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[10:03:59] [Server thread/INFO]: [ClearLag] Loading modules...
+[10:03:59] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[10:03:59] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[10:03:59] [Thread-8/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[10:03:59] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[10:03:59] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v1.0
+[10:03:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[10:03:59] [Server thread/INFO]: [DuelMe] Enabling DuelMe v0.18.3
+[10:03:59] [Server thread/INFO]: [DuelMe] [Info] Enabling.
+[10:03:59] [Server thread/INFO]: [DuelMe] [Info] WorldEdit found!
+[10:03:59] [Server thread/INFO]: [DuelMe] [Info] Successfully loaded 1 Duel Arena(s).
+[10:03:59] [Server thread/INFO]: [DuelMe] [Info] Server NMS Version: v1_12_R1
+[10:03:59] [Server thread/INFO]: [DuelMe] [Info] Loading support for v1_12_R1
+[10:03:59] [Server thread/INFO]: [DuelMe] [Info] NMS Version setup complete
+[10:03:59] [Server thread/INFO]: [DuelMe] [Info] Successfully Enabled!
+[10:03:59] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[10:03:59] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[10:03:59] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[10:03:59] [Thread-8/INFO]: [ClearLag] No updates found!
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[10:03:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[10:03:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[10:03:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[10:03:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[10:03:59] [Server thread/INFO]: [WorldGuard] Loading region data...
+[10:04:00] [Server thread/INFO]: [EaglerXServer] Enabling EaglercraftXServer v1.0.7
+[10:04:00] [Server thread/INFO]: [EaglerXServer] Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[10:04:00] [Netty Epoll Server IO #0/INFO]: [EaglerXServer] Listener "default" injected into channel [id: 0x0e60ee44, L:/[0:0:0:0:0:0:0:0%0]:25565] successfully (Generic Netty method)
+[10:04:00] [Server thread/INFO]: [EaglerXServer] Connected to skin cache database successfully!
+[10:04:00] [Server thread/ERROR]: [EaglerXServer] Plugin EaglercraftXServer v1.0.7 has failed to register events for class net.skinsrestorer.bukkit.listener.ForceAliveListener because org/bukkit/event/server/ServerLoadEvent does not exist.
+[10:04:00] [Server thread/INFO]: [EaglerXServer] Listening for SkinsRestorer skin apply event on vanilla players
+[10:04:00] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[10:04:00] [Server thread/INFO]: [EaglerXRewind-1.5] Enabling EaglercraftXRewind-1-5 v1.0.2
+[10:04:00] [Server thread/INFO]: [EaglerXRewind-1.5] EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
+[10:04:00] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1487)
+[10:04:00] [Server thread/INFO]: [Citizens] Could not fetch NMS field modifiers: [[modifiers.
+[10:04:00] [Server thread/INFO]: [Citizens] Could not fetch entity id mapping fields: Cannot invoke "java.lang.reflect.Field.setInt(Object, int)" because "modifiersField" is null.
+[10:04:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+39-adf77dc
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  Updates are available for EaglerXServer
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  ---------------------------------------
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]    :< Active: 1.0.7
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]    :> Latest: 1.0.8
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  https://lax1dude.net/eaglerxserver/
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  -----------------------------------
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[10:04:00] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[10:04:00] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsDiscord to the same version.
+[10:04:00] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:04:00] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[10:04:00] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[10:04:00] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[10:04:00] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[10:04:00] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[10:04:00] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[10:04:00] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[10:04:00] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[10:04:00] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[10:04:00] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[10:04:00] [Server thread/INFO]: [Essentials] Using locale en
+[10:04:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:04:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:04:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:04:00] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[10:04:00] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+39-adf77dc
+[10:04:00] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[10:04:00] [Server thread/INFO]: [ServerSigns] Enabling ServerSigns v4.10.1
+[10:04:00] [Server thread/INFO]: [ServerSigns] Version 4.10.1 is now enabled.
+[10:04:00] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+39-adf77dc
+[10:04:00] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[10:04:00] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2
+[10:04:00] [Server thread/WARN]: [EssentialsDiscord] Version mismatch! Please update all Essentials jars to the same version.
+[10:04:01] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[10:04:01] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[10:04:02] [Server thread/INFO]: [EssentialsDiscord] Successfully logged in as Survival#7641
+[10:04:02] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[10:04:02] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[10:04:02] [Server thread/INFO]: [AuthMe] Hooked into Vault!
+[10:04:02] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[10:04:02] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[10:04:02] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[10:04:02] [Server thread/INFO]: Done (4.383s)! For help, type "help" or "?"
+[10:04:02] [Server thread/INFO]: Timings Reset
+[10:04:02] [Craft Scheduler Thread - 6/INFO]: [Essentials] Fetching version information...
+[10:04:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[10:04:02] [Craft Scheduler Thread - 5/INFO]: [EaglerXServer] Reloaded certificate: /home/runner/work/Z-X/Z-X/plugins/EaglercraftXServer/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[10:04:02] [Craft Scheduler Thread - 5/WARN]: [EaglerXServer] Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[10:04:02] [Craft Scheduler Thread - 9/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10:04:02] [Craft Scheduler Thread - 9/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10:04:02] [Craft Scheduler Thread - 9/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10:04:02] [Craft Scheduler Thread - 9/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[10:04:02] [Craft Scheduler Thread - 12/INFO]: [Vault] Checking for Updates ... 
+[10:04:02] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[10:04:02] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.18).
+[10:04:02] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[10:04:02] [Craft Scheduler Thread - 12/INFO]: [Vault] No new version available
+[10:04:02] [Server thread/INFO]: [DuelMe] [Info] plugin is up to date!
+[10:04:02] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.10.0[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mfcb9320[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[10:04:02] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[10:04:02] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:04:02] [Craft Scheduler Thread - 7/INFO]: [Metrics] Connection refused
+[10:04:02] [Craft Scheduler Thread - 6/WARN]: [Essentials] You're 18 EssentialsX dev build(s) out of date!
+[10:04:02] [Craft Scheduler Thread - 6/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[10:04:02] [Server thread/INFO]: [Citizens] Loaded 3 NPCs.
+[10:04:02] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.7.1, you're on: 5.3.3-SNAPSHOT
+[10:04:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[10:04:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[10:04:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: string [1.0.7]
+[10:04:02] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[10:04:02] [Craft Scheduler Thread - 0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[10:04:07] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
+[10:07:27] [Server thread/INFO]: :) 
+[10:10:47] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
+[10:11:02] [User Authenticator #1/INFO]: UUID of player BMW is 74573d37-15f0-3981-ba2a-fb4dd7d2f3c3
+[10:11:03] [Server thread/INFO]: BMW[/[0:0:0:0:0:0:0:1%0]:58470] logged in with entity id 146 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:11:17] [Server thread/INFO]: BMW lost connection: Disconnected
+[10:11:17] [Server thread/INFO]: BMW left the game
+[10:11:27] [User Authenticator #1/INFO]: UUID of player VIP is 1bafaf9c-db05-35b9-8665-7457d16851c8
+[10:11:28] [Server thread/INFO]: VIP[/[0:0:0:0:0:0:0:1%0]:56560] logged in with entity id 235 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:11:37] [Craft Scheduler Thread - 36/INFO]: [AuthMe] VIP logged in 0:0:0:0:0:0:0:1%0
+[10:11:43] [Async Chat Thread - #0/INFO]: <[VIP] VIP> wsp
+[10:11:54] [Async Chat Thread - #0/INFO]: <[VIP] VIP> okk
+[10:12:05] [Async Chat Thread - #0/INFO]: <[VIP] VIP> aswanth
+[10:12:07] [Async Chat Thread - #0/INFO]: <[VIP] VIP> aswanth
+[10:12:14] [Async Chat Thread - #0/INFO]: <[VIP] VIP> aswanth make me owner
+[10:12:32] [Async Chat Thread - #0/INFO]: <[VIP] VIP> aswanth sun na
+[10:12:42] [Server thread/INFO]: VIP lost connection: Disconnected
+[10:12:42] [Server thread/INFO]: VIP left the game
+[10:14:02] [Craft Scheduler Thread - 45/INFO]: [Metrics] Connection refused
+[10:14:07] [Server thread/INFO]: Bored ? Try out /warp pvp1
+[10:17:27] [Server thread/INFO]: Check out new tags in /warp tags
+[10:20:47] [Server thread/INFO]: XXX
+[10:24:02] [Craft Scheduler Thread - 86/INFO]: [Metrics] Connection refused
+[10:24:07] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
+[10:27:27] [Server thread/INFO]: :)
+[10:30:47] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
+[10:34:02] [Craft Scheduler Thread - 125/INFO]: [Metrics] Connection refused
+[10:34:07] [Server thread/INFO]: :) 
+[10:37:27] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
+[10:39:16] [User Authenticator #2/INFO]: UUID of player VIP is 1bafaf9c-db05-35b9-8665-7457d16851c8
+[10:39:16] [Server thread/INFO]: VIP[/[0:0:0:0:0:0:0:1%0]:34316] logged in with entity id 494 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:39:24] [Craft Scheduler Thread - 143/INFO]: [AuthMe] VIP logged in 0:0:0:0:0:0:0:1%0
+[10:39:39] [Async Chat Thread - #1/INFO]: <[VIP] VIP> hi
+[10:39:40] [Async Chat Thread - #1/INFO]: <[VIP] VIP> anuj
+[10:39:51] [Server thread/INFO]: VIP issued server command: /spawn
+[10:40:47] [Server thread/INFO]: Bored ? Try out /warp pvp1
+[10:40:48] [Server thread/INFO]: VIP lost connection: Disconnected
+[10:40:48] [Server thread/INFO]: VIP left the game
+[10:40:57] [User Authenticator #3/INFO]: UUID of player VIP is 1bafaf9c-db05-35b9-8665-7457d16851c8
+[10:40:58] [Server thread/INFO]: VIP[/[0:0:0:0:0:0:0:1%0]:36558] logged in with entity id 4632 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:41:11] [Craft Scheduler Thread - 156/INFO]: [AuthMe] VIP logged in 0:0:0:0:0:0:0:1%0
+[10:41:37] [Async Chat Thread - #2/INFO]: <[VIP] VIP> wsp
+[10:42:01] [Server thread/INFO]: [Essentials] CommandBlock at -64,65,237 issued server command: /warp shop VIP
+[10:42:33] [Server thread/INFO]: VIP issued server command: /bal
+[10:42:50] [User Authenticator #4/INFO]: UUID of player _parasog_ is 108d8a1f-e9dd-39b5-89d3-1e8a2a9bd836
+[10:42:51] [Server thread/INFO]: _parasog_[/[0:0:0:0:0:0:0:1%0]:33284] logged in with entity id 11890 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:42:57] [Async Chat Thread - #3/INFO]: <[VIP] VIP> wsp
+[10:43:01] [Server thread/INFO]: VIP issued server command: /kit
+[10:43:04] [Craft Scheduler Thread - 162/INFO]: [AuthMe] _parasog_ logged in 0:0:0:0:0:0:0:1%0
+[10:43:06] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> wsp
+[10:43:10] [Async Chat Thread - #3/INFO]: <[VIP] VIP> paras
+[10:43:11] [Async Chat Thread - #3/INFO]: <[VIP] VIP> sun na
+[10:43:13] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> tp me for free village
+[10:43:15] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> hn
+[10:43:17] [Async Chat Thread - #3/INFO]: <[VIP] VIP> mujhe refund krna hai
+[10:43:22] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> kika
+[10:43:26] [Server thread/INFO]: VIP issued server command: /tpa _par
+[10:43:28] [Server thread/INFO]: _parasog_ issued server command: /tpyes
+[10:43:39] [Async Chat Thread - #3/INFO]: <[VIP] VIP> paras maine Hacker tag lioya hai usk
+[10:43:45] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> bruh
+[10:43:46] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> tp
+[10:43:49] [Server thread/INFO]: _parasog_ issued server command: /warp tags
+[10:43:53] [Server thread/INFO]: VIP issued server command: /tpa +paras
+[10:43:56] [Server thread/INFO]: _parasog_ issued server command: /tpyes
+[10:44:02] [Craft Scheduler Thread - 163/INFO]: [Metrics] Connection refused
+[10:44:03] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> tp
+[10:44:07] [Server thread/INFO]: Check out new tags in /warp tags
+[10:44:09] [Server thread/INFO]: VIP issued server command: /tpa _paras
+[10:44:13] [Server thread/INFO]: _parasog_ issued server command: /tpyes
+[10:44:14] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> dekh
+[10:44:21] [Server thread/INFO]: _parasog_ issued server command: /spec
+[10:44:31] [Async Chat Thread - #3/INFO]: <[VIP] VIP> prr paise bhi chaiye mujhe
+[10:44:50] [Server thread/INFO]: _parasog_ issued server command: /gamemode survival
+[10:44:52] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> tp
+[10:44:53] [User Authenticator #5/INFO]: UUID of player H1cker is 3ca6c1ec-73c0-34e5-92e1-33a161ed1162
+[10:44:54] [Server thread/INFO]: H1cker[/[0:0:0:0:0:0:0:1%0]:59524] logged in with entity id 12875 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:44:57] [User Authenticator #5/INFO]: UUID of player Cloudyy__me_ is bce22c03-2c8e-3ba6-a79a-94a274fb9443
+[10:44:58] [Server thread/INFO]: VIP issued server command: /tpa _para
+[10:44:58] [Server thread/INFO]: Cloudyy__me_[/[0:0:0:0:0:0:0:1%0]:59554] logged in with entity id 12956 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:45:05] [Server thread/INFO]: _parasog_ issued server command: /tpyes
+[10:45:07] [Craft Scheduler Thread - 170/INFO]: [AuthMe] H1cker logged in 0:0:0:0:0:0:0:1%0
+[10:45:10] [Craft Scheduler Thread - 170/INFO]: [AuthMe] Cloudyy__me_ logged in 0:0:0:0:0:0:0:1%0
+[10:45:10] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> huh
+[10:45:16] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> Cloudyy__me_ henno
+[10:45:20] [Async Chat Thread - #3/INFO]: <[Noob] Cloudyy__me_> hii
+[10:45:26] [Server thread/INFO]: Cloudyy__me_ issued server command: /spawn
+[10:45:27] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> its ur nowe
+[10:45:32] [Async Chat Thread - #3/INFO]: <[VIP] VIP> prr paise bhi chaiye mujhe
+[10:45:33] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> as a gift :>
+[10:45:39] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> is ko sell kr dena
+[10:45:41] [Server thread/INFO]: _parasog_ issued server command: /spawn
+[10:45:44] [Async Chat Thread - #3/INFO]: <[Noob] Cloudyy__me_> oi mujhe vip chaiye kha se lu
+[10:45:46] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> sofi
+[10:45:55] [Async Chat Thread - #3/INFO]: <[Noob] Cloudyy__me_> han
+[10:45:59] [Server thread/INFO]: _parasog_ issued server command: /bal Cloudyy__me_
+[10:46:01] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> tp
+[10:46:03] [Server thread/INFO]: _parasog_ issued server command: /warp tags
+[10:46:09] [Server thread/INFO]: Cloudyy__me_ issued server command: /tpa _parasog_
+[10:46:10] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> sofi
+[10:46:12] [Server thread/INFO]: _parasog_ issued server command: /tpyes
+[10:46:15] [Server thread/INFO]: VIP issued server command: /tpa _para
+[10:46:18] [Server thread/INFO]: _parasog_ issued server command: /tpyes
+[10:46:21] [Async Chat Thread - #3/INFO]: <[VIP] VIP> paras
+[10:46:23] [Async Chat Thread - #3/INFO]: <[Noob] Cloudyy__me_> boloo
+[10:46:27] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> oh sory ye tags hai
+[10:46:30] [Async Chat Thread - #3/INFO]: <[VIP] VIP> mujhe de na refund
+[10:46:33] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> ../warp shop kro
+[10:46:35] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> i cnt
+[10:46:36] [Server thread/INFO]: VIP issued server command: /bal _paras
+[10:46:39] [Server thread/INFO]: Cloudyy__me_ issued server command: /warp shop
+[10:46:42] [Server thread/INFO]: _parasog_ issued server command: /warp shop
+[10:46:43] [Async Chat Thread - #3/INFO]: <[VIP] VIP> T_T
+[10:46:50] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> H_H
+[10:46:52] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> huh
+[10:46:56] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> &6&l gfd
+[10:46:57] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> ye hai lelo
+[10:47:06] [Server thread/INFO]: VIP issued server command: /tpa _par
+[10:47:09] [Server thread/INFO]: _parasog_ issued server command: /tpyes
+[10:47:11] [Async Chat Thread - #3/INFO]: <[Noob] Cloudyy__me_> isme kuch orr bhi hai ?
+[10:47:11] [Server thread/INFO]: _parasog_ issued server command: /bal Cloudyy__me_
+[10:47:17] [Async Chat Thread - #3/INFO]: <[VIP] VIP> ww
+[10:47:19] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> mtlb
+[10:47:19] [Server thread/INFO]: [ServerSigns] Executing command: lp user Cloudyy__me_ parent addtemp VIP 3mo
+[10:47:19] [luckperms-command-executor/INFO]: [LP] cloudyy__me_ now inherits permissions from vip for a duration of 3 months in context global.
+[10:47:25] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> is pe kro
+[10:47:27] [Server thread/INFO]: XXX
+[10:47:29] [Server thread/INFO]: H1cker lost connection: Disconnected
+[10:47:29] [Server thread/INFO]: H1cker left the game
+[10:47:33] [Async Chat Thread - #3/INFO]: <[VIP] VIP> anuj
+[10:47:36] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> ,
+[10:47:37] [Async Chat Thread - #3/INFO]: <[VIP] VIP> refund krke dega
+[10:47:39] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> han
+[10:47:48] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> aab kro
+[10:47:48] [Server thread/INFO]: Cloudyy__me_ issued server command: /ifo colors
+[10:47:48] [Server thread/INFO]: [Essentials] Cloudyy__me_ was denied access to command.
+[10:47:55] [Server thread/INFO]: Cloudyy__me_ issued server command: /nick
+[10:47:59] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> ./nick 23&
+[10:48:02] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> jo bhi krna hai
+[10:48:08] [Server thread/INFO]: Cloudyy__me_ issued server command: /nick 23&
+[10:48:16] [Async Chat Thread - #3/INFO]: <[VIP] VIP>  &khasjkdhajshdjashd
+[10:48:23] [Async Chat Thread - #3/INFO]: <[VIP] VIP>  &k hasjkdhajshdjashd
+[10:48:26] [Async Chat Thread - #3/INFO]: <[VIP] VIP> anuj
+[10:48:31] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> vip jhan2
+[10:48:34] [Async Chat Thread - #3/INFO]: <[VIP] VIP> mujhe refund krna hai
+[10:48:36] [Server thread/INFO]: Cloudyy__me_ issued server command: /nick Cloudyy__me_
+[10:48:39] [Async Chat Thread - #3/INFO]: <[VIP] VIP> abe
+[10:48:40] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> abe
+[10:48:43] [Async Chat Thread - #3/INFO]: <[VIP] VIP>  abe sale
+[10:48:43] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> wahan dekh na
+[10:48:47] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> nhi hota
+[10:48:48] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> aree color kese krte h
+[10:48:53] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> ./nick
+[10:48:57] [Server thread/INFO]: Cloudyy__me_ issued server command: /nick
+[10:49:08] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> v
+[10:49:11] [Async Chat Thread - #3/INFO]: <[VIP] VIP> anuj mujhe tag wapis krna hai prr refund bhi chaiye
+[10:49:21] [User Authenticator #6/INFO]: UUID of player H1cker is 3ca6c1ec-73c0-34e5-92e1-33a161ed1162
+[10:49:21] [Server thread/INFO]: H1cker[/[0:0:0:0:0:0:0:1%0]:37488] logged in with entity id 24768 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:49:22] [Async Chat Thread - #3/INFO]: <[VIP] VIP> anuj mujhe tag wapis krna hai prr refund bhi chaiye
+[10:49:22] [Server thread/INFO]: Cloudyy__me_ issued server command: /ifo colors
+[10:49:22] [Server thread/INFO]: [Essentials] Cloudyy__me_ was denied access to command.
+[10:49:27] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> idh access
+[10:49:36] [Craft Scheduler Thread - 184/INFO]: [AuthMe] H1cker logged in 0:0:0:0:0:0:0:1%0
+[10:49:43] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> huh
+[10:49:45] [Server thread/INFO]: Cloudyy__me_ issued server command: /nick
+[10:49:56] [Server thread/INFO]: Cloudyy__me_ issued server command: /help
+[10:49:59] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> help
+[10:50:00] [Server thread/INFO]: _parasog_ issued server command: /msg VIP i can do /spectate me help kr sakta hu rich banne me :>
+[10:50:03] [Server thread/INFO]: Cloudyy__me_ lost connection: Disconnected
+[10:50:03] [Server thread/INFO]: Cloudyy__me_ left the game
+[10:50:04] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> arey
+[10:50:11] [User Authenticator #6/INFO]: UUID of player Cloudyy__me_ is bce22c03-2c8e-3ba6-a79a-94a274fb9443
+[10:50:12] [Server thread/INFO]: Cloudyy__me_[/[0:0:0:0:0:0:0:1%0]:51218] logged in with entity id 28032 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:50:16] [Server thread/INFO]: _parasog_ issued server command: /duel send VIP end
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give VIP 298 1
+[10:50:18] [Server thread/INFO]: Giving 1 of leather helmet to [VIP] VIP.
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give VIP 299 1
+[10:50:18] [Server thread/INFO]: Giving 1 of leather chestplate to [VIP] VIP.
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give VIP 300 1
+[10:50:18] [Server thread/INFO]: Giving 1 of leather leggings to [VIP] VIP.
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give VIP 301 1
+[10:50:18] [Server thread/INFO]: Giving 1 of leather boots to [VIP] VIP.
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give VIP 268 1
+[10:50:18] [Server thread/INFO]: Giving 1 of wood sword to [VIP] VIP.
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 298 1
+[10:50:18] [Server thread/INFO]: Giving 1 of leather helmet to [Moderator]_parasog_.
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 299 1
+[10:50:18] [Server thread/INFO]: Giving 1 of leather chestplate to [Moderator]_parasog_.
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 300 1
+[10:50:18] [Server thread/INFO]: Giving 1 of leather leggings to [Moderator]_parasog_.
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 301 1
+[10:50:18] [Server thread/INFO]: Giving 1 of leather boots to [Moderator]_parasog_.
+[10:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 268 1
+[10:50:18] [Server thread/INFO]: Giving 1 of wood sword to [Moderator]_parasog_.
+[10:50:19] [Craft Scheduler Thread - 190/INFO]: [AuthMe] Cloudyy__me_ logged in 0:0:0:0:0:0:0:1%0
+[10:50:33] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> chi yar net bhi sahi se nhi chal rha
+[10:50:47] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
+[10:50:50] [Server thread/INFO]: Cloudyy__me_ issued server command: /ifo colors
+[10:50:50] [Server thread/INFO]: [Essentials] Cloudyy__me_ was denied access to command.
+[10:50:54] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give VIP 267 1
+[10:50:54] [Server thread/INFO]: Giving 1 of iron sword to [VIP] VIP.
+[10:50:54] [Server thread/INFO]: [DuelMe] _parasog_ was killed in a duel by VIP!
+[10:50:55] [Server thread/INFO]: Cloudyy__me_ issued server command: /nick
+[10:51:01] [Async Chat Thread - #3/INFO]: <[VIP] VIP> ehhee
+[10:51:10] [Server thread/INFO]: VIP issued server command: /spectate
+[10:51:11] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> oye color name kese krte h
+[10:51:15] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> kro
+[10:51:17] [Server thread/INFO]: VIP issued server command: /gamemode creative
+[10:51:17] [Server thread/INFO]: [Essentials] VIP was denied access to command.
+[10:51:23] [Async Chat Thread - #3/INFO]: <[VIP] VIP> cloudyy
+[10:51:28] [Server thread/INFO]: Cloudyy__me_ issued server command: /help
+[10:51:29] [Async Chat Thread - #3/INFO]: <[VIP] VIP> dp ./nick
+[10:51:32] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> ./nick  Cloudyy__me_
+[10:51:35] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> ease
+[10:51:37] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> aaghe
+[10:51:46] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> fir iska code bhi hota hoga
+[10:51:49] [Server thread/INFO]: VIP issued server command: /spectate
+[10:51:51] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> hota
+[10:51:54] [Server thread/INFO]: VIP issued server command: /spectate
+[10:51:56] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> ./ifo colors
+[10:52:00] [Server thread/INFO]: _parasog_ issued server command: /ifo colors
+[10:52:00] [Server thread/INFO]: [Essentials] _parasog_ was denied access to command.
+[10:52:00] [Server thread/INFO]: VIP issued server command: /gamemode spectator
+[10:52:00] [Server thread/INFO]: [Essentials] VIP was denied access to command.
+[10:52:02] [Server thread/INFO]: Cloudyy__me_ issued server command: /ifo colors
+[10:52:02] [Server thread/INFO]: [Essentials] Cloudyy__me_ was denied access to command.
+[10:52:08] [Server thread/INFO]: VIP issued server command: /ifo colors
+[10:52:08] [Server thread/INFO]: [Essentials] VIP was denied access to command.
+[10:52:12] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> idh access to this comand
+[10:52:14] [Server thread/INFO]: VIP issued server command: /ifo colors
+[10:52:14] [Server thread/INFO]: [Essentials] VIP was denied access to command.
+[10:52:17] [Async Chat Thread - #3/INFO]: <[VIP] VIP> hmm
+[10:52:18] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> arey
+[10:52:20] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> hn
+[10:52:26] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> tp
+[10:52:29] [Server thread/INFO]: _parasog_ issued server command: /home home
+[10:52:31] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> i have book
+[10:52:32] [Server thread/INFO]: Cloudyy__me_ issued server command: /tpa _parasog_
+[10:52:35] [Server thread/INFO]: _parasog_ issued server command: /colors
+[10:52:36] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> s
+[10:52:38] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> s
+[10:52:44] [Server thread/INFO]: _parasog_ issued server command: /kit artmap
+[10:52:47] [Async Chat Thread - #3/INFO]: <[VIP] VIP> kaha hai
+[10:52:50] [Async Chat Thread - #3/INFO]: <[VIP] VIP> anuj kaha hao
+[10:52:53] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> arey shit
+[10:52:53] [Async Chat Thread - #3/INFO]: <[VIP] VIP> ha
+[10:52:57] [Async Chat Thread - #3/INFO]: <[VIP] VIP> aswanth
+[10:53:02] [Async Chat Thread - #3/INFO]: <[VIP] VIP> pro bro
+[10:53:07] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> pro ./ifo colors not working
+[10:53:07] [Async Chat Thread - #3/INFO]: <[VIP] VIP> refund de n alzz
+[10:53:09] [Async Chat Thread - #3/INFO]: <[VIP] VIP> plzz
+[10:53:15] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> is id ka
+[10:53:27] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> 50000 dede
+[10:53:30] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> aur ye tag le
+[10:53:36] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> aur ye tag le mera
+[10:53:37] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> hmm
+[10:53:42] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> 50000 dede
+[10:53:44] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> nahh
+[10:53:47] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> H1cker ka
+[10:53:53] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> anuj nahi
+[10:53:54] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> H1cker ka
+[10:54:03] [Craft Scheduler Thread - 200/INFO]: [Metrics] Connection refused
+[10:54:07] [Server thread/INFO]: :)
+[10:54:09] [Server thread/INFO]: H1cker issued server command: /warp tags
+[10:54:14] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> hmm
+[10:54:21] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> okk
+[10:54:29] [Async Chat Thread - #3/INFO]: <[Hacker]H1cker> hmm
+[10:54:34] [Server thread/INFO]: [ServerSigns] Executing command: lp user H1cker meta clear prefixes
+[10:54:34] [Server thread/INFO]: [LP] Another command is being executed, waiting for it to finish...
+[10:54:34] [luckperms-command-executor/INFO]: [LP] h1cker's meta matching type prefix was cleared in context global. (1 node was removed.)
+[10:54:36] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> hmm
+[10:54:39] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> sad
+[10:54:41] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> aaaa
+[10:54:45] [Server thread/INFO]: Cloudyy__me_ issued server command: /bal VIP
+[10:54:51] [Async Chat Thread - #3/INFO]: <[VIP] VIP> ho gya
+[10:54:52] [Server thread/INFO]: Cloudyy__me_ issued server command: /baltop
+[10:54:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco give H1cker 50000
+[10:54:57] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> hmm
+[10:55:06] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> thanks
+[10:55:09] [Server thread/INFO]: _parasog_ issued server command: /spawn
+[10:55:10] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> thoda aur dede
+[10:55:14] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> na paisa
+[10:55:17] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> T_T
+[10:55:17] [Async Chat Thread - #3/INFO]: <[Moderator]_parasog_> im lagging here
+[10:55:31] [Server thread/INFO]: H1cker issued server command: /pay VIP 50000
+[10:55:31] [Server thread/INFO]: _parasog_ issued server command: /duel send Cloudyy__me_ up
+[10:55:37] [Server thread/INFO]: VIP issued server command: /bal
+[10:55:38] [Server thread/INFO]: Cloudyy__me_ issued server command: /baltop 2
+[10:55:38] [Server thread/INFO]: _parasog_ issued server command: /duel send Cloudyy__me_ end
+[10:55:42] [Server thread/INFO]: VIP issued server command: /baltop
+[10:55:50] [Server thread/INFO]: VIP issued server command: /baltop
+[10:55:58] [Server thread/INFO]: _parasog_ lost connection: Disconnected
+[10:55:58] [Server thread/INFO]: _parasog_ left the game
+[10:56:04] [Server thread/INFO]: VIP lost connection: Disconnected
+[10:56:04] [Server thread/INFO]: VIP left the game
+[10:56:08] [Server thread/INFO]: Cloudyy__me_ issued server command: /baltop 3
+[10:56:10] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> pr bro
+[10:56:18] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> mujhe 50000 deg T_T
+[10:56:22] [Async Chat Thread - #3/INFO]: <[Noob] H1cker> heheh
+[10:56:26] [Server thread/INFO]: Cloudyy__me_ issued server command: /baltop 4
+[10:56:32] [User Authenticator #7/INFO]: UUID of player VIP is 1bafaf9c-db05-35b9-8665-7457d16851c8
+[10:56:32] [Server thread/INFO]: Cloudyy__me_ issued server command: /bal
+[10:56:32] [Server thread/INFO]: VIP[/[0:0:0:0:0:0:0:1%0]:36624] logged in with entity id 44795 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[10:56:34] [Server thread/INFO]: H1cker lost connection: Disconnected
+[10:56:34] [Server thread/INFO]: H1cker left the game
+[10:56:45] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> tum sabke pas itne pese kese ?
+[10:56:46] [Craft Scheduler Thread - 210/INFO]: [AuthMe] VIP logged in 0:0:0:0:0:0:0:1%0
+[10:56:50] [Async Chat Thread - #3/INFO]: <[VIP] VIP> hmm
+[10:56:53] [Server thread/INFO]: VIP issued server command: /baltop
+[10:57:07] [Async Chat Thread - #3/INFO]: <[VIP] VIP> ha fr
+[10:57:14] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> mujhe nhi bataya ye serve ke baare mai :
+[10:57:27] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
+[10:57:34] [Async Chat Thread - #3/INFO]: <[VIP] VIP> mujhe nahi diya abb tak
+[10:57:38] [Async Chat Thread - #3/INFO]: <[VIP] VIP> free me
+[10:57:42] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> han
+[10:57:57] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> ye server banane mai kitna time laga
+[10:57:58] [Async Chat Thread - #3/INFO]: <[VIP] VIP> mujhe to nahi diye
+[10:58:07] [Async Chat Thread - #3/INFO]: <[VIP] VIP> anuj
+[10:58:12] [Async Chat Thread - #3/INFO]: <[VIP] VIP> tu khelta hai ye server
+[10:58:14] [Server thread/INFO]: Cloudyy__me_ issued server command: /spawn
+[10:58:24] [Server thread/INFO]: [Essentials] Created a User for Server (731e3dac-8651-219e-b88b-5a2416073c33) for non Bukkit type: net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC$PlayerNPC
+[10:58:28] [Async Chat Thread - #3/INFO]: <[VIP] VIP> okk
+[10:58:55] [Async Chat Thread - #3/INFO]: <[VIP] VIP> okk
+[10:58:59] [Server thread/INFO]: VIP issued server command: /baltop
+[10:59:06] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> vip tera base hai
+[10:59:09] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> ?
+[10:59:16] [Async Chat Thread - #3/INFO]: <[VIP] VIP> sala pro_bro raigbait kr rha hai
+[10:59:20] [Async Chat Thread - #3/INFO]: <[VIP] VIP> cloudyy nahi
+[10:59:24] [Server thread/INFO]: VIP issued server command: /spawn
+[10:59:28] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> toh armor kha se ay
+[10:59:46] [Server thread/INFO]: VIP issued server command: /msg cloudyy buy krna pdta hai
+[10:59:54] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> kitne mai
+[10:59:57] [Async Chat Thread - #3/INFO]: <[VIP] VIP> ruko
+[11:00:01] [Async Chat Thread - #3/INFO]: <[VIP] VIP> 1500 mai
+[11:00:04] [Server thread/INFO]: VIP issued server command: /warp shop
+[11:00:07] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> hm acha
+[11:00:08] [Server thread/INFO]: VIP issued server command: /bal cloudyy
+[11:00:19] [Async Chat Thread - #3/INFO]: <[VIP] VIP> bye
+[11:00:20] [Async Chat Thread - #3/INFO]: <[VIP] VIP> gtg
+[11:00:23] [Server thread/INFO]: VIP lost connection: Disconnected
+[11:00:23] [Server thread/INFO]: VIP left the game
+[11:00:25] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> chlo mai ja rhi
+[11:00:26] [Async Chat Thread - #3/INFO]: <[VIP] Cloudyy__me_> bye
+[11:00:27] [Server thread/INFO]: Cloudyy__me_ lost connection: Disconnected
+[11:00:27] [Server thread/INFO]: Cloudyy__me_ left the game
+[11:00:47] [Server thread/INFO]: :) 
+[11:04:03] [Craft Scheduler Thread - 237/INFO]: [Metrics] Connection refused
+[11:04:07] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
+[11:07:27] [Server thread/INFO]: Bored ? Try out /warp pvp1
+[11:10:47] [Server thread/INFO]: Check out new tags in /warp tags
+[11:14:03] [Craft Scheduler Thread - 277/INFO]: [Metrics] Connection refused
+[11:14:07] [Server thread/INFO]: XXX
+[11:17:27] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
+[11:18:27] [User Authenticator #8/INFO]: UUID of player VIP is 1bafaf9c-db05-35b9-8665-7457d16851c8
+[11:18:28] [Server thread/INFO]: VIP[/[0:0:0:0:0:0:0:1%0]:47856] logged in with entity id 62332 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[11:18:34] [Craft Scheduler Thread - 295/INFO]: [AuthMe] VIP logged in 0:0:0:0:0:0:0:1%0
+[11:18:41] [Async Chat Thread - #4/INFO]: <[VIP] VIP> wh
+[11:18:45] [Async Chat Thread - #4/INFO]: <[VIP] VIP> hii
+[11:19:00] [Async Chat Thread - #4/INFO]: <[VIP] VIP> nice
+[11:19:06] [Async Chat Thread - #4/INFO]: <[VIP] VIP> anuj
+[11:20:36] [Async Chat Thread - #5/INFO]: <[VIP] VIP> tell pro bro to add [Prmium] tag in 10000$
+[11:20:44] [Async Chat Thread - #5/INFO]: <[VIP] VIP> tell pro bro to add [Premium] tag in 10000$
+[11:20:47] [Server thread/INFO]: :)
+[11:21:08] [Async Chat Thread - #5/INFO]: <[VIP] VIP> tell pro bro to add [Premium] tag in 10000$
+[11:21:14] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ye
+[11:21:16] [Async Chat Thread - #5/INFO]: <[VIP] VIP> tell pro bro to add [Premium] tag in 10000$
+[11:21:22] [Async Chat Thread - #5/INFO]: <[VIP] VIP> anuj ?
+[11:21:31] [Async Chat Thread - #5/INFO]: <[VIP] VIP> tell pro bro to add [Premium] tag in 10000$
+[11:21:39] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ye
+[11:21:42] [Async Chat Thread - #5/INFO]: <[VIP] VIP> huh
+[11:21:48] [Async Chat Thread - #5/INFO]: <[VIP] VIP> i can be co_owner
+[11:22:02] [Async Chat Thread - #5/INFO]: <[VIP] VIP> anuj nahh 2 months atleast
+[11:22:24] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ye
+[11:22:40] [Server thread/INFO]: VIP issued server command: /kit
+[11:23:14] [Async Chat Thread - #5/INFO]: <[VIP] VIP> huhh
+[11:23:22] [Async Chat Thread - #5/INFO]: <[VIP] VIP> iam exploring spawn
+[11:23:24] [Server thread/INFO]: VIP issued server command: /spawn
+[11:23:42] [User Authenticator #9/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[11:23:42] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:49984] logged in with entity id 85654 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[11:23:49] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ww
+[11:23:52] [Async Chat Thread - #5/INFO]: <[VIP] VIP> vex42
+[11:23:53] [Async Chat Thread - #5/INFO]: <[VIP] VIP> wsp
+[11:24:01] [Craft Scheduler Thread - 312/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[11:24:03] [Craft Scheduler Thread - 314/INFO]: [Metrics] Connection refused
+[11:24:06] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> fine
+[11:24:08] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
+[11:24:09] [Server thread/INFO]: VIP issued server command: /rg info
+[11:24:10] [Server thread/INFO]: Vex42 issued server command: /spawn
+[11:24:21] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ye
+[11:24:25] [Async Chat Thread - #5/INFO]: <[VIP] VIP> congrats
+[11:24:28] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> ik
+[11:24:43] [Server thread/INFO]: VIP issued server command: /rg info
+[11:24:50] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> bye
+[11:24:51] [Async Chat Thread - #5/INFO]: <[VIP] VIP> vex
+[11:24:53] [Async Chat Thread - #5/INFO]: <[VIP] VIP> wait
+[11:24:54] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> kk
+[11:24:58] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> wht
+[11:24:58] [Async Chat Thread - #5/INFO]: <[VIP] VIP> vec
+[11:25:03] [Async Chat Thread - #5/INFO]: <[VIP] VIP> i need this rg
+[11:25:03] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> yes
+[11:25:05] [Async Chat Thread - #5/INFO]: <[VIP] VIP> tpa
+[11:25:11] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> oh
+[11:25:16] [Async Chat Thread - #5/INFO]: <[VIP] VIP> thsi
+[11:25:19] [Async Chat Thread - #5/INFO]: <[VIP] VIP> this
+[11:25:29] [Async Chat Thread - #5/INFO]: <[VIP] VIP> can u add me
+[11:25:31] [Async Chat Thread - #5/INFO]: <[VIP] VIP> owner
+[11:25:35] [Server thread/INFO]: VIP issued server command: /rg info
+[11:25:45] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> i will register your rg and then you will pay
+[11:25:51] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> tmrw it will be yours
+[11:26:07] [Async Chat Thread - #5/INFO]: <[VIP] VIP> how much shouuld i pay
+[11:26:09] [Server thread/INFO]: VIP issued server command: /
+[11:26:21] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> thats the process of registration
+[11:26:24] [Async Chat Thread - #5/INFO]: <[VIP] VIP> will PRO_BRO will make it free for me
+[11:26:34] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> around i guess 5-6k
+[11:26:37] [Server thread/INFO]: Vex42 issued server command: /bal vip
+[11:26:41] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> or more
+[11:26:45] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> lemme check
+[11:26:52] [Server thread/INFO]: Vex42 issued server command: /rg info
+[11:26:59] [Server thread/INFO]: Vex42 issued server command: /rg info rg1
+[11:27:06] [Server thread/INFO]: Vex42 issued server command: /rg info
+[11:27:11] [Async Chat Thread - #5/INFO]: <[VIP] VIP> T_T
+[11:27:13] [Server thread/INFO]: VIP issued server command: /baltop
+[11:27:19] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> its sold to critical
+[11:27:21] [Async Chat Thread - #5/INFO]: <[VIP] VIP> Moderator
+[11:27:24] [Async Chat Thread - #5/INFO]: <[VIP] VIP> T_T
+[11:27:27] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ahh
+[11:27:28] [Server thread/INFO]: :) 
+[11:27:39] [Async Chat Thread - #5/INFO]: <[VIP] VIP> Vex
+[11:27:43] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> hmm?
+[11:27:44] [Async Chat Thread - #5/INFO]: <[VIP] VIP> can i have /fly
+[11:27:46] [Server thread/INFO]: VIP issued server command: /fly
+[11:27:46] [Server thread/INFO]: [Essentials] VIP was denied access to command.
+[11:28:01] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> thats disabled for all rn
+[11:28:06] [Async Chat Thread - #5/INFO]: <[VIP] VIP> umm
+[11:28:06] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> i am in creative
+[11:28:10] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ohh
+[11:28:14] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> cuz I am building
+[11:28:17] [Async Chat Thread - #5/INFO]: <[VIP] VIP> gimme diamonds
+[11:28:24] [Async Chat Thread - #5/INFO]: <[VIP] VIP> gimme diamonds T_T
+[11:28:28] [Server thread/INFO]: VIP has made the advancement [Diamonds!]
+[11:28:31] [Async Chat Thread - #5/INFO]: <[VIP] VIP> huh
+[11:28:33] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> wtf
+[11:28:34] [Async Chat Thread - #5/INFO]: <[VIP] VIP> just 5
+[11:28:35] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> how
+[11:28:39] [Server thread/INFO]: VIP issued server command: /tpa vex
+[11:28:40] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> u have 55k
+[11:28:43] [Server thread/INFO]: Vex42 issued server command: /tpaccept
+[11:28:49] [Server thread/INFO]: VIP issued server command: /tpa vex
+[11:28:50] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> and no dims till now
+[11:28:52] [Server thread/INFO]: Vex42 issued server command: /tpaccept
+[11:28:53] [Async Chat Thread - #5/INFO]: <[VIP] VIP> what abt 64
+[11:29:04] [Async Chat Thread - #5/INFO]: <[VIP] VIP> hehhehe
+[11:29:05] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> thats againts my policy
+[11:29:08] [Async Chat Thread - #5/INFO]: <[VIP] VIP> jk
+[11:29:11] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> i have to pay then
+[11:29:16] [Async Chat Thread - #5/INFO]: <[VIP] VIP> hmm
+[11:29:29] [Server thread/INFO]: VIP issued server command: /rg info
+[11:29:56] [Async Chat Thread - #5/INFO]: <[VIP] VIP> vex give me a free rg f u can
+[11:30:08] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> rg are managed my pro bro
+[11:30:14] [Async Chat Thread - #5/INFO]: <[VIP] VIP> yehh
+[11:30:16] [Async Chat Thread - #5/INFO]: <[VIP] VIP> T_T
+[11:30:19] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> i am manager of econmy and builds
+[11:30:25] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ye
+[11:30:32] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> and plugins bugs
+[11:30:46] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ill ask pro bro for it and /fly
+[11:30:48] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
+[11:30:52] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> ok
+[11:30:52] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ill ask pro bro for it and /fly for me only
+[11:31:06] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> he had it once
+[11:31:11] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ye
+[11:31:16] [Async Chat Thread - #5/INFO]: <[VIP] VIP> vex
+[11:31:23] [Async Chat Thread - #5/INFO]: <[VIP] VIP> can u fix 1 prblem
+[11:31:31] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> wht
+[11:31:41] [Async Chat Thread - #5/INFO]: <[VIP] VIP> do /kit bow
+[11:31:50] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> hmm
+[11:31:52] [Async Chat Thread - #5/INFO]: <[VIP] VIP> do /kit bow its unlimited times we can do
+[11:31:53] [Server thread/INFO]: Vex42 issued server command: /kit bow
+[11:31:55] [Server thread/INFO]: VIP issued server command: /kit bow
+[11:31:59] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> oh
+[11:32:00] [Server thread/INFO]: VIP issued server command: /kit bow
+[11:32:04] [Server thread/INFO]: VIP issued server command: /kit bow
+[11:32:05] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> thats a code issue
+[11:32:05] [Server thread/INFO]: VIP issued server command: /kit bow
+[11:32:07] [Server thread/INFO]: VIP issued server command: /kit bow
+[11:32:09] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> he coded wrong again
+[11:32:09] [Async Chat Thread - #5/INFO]: <[VIP] VIP> see
+[11:32:15] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> I will fix that
+[11:32:22] [Async Chat Thread - #5/INFO]: <[VIP] VIP> hmm
+[11:32:27] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> this is ruin econmoy unkess
+[11:32:30] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> unless
+[11:32:33] [Async Chat Thread - #5/INFO]: <[VIP] VIP> yee
+[11:32:37] [Async Chat Thread - #5/INFO]: <[VIP] VIP> no one know it
+[11:32:40] [Async Chat Thread - #5/INFO]: <[VIP] VIP> atleast
+[11:32:42] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ik
+[11:32:44] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> lol
+[11:32:57] [Server thread/INFO]: VIP issued server command: /warp shop
+[11:33:07] [Server thread/INFO]: VIP issued server command: /spawn
+[11:33:20] [Async Chat Thread - #5/INFO]: <[VIP] VIP> vex
+[11:33:26] [Async Chat Thread - #5/INFO]: <[VIP] VIP> igtg
+[11:33:28] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> ?
+[11:33:28] [Async Chat Thread - #5/INFO]: <[VIP] VIP> byeee
+[11:33:30] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> ok
+[11:33:31] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> bye
+[11:33:34] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> take care
+[11:33:38] [Async Chat Thread - #5/INFO]: <[VIP] VIP> ye
+[11:33:42] [Async Chat Thread - #5/INFO]: <[VIP] VIP> styou
+[11:33:46] [Async Chat Thread - #5/INFO]: <[VIP] VIP> same to you
+[11:33:48] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> hmm
+[11:33:49] [Async Chat Thread - #5/INFO]: <[VIP] VIP> byeee
+[11:33:52] [Async Chat Thread - #5/INFO]: <[Moderator]Vex42> bye
+[11:33:54] [Server thread/INFO]: VIP lost connection: Disconnected
+[11:33:54] [Server thread/INFO]: VIP left the game
+[11:34:03] [Craft Scheduler Thread - 355/INFO]: [Metrics] Connection refused
+[11:34:08] [Server thread/INFO]: Bored ? Try out /warp pvp1
+[11:34:39] [Server thread/INFO]: Vex42 issued server command: /give @p commandblock
+[11:35:34] [Server thread/INFO]: Vex42 lost connection: Timed out
+[11:35:34] [Server thread/INFO]: Vex42 left the game
+[11:36:16] [User Authenticator #10/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[11:36:17] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:38954] logged in with entity id 140755 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[11:36:27] [Craft Scheduler Thread - 363/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[11:36:39] [Server thread/INFO]: [Essentials] CommandBlock at -29,67,251 issued server command: /give <player> minecraft:banner 1 1 {BlockEntityTag:{Base:1,Patterns:[{Pattern:"flo",Color:11}]}}
+[11:36:43] [Server thread/INFO]: [Essentials] CommandBlock at -29,67,251 issued server command: /give <player> minecraft:banner 1 1 {BlockEntityTag:{Base:1,Patterns:[{Pattern:"flo",Color:11}]}}
+[11:36:53] [Server thread/INFO]: [Essentials] CommandBlock at -29,67,251 issued server command: /give <player> minecraft:banner 1 1 {BlockEntityTag:{Base:1,Patterns:[{Pattern:"flo",Color:11}]}}
+[11:36:57] [Server thread/INFO]: Vex42 issued server command: /give <player> minecraft:banner 1 1 {BlockEntityTag:{Base:1,Patterns:[{Pattern:"flo",Color:11}]}}
+[11:37:28] [Server thread/INFO]: Check out new tags in /warp tags
+[11:37:59] [Server thread/INFO]: Vex42 lost connection: Timed out
+[11:37:59] [Server thread/INFO]: Vex42 left the game
+[11:38:16] [User Authenticator #11/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[11:38:17] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:43934] logged in with entity id 149771 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[11:38:23] [Craft Scheduler Thread - 373/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[11:38:25] [Server thread/INFO]: Vex42 issued server command: /give <player> banner 1 1 {BlockEntityTag:{Base:1,Patterns:[{Pattern:"flo",Color:11}]}}
+[11:38:29] [Server thread/INFO]: Vex42 issued server command: /give <player> banner 1 1 {BlockEntityTag:{Base:1,Patterns:[{Pattern:"flo",Color:11}]}}
+[11:38:37] [Server thread/INFO]: Vex42 issued server command: /give @p banner 1 1 {BlockEntityTag:{Base:1,Patterns:[{Pattern:"flo",Color:11}]}}
+[11:39:03] [Server thread/INFO]: Vex42 issued server command: /kit firework
+[11:39:13] [Server thread/INFO]: Vex42 issued server command: /time set nigh
+[11:39:15] [Server thread/INFO]: Vex42 issued server command: /time set night
+[11:39:39] [Server thread/INFO]: Vex42 issued server command: /kit color
+[11:39:55] [Server thread/INFO]: Vex42 issued server command: /kit notch
+[11:40:10] [Server thread/INFO]: Vex42 issued server command: /kit dtools
+[11:40:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast Vex42 just got some fancy tools!
+[11:40:25] [Server thread/INFO]: Vex42 issued server command: /kit artmap
+[11:40:29] [Server thread/INFO]: Vex42 issued server command: /kit tools
+[11:40:33] [Server thread/INFO]: Vex42 issued server command: /kit starter
+[11:40:33] [Server thread/INFO]: Vex42 has made the advancement [Isn't It Iron Pick]
+[11:40:48] [Server thread/INFO]: XXX
+[11:40:51] [Server thread/INFO]: Vex42 lost connection: Disconnected
+[11:40:51] [Server thread/INFO]: Vex42 left the game
+[11:43:03] [User Authenticator #12/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[11:43:03] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:54268] logged in with entity id 159520 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[11:43:11] [Craft Scheduler Thread - 388/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[11:44:03] [Craft Scheduler Thread - 391/INFO]: [Metrics] Connection refused
+[11:44:08] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
+[11:44:16] [Server thread/INFO]: Vex42 issued server command: /give <player> banner 1 1 {BlockEntityTag:{Base:2,Patterns:[{Pattern:"flo",Color:8}]}}
+[11:44:26] [Server thread/INFO]: Vex42 issued server command: /give @p banner 1 1 {BlockEntityTag:{Base:2,Patterns:[{Pattern:"flo",Color:8}]}}
+[11:45:37] [Server thread/INFO]: Vex42 issued server command: //set
+[11:45:43] [Server thread/INFO]: Vex42 issued server command: //wand
+[11:45:55] [Server thread/INFO]: Vex42 issued server command: //set sign
+[11:47:28] [Server thread/INFO]: :)
+[11:49:36] [Async Chat Thread - #6/INFO]: <[Moderator]Vex42> .
+[11:49:55] [Server thread/INFO]: Vex42 issued server command: /hd create niceowner
+[11:50:28] [Server thread/INFO]: Vex42 issued server command: /hd edit niceonwer &b&lServer Owner
+[11:50:35] [Server thread/INFO]: Vex42 issued server command: /hd edit niceowneer &b&lServer Owner
+[11:50:40] [Server thread/INFO]: Vex42 issued server command: /hd edit niceowner &b&lServer Owner
+[11:50:48] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
+[11:50:59] [Server thread/INFO]: Vex42 issued server command: /hd addline niceowner &b&lServer Owner
+[11:51:27] [Server thread/INFO]: Vex42 issued server command: /hd edit niceowner Vex42
+[11:52:10] [Server thread/INFO]: Vex42 issued server command: /hd remove niceowner
+[11:52:43] [Server thread/INFO]: Vex42 issued server command: /hd create owner &9&lServer Owner &7(very nice)
+[11:54:04] [Craft Scheduler Thread - 431/INFO]: [Metrics] Connection refused
+[11:54:07] [Async Chat Thread - #7/INFO]: <[Moderator]Vex42> .
+[11:54:08] [Server thread/INFO]: :) 
+[11:54:12] [Server thread/INFO]: Vex42 issued server command: /hd create hall &9&lServer Hall
+[11:54:39] [Server thread/INFO]: Vex42 issued server command: /hd addline hall &9&lBuilt By Vex42
+[11:57:28] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
+[11:58:21] [Server thread/INFO]: Vex42 issued server command: /walkspeed
+[11:58:30] [Server thread/INFO]: Vex42 issued server command: /waypoint
+[11:58:35] [Server thread/INFO]: Vex42 issued server command: /waypoint
+[11:59:12] [Server thread/INFO]: Vex42 issued server command: /setwarp hall
+[11:59:18] [Server thread/INFO]: Vex42 issued server command: /warp hall
+[11:59:27] [Server thread/INFO]: Vex42 issued server command: /hd
+[11:59:32] [Server thread/INFO]: Vex42 issued server command: /hd info
+[11:59:42] [Server thread/INFO]: Vex42 issued server command: /hd info warps
+[11:59:44] [Server thread/INFO]: Vex42 issued server command: /hd info warp
+[12:00:20] [Server thread/INFO]: Vex42 issued server command: /hd list
+[12:00:33] [Server thread/INFO]: Vex42 issued server command: /hd are
+[12:00:37] [Server thread/INFO]: Vex42 issued server command: /hd list2
+[12:00:41] [Server thread/INFO]: Vex42 issued server command: /hd list 2
+[12:00:49] [Server thread/INFO]: Bored ? Try out /warp pvp1
+[12:00:58] [User Authenticator #13/INFO]: UUID of player _parasog_ is 108d8a1f-e9dd-39b5-89d3-1e8a2a9bd836
+[12:00:59] [Server thread/INFO]: _parasog_[/[0:0:0:0:0:0:0:1%0]:41522] logged in with entity id 229121 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[12:01:04] [Craft Scheduler Thread - 458/INFO]: [AuthMe] _parasog_ used the wrong password
+[12:01:04] [Server thread/INFO]: _parasog_ lost connection: Wrong password!
+[12:01:04] [Server thread/INFO]: _parasog_ left the game
+[12:01:04] [Server thread/WARN]: handleDisconnection() called twice
+[12:01:07] [User Authenticator #13/INFO]: UUID of player _parasog_ is 108d8a1f-e9dd-39b5-89d3-1e8a2a9bd836
+[12:01:08] [Server thread/INFO]: _parasog_[/[0:0:0:0:0:0:0:1%0]:44440] logged in with entity id 229742 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[12:01:15] [Craft Scheduler Thread - 458/INFO]: [AuthMe] _parasog_ logged in 0:0:0:0:0:0:0:1%0
+[12:01:22] [Async Chat Thread - #8/INFO]: <[Moderator]_parasog_> sup
+[12:01:31] [Server thread/INFO]: Vex42 issued server command: /tp @p -40 71 220
+[12:01:33] [Async Chat Thread - #8/INFO]: <[Moderator]Vex42> fine
+[12:01:48] [Server thread/INFO]: Vex42 issued server command: /hd list
+[12:02:02] [Server thread/INFO]: _parasog_ issued server command: /fly
+[12:02:02] [Server thread/INFO]: [Essentials] _parasog_ was denied access to command.
+[12:02:05] [Async Chat Thread - #8/INFO]: <[Moderator]_parasog_> vex
+[12:02:11] [Async Chat Thread - #8/INFO]: <[Moderator]Vex42> hmm?
+[12:02:15] [Async Chat Thread - #8/INFO]: <[Moderator]_parasog_> how to fly
+[12:02:23] [Async Chat Thread - #8/INFO]: <[Moderator]Vex42> i am in creative
+[12:02:26] [Async Chat Thread - #8/INFO]: <[Moderator]_parasog_> ommg
+[12:02:31] [Async Chat Thread - #8/INFO]: <[Moderator]_parasog_> kuch dedo :
+[12:02:46] [Server thread/INFO]: Vex42 issued server command: /rg addline pv &9hall
+[12:02:58] [Async Chat Thread - #8/INFO]: <[Moderator]_parasog_> abe
+[12:03:04] [Server thread/INFO]: [Essentials] CommandBlock at -64,65,237 issued server command: /warp shop _parasog_
+[12:03:08] [Async Chat Thread - #8/INFO]: <[Moderator]Vex42> isse jyda mna h
+[12:03:20] [Server thread/INFO]: Vex42 issued server command: /hd addline pv &9hall
+[12:03:23] [Async Chat Thread - #8/INFO]: <[Moderator]_parasog_> pvp kre
+[12:03:24] [Async Chat Thread - #8/INFO]: <[Moderator]Vex42> hmm
+[12:03:28] [Async Chat Thread - #8/INFO]: <[Moderator]Vex42> kyu
+[12:03:35] [Server thread/INFO]: _parasog_ issued server command: /duel send Vex42 end
+[12:03:37] [Async Chat Thread - #8/INFO]: <[Moderator]_parasog_> bore
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give Vex42 298 1
+[12:03:39] [Server thread/INFO]: Giving 1 of leather helmet to [Moderator]Vex42.
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give Vex42 299 1
+[12:03:39] [Server thread/INFO]: Giving 1 of leather chestplate to [Moderator]Vex42.
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give Vex42 300 1
+[12:03:39] [Server thread/INFO]: Giving 1 of leather leggings to [Moderator]Vex42.
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give Vex42 301 1
+[12:03:39] [Server thread/INFO]: Giving 1 of leather boots to [Moderator]Vex42.
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give Vex42 268 1
+[12:03:39] [Server thread/INFO]: Giving 1 of wood sword to [Moderator]Vex42.
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 298 1
+[12:03:39] [Server thread/INFO]: Giving 1 of leather helmet to [Moderator]_parasog_.
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 299 1
+[12:03:39] [Server thread/INFO]: Giving 1 of leather chestplate to [Moderator]_parasog_.
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 300 1
+[12:03:39] [Server thread/INFO]: Giving 1 of leather leggings to [Moderator]_parasog_.
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 301 1
+[12:03:39] [Server thread/INFO]: Giving 1 of leather boots to [Moderator]_parasog_.
+[12:03:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 268 1
+[12:03:39] [Server thread/INFO]: Giving 1 of wood sword to [Moderator]_parasog_.
+[12:04:04] [Craft Scheduler Thread - 470/INFO]: [Metrics] Connection refused
+[12:04:09] [Server thread/INFO]: Check out new tags in /warp tags
+[12:04:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give _parasog_ 267 1
+[12:04:18] [Server thread/INFO]: Giving 1 of iron sword to [Moderator]_parasog_.
+[12:04:18] [Server thread/INFO]: [DuelMe] Vex42 was killed in a duel by _parasog_!
+[12:04:24] [Async Chat Thread - #8/INFO]: <[Moderator]_parasog_> xd
+[12:04:25] [Async Chat Thread - #8/INFO]: <[Moderator]Vex42> yay
+[12:04:29] [Async Chat Thread - #8/INFO]: <[Moderator]Vex42> you won
+[12:04:31] [Async Chat Thread - #8/INFO]: <[Moderator]Vex42> good
+[12:05:21] [Server thread/INFO]: Vex42 issued server command: /bal Vex42 set 70412
+[12:06:09] [Server thread/INFO]: Vex42 issued server command: /money set Vex42 70412
+[12:06:16] [Server thread/INFO]: Vex42 issued server command: /money set Vex42 70412
+[12:06:46] [Server thread/INFO]: Vex42 issued server command: /money set Vex42 71412
+[12:07:11] [Server thread/INFO]: Vex42 issued server command: /money give Vex42 1
+[12:07:20] [Server thread/INFO]: Vex42 issued server command: /money Vex42 give 1
+[12:07:29] [Server thread/INFO]: XXX
+[12:07:41] [Server thread/INFO]: Vex42 issued server command: /plugins
+[12:08:26] [Server thread/INFO]: Vex42 issued server command: /eco set Vex42 75000
+[12:08:55] [Async Chat Thread - #9/INFO]: <[Moderator]Vex42> hey para
+[12:09:01] [Async Chat Thread - #9/INFO]: <[Moderator]Vex42> hey
+[12:09:06] [Server thread/INFO]: Vex42 issued server command: /tp @p _parasog_
+[12:09:11] [Async Chat Thread - #9/INFO]: <[Moderator]_parasog_> ah
+[12:09:13] [Async Chat Thread - #9/INFO]: <[Moderator]Vex42> see
+[12:09:16] [Async Chat Thread - #9/INFO]: <[Moderator]Vex42> hheh
+[12:09:18] [Async Chat Thread - #9/INFO]: <[Moderator]_parasog_> me afk tha
+[12:09:22] [Async Chat Thread - #9/INFO]: <[Moderator]Vex42> dekh
+[12:09:24] [Async Chat Thread - #9/INFO]: <[Moderator]_parasog_> kya
+[12:09:28] [Async Chat Thread - #9/INFO]: <[Moderator]Vex42> nhi dikh rha
+[12:09:33] [Async Chat Thread - #9/INFO]: <[Moderator]_parasog_> kon
+[12:09:39] [Async Chat Thread - #9/INFO]: <[Moderator]Vex42> kuch nhi chor
+[12:09:42] [Async Chat Thread - #9/INFO]: <[Moderator]_parasog_> bta
+[12:09:46] [Server thread/INFO]: Vex42 lost connection: Disconnected
+[12:09:46] [Server thread/INFO]: Vex42 left the game
+[12:09:52] [User Authenticator #14/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[12:09:52] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:48358] logged in with entity id 274839 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[12:09:57] [Craft Scheduler Thread - 496/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[12:10:09] [Async Chat Thread - #9/INFO]: <[Moderator]_parasog_> bta
+[12:10:12] [Server thread/INFO]: Vex42 issued server command: /kit bow
+[12:10:24] [Async Chat Thread - #9/INFO]: <[Moderator]Vex42> gift
+[12:10:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast Vex42 just got the OP kit!
+[12:10:45] [Server thread/INFO]: Vex42 issued server command: /bal
+[12:10:49] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
+[12:11:36] [Async Chat Thread - #10/INFO]: <[Moderator]_parasog_> is se jyada to op bow mw hai :>
+[12:11:41] [Async Chat Thread - #10/INFO]: <[Moderator]Vex42> kk
+[12:11:46] [Async Chat Thread - #10/INFO]: <[Moderator]_parasog_> pots dede pls
+[12:12:29] [Async Chat Thread - #10/INFO]: <[Moderator]_parasog_> strenght speed
+[12:12:44] [Async Chat Thread - #10/INFO]: <[Moderator]Vex42> .
+[12:12:45] [Async Chat Thread - #10/INFO]: <[Moderator]_parasog_> thnks
+[12:12:58] [Async Chat Thread - #10/INFO]: <[Moderator]Vex42> ek min me aya
+[12:13:02] [Async Chat Thread - #10/INFO]: <[Moderator]Vex42> ok?
+[12:13:45] [Async Chat Thread - #10/INFO]: <[Moderator]_parasog_> ok
+[12:13:56] [Server thread/INFO]: _parasog_ lost connection: Disconnected
+[12:13:56] [Server thread/INFO]: _parasog_ left the game
+[12:14:04] [Craft Scheduler Thread - 510/INFO]: [Metrics] Connection refused
+[12:14:09] [Server thread/INFO]: :)
+[12:16:37] [Async Chat Thread - #11/INFO]: <[Moderator]Vex42> .
+[12:16:54] [Server thread/INFO]: Vex42 issued server command: /eco set Vex42 75000
+[12:17:29] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
+[12:17:45] [Server thread/INFO]: Vex42 issued server command: /home home
+[12:18:16] [Server thread/INFO]: Vex42 issued server command: /largetree
+[12:18:32] [Server thread/INFO]: Vex42 issued server command: /largetree tree
+[12:19:19] [Server thread/INFO]: Vex42 issued server command: /seed
+[12:20:49] [Server thread/INFO]: :) 
+[12:20:50] [Server thread/INFO]: Vex42 issued server command: /showkit dtools
+[12:21:20] [Server thread/INFO]: Vex42 issued server command: /spawn
+[12:21:26] [Server thread/WARN]: Vex42 moved too quickly! 4.552310587892691,0.0,15.159491988620402
+[12:23:42] [Server thread/INFO]: [Essentials] CommandBlock at -59,65,214 issued server command: /warp pvp1 Vex42
+[12:23:48] [Server thread/INFO]: Vex42 issued server command: /warp
+[12:23:57] [Server thread/INFO]: Vex42 issued server command: /warp tags
+[12:24:04] [Craft Scheduler Thread - 543/INFO]: [Metrics] Connection refused
+[12:24:09] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
+[12:25:12] [Async Chat Thread - #12/INFO]: <[Moderator]Vex42> .
+[12:26:03] [Async Chat Thread - #12/INFO]: <[Moderator]Vex42> .
+[12:27:29] [Server thread/INFO]: Bored ? Try out /warp pvp1
+[12:27:30] [Server thread/INFO]: Vex42 issued server command: /gamemode sp
+[12:27:36] [Server thread/INFO]: Vex42 issued server command: /gamemode c
+[12:27:53] [Server thread/INFO]: Vex42 issued server command: /home home
+[12:28:13] [Server thread/INFO]: Vex42 issued server command: /give @p enderportalframe
+[12:28:33] [Server thread/WARN]: Vex42 moved too quickly! 115.72030990979479,-18.0,-244.44168469640306
+[12:28:34] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[12:28:34] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[12:29:21] [Server thread/INFO]: Vex42 issued server command: /give @p diamond_sword 1 0 {ench:[{id:16,lvl:1000}]}
+[12:30:49] [Server thread/INFO]: Check out new tags in /warp tags
+[12:31:26] [Server thread/INFO]: Vex42 has made the advancement [Remote Getaway]
+[12:32:41] [Server thread/INFO]: Vex42 issued server command: /spawn
+[12:32:54] [Server thread/INFO]: Vex42 issued server command: /warp arena
+[12:33:01] [Server thread/INFO]: Vex42 issued server command: /warp arena
+[12:33:32] [Server thread/INFO]: Vex42 issued server command: /kit firework
+[12:34:01] [Server thread/INFO]: Vex42 issued server command: /give @p firework_rocket 1 0 {Fireworks:{Flight:3,Explosions:[{Type:3,Colors:[I;11743532,14602026,43
+[12:34:04] [Craft Scheduler Thread - 590/INFO]: [Metrics] Connection refused
+[12:34:09] [Server thread/INFO]: XXX
+[12:34:24] [Server thread/INFO]: Vex42 issued server command: /give @p firework_rocket 1 0 {Fireworks:{Flight:3,Explosions:[{Type:3,Colors:[I;11743532,14602026,43
+[12:34:40] [Server thread/INFO]: Vex42 issued server command: /give @p commandblock
+[12:34:58] [Server thread/INFO]: [Essentials] CommandBlock at 19176716,78,-23329603 issued server command: /give Vex42 fireworks 1 0 {Fireworks:{Flight:3,Explosions:[{Type:3,Colors:[I;11743532,14602026,4312372],FadeColors:[I;16776960,255],Flicker:1,Trail:1}]}}
+[12:35:01] [Server thread/INFO]: [Essentials] CommandBlock at 19176716,78,-23329603 issued server command: /give Vex42 fireworks 1 0 {Fireworks:{Flight:3,Explosions:[{Type:3,Colors:[I;11743532,14602026,4312372],FadeColors:[I;16776960,255],Flicker:1,Trail:1}]}}
+[12:35:20] [Server thread/INFO]: [Essentials] CommandBlock at 19176716,78,-23329603 issued server command: /give Vex42 fireworks 1 0 {Fireworks:{Flight:3,Explosions:[{Type:3,Colors:[I;11743532,14602026,4312372],FadeColors:[I;16776960,255],Flicker:1,Trail:1}]}}
+[12:35:37] [Server thread/INFO]: [Essentials] CommandBlock at 19176716,78,-23329603 issued server command: /give Vex42 firework 1 0 {Fireworks:{Flight:3,Explosions:[{Type:3,Colors:[I;11743532,14602026,4312372],FadeColors:[I;16776960,255],Flicker:1,Trail:1}]}}
+[12:37:29] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
+[12:37:30] [Server thread/INFO]: Vex42 lost connection: Disconnected
+[12:37:30] [Server thread/INFO]: Vex42 left the game
+[12:40:49] [Server thread/INFO]: :)
+[12:44:04] [Craft Scheduler Thread - 629/INFO]: [Metrics] Connection refused
+[12:44:09] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
+[12:47:29] [Server thread/INFO]: :) 
+[12:50:49] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
+[12:52:42] [User Authenticator #15/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[12:52:43] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:38730] logged in with entity id 331126 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[12:52:50] [Craft Scheduler Thread - 663/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[12:53:58] [Server thread/INFO]: Vex42 issued server command: /kit dtools
+[12:53:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast Vex42 just got some fancy tools!
+[12:54:04] [Craft Scheduler Thread - 667/INFO]: [Metrics] Connection refused
+[12:54:09] [Server thread/INFO]: Bored ? Try out /warp pvp1
+[12:56:31] [Server thread/INFO]: Vex42 issued server command: /enchant @p silk_touch
+[12:56:40] [Server thread/INFO]: Vex42 issued server command: /enchant silktouch
+[12:56:47] [Server thread/INFO]: Vex42 issued server command: /enchant unbreaking 3
+[12:56:53] [Server thread/INFO]: Vex42 issued server command: /enchant mending
+[12:57:10] [Server thread/INFO]: Vex42 issued server command: /kit tools
+[12:57:21] [Server thread/INFO]: Vex42 issued server command: /kit opkit
+[12:57:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast Vex42 just got the OP kit!
+[12:57:26] [Server thread/INFO]: Vex42 issued server command: /kit opkit
+[12:57:26] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast Vex42 just got the OP kit!
+[12:57:29] [Server thread/INFO]: Check out new tags in /warp tags
+[12:57:47] [Server thread/INFO]: Vex42 issued server command: /enchant mending
+[12:57:57] [Server thread/INFO]: Vex42 issued server command: /enchant sharpness 5
+[12:58:16] [Server thread/INFO]: Vex42 issued server command: /enchant unbreaking 3
+[12:58:37] [Server thread/INFO]: Vex42 issued server command: /gamemode su
+[12:58:41] [Server thread/INFO]: Vex42 issued server command: /gamemode survival
+[12:59:12] [Server thread/INFO]: Vex42 issued server command: /gamemode creative
+[12:59:32] [Server thread/INFO]: Vex42 issued server command: /home home
+[13:00:38] [Server thread/INFO]: Vex42 lost connection: Timed out
+[13:00:38] [Server thread/INFO]: Vex42 left the game
+[13:00:49] [Server thread/INFO]: XXX
+[13:01:49] [User Authenticator #16/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[13:01:49] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:39034] logged in with entity id 332726 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[13:02:08] [Craft Scheduler Thread - 698/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[13:02:14] [Server thread/INFO]: Vex42 issued server command: /give @p minecraft:enchanted_book{StoredEnchantments:[{id:"mending",lvl:1}]}
+[13:03:03] [Server thread/INFO]: Vex42 lost connection: Timed out
+[13:03:03] [Server thread/INFO]: Vex42 left the game
+[13:03:12] [User Authenticator #17/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[13:03:12] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:51640] logged in with entity id 333024 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[13:03:18] [Craft Scheduler Thread - 703/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[13:03:20] [Server thread/INFO]: Vex42 issued server command: /give @p 403 1 0 {StoredEnchantments:[{id:16,lvl:5}]}
+[13:04:03] [Server thread/INFO]: Vex42 issued server command: /give @p 403 1 0 {StoredEnchantments:[{id:70,lvl:1}]}
+[13:04:04] [Craft Scheduler Thread - 703/INFO]: [Metrics] Connection refused
+[13:04:09] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
+[13:05:03] [Server thread/INFO]: Vex42 lost connection: Timed out
+[13:05:03] [Server thread/INFO]: Vex42 left the game
+[13:05:15] [User Authenticator #18/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[13:05:16] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:36882] logged in with entity id 333290 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[13:05:21] [Craft Scheduler Thread - 702/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[13:06:48] [Server thread/INFO]: Vex42 issued server command: /plugins
+[13:07:10] [Server thread/INFO]: Vex42 issued server command: /citizens info
+[13:07:29] [Server thread/INFO]: :)
+[13:08:18] [Async Chat Thread - #13/INFO]: <[Moderator]Vex42> .
+[13:08:40] [Server thread/INFO]: Vex42 issued server command: /warp shop
+[13:10:22] [Server thread/INFO]: Vex42 lost connection: Timed out
+[13:10:22] [Server thread/INFO]: Vex42 left the game
+[13:10:50] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
+[13:11:50] [User Authenticator #19/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[13:11:51] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:45026] logged in with entity id 341033 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[13:11:57] [Craft Scheduler Thread - 733/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[13:14:05] [Craft Scheduler Thread - 740/INFO]: [Metrics] Connection refused
+[13:14:10] [Server thread/INFO]: :) 
+[13:14:12] [Server thread/INFO]: Vex42 lost connection: Timed out
+[13:14:12] [Server thread/INFO]: Vex42 left the game
+[13:17:30] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
+[13:20:50] [Server thread/INFO]: Bored ? Try out /warp pvp1
+[13:21:58] [User Authenticator #20/INFO]: UUID of player Vex42 is 8e14acd1-e07b-325d-b471-591f40e14e91
+[13:21:58] [Server thread/INFO]: Vex42[/[0:0:0:0:0:0:0:1%0]:59054] logged in with entity id 351849 at ([world]1.9176827501113847E7, 65.0, -2.332972764773674E7)
+[13:22:06] [Craft Scheduler Thread - 772/INFO]: [AuthMe] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[13:22:30] [Async Chat Thread - #14/INFO]: <[Moderator]Vex42> hello
+[13:23:37] [Async Chat Thread - #15/INFO]: <[Moderator]Vex42> hey vaibhav
+[13:23:41] [Async Chat Thread - #15/INFO]: <[Moderator]Vex42> you read announcemment
+[13:24:05] [Craft Scheduler Thread - 779/INFO]: [Metrics] Connection refused
+[13:24:08] [Async Chat Thread - #15/INFO]: <[Moderator]Vex42> bye
+[13:24:10] [Server thread/INFO]: Check out new tags in /warp tags
+[13:24:15] [Async Chat Thread - #15/INFO]: <[Moderator]Vex42> i will continue tmrw
+[13:24:28] [Server thread/INFO]: Vex42 issued server command: /eco set vex42 75000
+[13:24:31] [Server thread/INFO]: Vex42 issued server command: /bal
+[13:25:26] [Server thread/INFO]: Vex42 issued server command: /kit opkit
+[13:25:26] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast Vex42 just got the OP kit!
+[13:25:42] [Server thread/INFO]: Vex42 lost connection: Disconnected
+[13:25:42] [Server thread/INFO]: Vex42 left the game
+[13:27:30] [Server thread/INFO]: XXX
+[13:30:50] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
+[13:34:05] [Craft Scheduler Thread - 817/INFO]: [Metrics] Connection refused
+[13:34:10] [Server thread/INFO]: :)
+[13:37:30] [Server thread/INFO]: Wanna be VIP.Check out in /warp shop
+[13:40:50] [Server thread/INFO]: :) 
+[13:44:05] [Craft Scheduler Thread - 858/INFO]: [Metrics] Connection refused
+[13:44:10] [Server thread/INFO]: Join our discord server:https://discord.gg/QUfNxTDvk9
+[13:47:30] [Server thread/INFO]: Bored ? Try out /warp pvp1
+[13:50:50] [Server thread/INFO]: Check out new tags in /warp tags
+[13:54:05] [Craft Scheduler Thread - 898/INFO]: [Metrics] Connection refused
+[13:54:10] [Server thread/INFO]: XXX
+[13:57:30] [Server thread/INFO]: Wanna play with your friends.Join them in our discord server:https://discord.gg/QUfNxTDvk9
+[14:00:50] [Server thread/INFO]: :)
+[14:03:16] [Server thread/INFO]: [Server] [System] Server closing in 30 seconds! Saving world...
+[14:03:17] [Server thread/INFO]: [Server] [System] Server closing in 29 seconds! Saving world...
+[14:03:18] [Server thread/INFO]: [Server] [System] Server closing in 28 seconds! Saving world...
+[14:03:19] [Server thread/INFO]: [Server] [System] Server closing in 27 seconds! Saving world...
+[14:03:20] [Server thread/INFO]: [Server] [System] Server closing in 26 seconds! Saving world...
+[14:03:21] [Server thread/INFO]: [Server] [System] Server closing in 25 seconds! Saving world...
+[14:03:22] [Server thread/INFO]: [Server] [System] Server closing in 24 seconds! Saving world...
+[14:03:23] [Server thread/INFO]: [Server] [System] Server closing in 23 seconds! Saving world...
+[14:03:24] [Server thread/INFO]: [Server] [System] Server closing in 22 seconds! Saving world...
+[14:03:25] [Server thread/INFO]: [Server] [System] Server closing in 21 seconds! Saving world...
+[14:03:26] [Server thread/INFO]: [Server] [System] Server closing in 20 seconds! Saving world...
+[14:03:27] [Server thread/INFO]: [Server] [System] Server closing in 19 seconds! Saving world...
+[14:03:28] [Server thread/INFO]: [Server] [System] Server closing in 18 seconds! Saving world...
+[14:03:29] [Server thread/INFO]: [Server] [System] Server closing in 17 seconds! Saving world...
+[14:03:30] [Server thread/INFO]: [Server] [System] Server closing in 16 seconds! Saving world...
+[14:03:31] [Server thread/INFO]: [Server] [System] Server closing in 15 seconds! Saving world...
+[14:03:32] [Server thread/INFO]: [Server] [System] Server closing in 14 seconds! Saving world...
+[14:03:33] [Server thread/INFO]: [Server] [System] Server closing in 13 seconds! Saving world...
+[14:03:34] [Server thread/INFO]: [Server] [System] Server closing in 12 seconds! Saving world...
+[14:03:35] [Server thread/INFO]: [Server] [System] Server closing in 11 seconds! Saving world...
+[14:03:36] [Server thread/INFO]: [Server] [System] Server closing in 10 seconds! Saving world...
+[14:03:37] [Server thread/INFO]: [Server] [System] Server closing in 9 seconds! Saving world...
+[14:03:38] [Server thread/INFO]: [Server] [System] Server closing in 8 seconds! Saving world...
+[14:03:39] [Server thread/INFO]: [Server] [System] Server closing in 7 seconds! Saving world...
+[14:03:40] [Server thread/INFO]: [Server] [System] Server closing in 6 seconds! Saving world...
+[14:03:41] [Server thread/INFO]: [Server] [System] Server closing in 5 seconds! Saving world...
+[14:03:42] [Server thread/INFO]: [Server] [System] Server closing in 4 seconds! Saving world...
+[14:03:43] [Server thread/INFO]: [Server] [System] Server closing in 3 seconds! Saving world...
+[14:03:44] [Server thread/INFO]: [Server] [System] Server closing in 2 seconds! Saving world...
+[14:03:45] [Server thread/INFO]: [Server] [System] Server closing in 1 seconds! Saving world...
+[14:03:46] [Server thread/INFO]: Stopping the server
+[14:03:46] [Server thread/INFO]: Stopping server
+[14:03:46] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[14:03:46] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[14:03:46] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[14:03:46] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.21.2
+[14:03:46] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+39-adf77dc
+[14:03:46] [Server thread/INFO]: [ServerSigns] Disabling ServerSigns v4.10.1
+[14:03:46] [Server thread/INFO]: [ServerSigns] ServerSigns is now disabled.
+[14:03:46] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+39-adf77dc
+[14:03:46] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+39-adf77dc
+[14:03:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[14:03:46] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.22-SNAPSHOT (build 1487)
+[14:03:46] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:03:46] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
+[14:03:46] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
+[14:03:46] [Server thread/INFO]: [EaglerXRewind-1.5] Disabling EaglercraftXRewind-1-5 v1.0.2
+[14:03:46] [Server thread/INFO]: [EaglerXRewind-1.5] EaglerXRewind protocol for Eaglercraft 1.5.2 has been unregistered
+[14:03:46] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[14:03:46] [Server thread/INFO]: [EaglerXServer] Disabling EaglercraftXServer v1.0.7
+[14:03:46] [Server thread/INFO]: [EaglerXServer] Disconnecting from skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[14:03:46] [Server thread/INFO]: [EaglerXServer] Disconnected from skin cache database successfully!
+[14:03:46] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[14:03:46] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[14:03:46] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:03:46] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:03:46] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:03:46] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+[14:03:46] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[14:03:46] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[14:03:46] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[14:03:46] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.4
+[14:03:46] [Server thread/INFO]: [DuelMe] Disabling DuelMe v0.18.3
+[14:03:46] [Server thread/INFO]: [DuelMe] [Info] Disabling.
+[14:03:46] [Server thread/INFO]: [DuelMe] [Info] Successfully saved 1 Duel Arena(s).
+[14:03:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.3-SNAPSHOT
+[14:03:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[14:03:46] [Server thread/WARN]: [ViaVersion] Could not get handler DefaultChannelPipeline$TailContext#0
+[14:03:46] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[14:03:46] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v1.0
+[14:03:46] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[14:03:46] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[14:03:46] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.7
+[14:03:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
+[14:03:46] [Server thread/INFO]: Saving players
+[14:03:47] [Server thread/INFO]: Saving worlds
+[14:03:47] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[14:03:47] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[14:03:47] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end

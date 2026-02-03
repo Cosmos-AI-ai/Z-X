@@ -54,6 +54,7 @@ pv:
   - '&6shop'
   - '&6diam'
   - '&6spawn'
+  - '&9hall'
   position:
     world: world
     x: -41.470040620282184
@@ -180,3 +181,20 @@ tags:
     x: 1.917676983304109E7
     y: 79.78933217982654
     z: -2.33295725438619E7
+owner:
+  lines:
+  - '&9&lServer Owner &7(very nice)'
+  position:
+    world: world
+    x: -41.61702396272005
+    y: 72.2
+    z: 265.1314454593324
+hall:
+  lines:
+  - '&9&lServer Hall'
+  - '&9&lBuilt By Vex42'
+  position:
+    world: world
+    x: -40.24887947589358
+    y: 70.91623737525401
+    z: 246.8255782021171
