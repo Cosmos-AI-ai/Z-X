@@ -11,28 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1764765769551
+  lastteleport: 1770203664676
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1764932030209
-  login: 1764932024537
-money: '100'
+  logout: 1770203762532
+  login: 1770203527368
+  kits:
+    starter: 1770203690679
+    tools: 1770203709927
+money: '80.0'
 last-account-name: PRO_BROZ
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -37.92241641110308
+  x: -63.78229939565579
   y: 67.0
-  z: 206.21282578567255
-  yaw: -49.199981689453125
-  pitch: -22.500001907348633
+  z: 237.04711926064263
+  yaw: -2.99997615814209
+  pitch: 37.649993896484375
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.9176827363561954E7
-  y: 65.0
-  z: -2.332972758378583E7
-  yaw: 284.8843078613281
-  pitch: 58.04999542236328
+  x: -35.90547665071634
+  y: 59.0
+  z: 245.93073903549953
+  yaw: 20.5499267578125
+  pitch: 45.75000762939453

@@ -9,43 +9,43 @@ socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
-baltop-exempt: false
+baltop-exempt: true
 timestamps:
-  lastteleport: 1770124120689
+  lastteleport: 1770213697096
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1770125142782
-  login: 1770124919017
+  logout: 1770213955798
+  login: 1770212760707
   kits:
     dtools: 1770123238469
-    opkit: 1770125126231
+    opkit: 1770206722168
     tools: 1770123430742
     artmap: 1770118825775
     bow: 1770120612833
     firework: 1770118743073
-    color: 1770118779131
+    color: 1770212967989
     notch: 1770118795708
     starter: 1770120632834
-money: '75000'
+money: '0'
 last-account-name: Vex42
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 4.310418548708061
-  y: 67.0
-  z: 253.81791271451127
-  yaw: 70.80035400390625
-  pitch: 11.999982833862305
+  x: -121.75238325257351
+  y: 70.0
+  z: 3.9232688496859094
+  yaw: 67.4992904663086
+  pitch: 6.749982833862305
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -65.42062003638205
-  y: 60.0
-  z: 244.23237209282718
-  yaw: 206.2498779296875
-  pitch: 34.35000991821289
+  x: -50.132455856965855
+  y: 59.0
+  z: 237.92713071749006
+  yaw: 82.19985961914062
+  pitch: 12.450017929077148
 homes:
   home:
     world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
@@ -63,4 +63,4 @@ homes:
     z: 86.48484009971914
     yaw: -105.159423828125
     pitch: 18.449962615966797
-nickname: §0§mVex§0§l42
+nickname: §0§o§lVex§4§o§l42

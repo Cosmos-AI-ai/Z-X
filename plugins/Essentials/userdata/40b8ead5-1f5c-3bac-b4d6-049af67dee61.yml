@@ -2,7 +2,7 @@ teleportenabled: true
 teleportauto: false
 godmode: false
 muted: false
-jailed: true
+jailed: false
 ip-address: 0:0:0:0:0:0:0:1%0
 afk: false
 socialspy: false
@@ -11,32 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1768648277474
+  lastteleport: 1770211894358
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1768649251314
-  login: 1768648004908
+  logout: 1770212459263
+  login: 1770212395514
   kits:
     opkit: 1768306697925
-money: '1200.0'
+money: '786.0'
 last-account-name: aruj_gamer
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -38.11497971484448
-  y: 70.0
-  z: 195.70107602069098
-  yaw: 215.39141845703125
-  pitch: 27.599990844726562
+  x: -23.955905348363824
+  y: 67.0
+  z: 220.94418039700798
+  yaw: 28.04998016357422
+  pitch: 90.0
 nickname: §8§laruj§0_gamer
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.9176795862500012E7
-  y: 99.1875
-  z: -2.3329581551147323E7
-  yaw: 262.084716796875
-  pitch: 76.95002746582031
-jail: a
+  x: -37.9119983051768
+  y: 59.0
+  z: 247.36217044863173
+  yaw: 84.89995574951172
+  pitch: 9.45004940032959

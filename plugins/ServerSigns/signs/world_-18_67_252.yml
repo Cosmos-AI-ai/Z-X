@@ -3,10 +3,10 @@ permissionMessage: ''
 cancelPermission: ''
 cancelPermissionMessage: ''
 world: world
-X: -37
-Y: 59
-Z: 244
-price: 20.0
+X: -18
+Y: 67
+Z: 252
+price: 0.0
 exp: 0
 cooldown: 0
 globalCooldown: 0
@@ -14,14 +14,7 @@ lastGlobalUse: 0
 confirmation: false
 confirmationMessage: ''
 cancel_mode: ALWAYS
-commands:
-  '0':
-    command: /kit starter
-    type: PLAYER_COMMAND
-    delay: 0
-    grantPerms: []
-    alwaysPersisted: false
-    interactValue: 0
+commands: []
 grantPermissions: []
 priceItems: []
 heldItems: []
@@ -38,9 +31,9 @@ hi_criteria:
 loops: -1
 loop_delay: 1
 uses_limit: 0
-uses_tally: 10
+uses_tally: 0
 protectedBlocks:
-- world,-37,59,243
+- world,-18,66,252
 displayInternalMessages: true
 timeLimitMaximum: 0
 timeLimitMinimum: 0
