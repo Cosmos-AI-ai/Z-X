@@ -6441,3 +6441,61 @@
 [02-04 13:41:43]: [FINE] Vex42 logged in 0:0:0:0:0:0:0:1%0
 [02-04 13:46:05]: [FINE] Vex42 logged in 0:0:0:0:0:0:0:1%0
 [02-04 14:05:55]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[02-05 10:07:00]: [INFO] SQLite Setup finished
+[02-05 10:07:00]: [INFO] Hooked into Vault!
+[02-05 10:07:00]: [INFO] Hooked successfully into Essentials
+[02-05 10:07:00]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[02-05 10:07:00]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[02-05 10:07:00]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[02-05 10:07:00]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[02-05 10:07:00]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[02-05 10:07:00]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[02-05 10:07:00]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[02-05 10:13:22]: [FINE] Vex42 logged in 0:0:0:0:0:0:0:1%0
+[02-05 10:20:49]: [FINE] XxVaibhavxX logged in 0:0:0:0:0:0:0:1%0
+[02-05 10:31:14]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 10:39:37]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 10:48:14]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 10:53:29]: [FINE] XxVaibhavxX logged in 0:0:0:0:0:0:0:1%0
+[02-05 11:00:43]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 11:01:31]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 11:03:47]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 11:10:20]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 11:11:35]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 11:38:42]: [FINE] aruj_gamer used the wrong password
+[02-05 11:39:06]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 11:51:36]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 12:03:15]: [FINE] XxVaibhavxX logged in 0:0:0:0:0:0:0:1%0
+[02-05 12:19:14]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 12:23:19]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 12:29:48]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 12:37:17]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 12:47:01]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:10:52]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:12:13]: [FINE] xFernann logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:13:27]: [FINE] xFernann logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:15:25]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:21:50]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:22:46]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:23:52]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:33:32]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:43:47]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:44:10]: [FINE] XxVaibhavxX logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:44:40]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 13:46:06]: [FINE] aruj_gamer logged in 0:0:0:0:0:0:0:1%0
+[02-05 14:06:46]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!

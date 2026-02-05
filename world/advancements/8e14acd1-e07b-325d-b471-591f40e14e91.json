@@ -852,6 +852,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2026-02-05 10:20:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2025-11-14 11:13:47 +0000"
@@ -1339,6 +1345,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-02-05 10:20:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2025-12-11 14:43:38 +0000"
@@ -1468,6 +1480,12 @@
   "minecraft:end/find_end_city": {
     "criteria": {
       "in_city": "2025-11-15 09:22:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma": {
+    "criteria": {
+      "has_magma_cream": "2026-02-05 10:19:39 +0000"
     },
     "done": true
   },
@@ -1771,6 +1789,12 @@
   "minecraft:recipes/building_blocks/brick_slab": {
     "criteria": {
       "has_brick_block": "2026-01-15 11:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2026-02-05 10:31:29 +0000"
     },
     "done": true
   },

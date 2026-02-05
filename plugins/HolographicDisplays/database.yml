@@ -157,18 +157,6 @@ rul:
     x: -41.61639703427956
     y: 73.20000004768372
     z: 192.40272841930255
-brew:
-  lines:
-  - '&4Brewing is not'
-  - '&4available in this server'
-  - '&bBuy whatever potions'
-  - '&bFrom here'
-  - '&5Welcome to Witch'
-  position:
-    world: world
-    x: -54.90143878246013
-    y: 61.11144097027907
-    z: 244.3291447582799
 tags:
   lines:
   - '&4Have your tags in server'

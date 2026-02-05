@@ -11,37 +11,36 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1770201334260
+  lastteleport: 1770299085677
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1770213091892
-  login: 1770212218453
+  logout: 1770299295419
+  login: 1770299033416
   kits:
     bow: 1768472877310
     artmap: 1768472897361
     tools: 1768472913165
     dtools: 1768483285586
-money: '300.30'
+money: '10300.30'
 last-account-name: XxVaibhavxX
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 1.917651029272108E7
-  y: 73.0
-  z: -2.332953853809828E7
-  yaw: 281.6844482421875
-  pitch: 37.18081283569336
-nickname: §0§n§lXx§4§n§lVaibhav§0§n§lxX
+  x: 1.8191948470654786
+  y: 67.0
+  z: 258.90534902123073
+  yaw: 355.14141845703125
+  pitch: 15.06240177154541
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -5.347794197214164
-  y: 67.0
-  z: 246.92580181151988
-  yaw: -19.7344970703125
-  pitch: 34.7039680480957
+  x: -412.28784953032715
+  y: 69.0
+  z: -543.0829913066857
+  yaw: -344.1385498046875
+  pitch: 27.964807510375977
 mail:
 - legacy: false
   read: false
@@ -50,3 +49,4 @@ mail:
   sender-uuid: 8e14acd1-e07b-325d-b471-591f40e14e91
   timestamp: 1770212547428
   expire: 0
+nickname: §3§lXx§b§lVa§f§m§libh§b§lav§3§lxX
