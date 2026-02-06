@@ -160,8 +160,8 @@ rul:
 tags:
   lines:
   - '&4Have your tags in server'
-  - '&6Buy from here &b:)'
-  - '&uThese tags are Forever'
+  - '&4over here .&2Just click on it'
+  - '&6These tags are forever'
   - '&6If you wanna change your tag'
   - '&6First remove your old tag then buy new'
   position:
