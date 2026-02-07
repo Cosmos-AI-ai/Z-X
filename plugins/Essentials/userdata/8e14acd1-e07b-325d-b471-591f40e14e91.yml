@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: true
 timestamps:
-  lastteleport: 1770287683123
+  lastteleport: 1770460213038
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1770288468898
-  login: 1770286394529
+  logout: 1770460380447
+  login: 1770460203586
   kits:
     dtools: 1770123238469
     opkit: 1770206722168
@@ -31,21 +31,21 @@ timestamps:
 money: '0'
 last-account-name: Vex42
 lastlocation:
-  world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
-  world-name: world
-  x: -3.0149593217246147
-  y: 67.0
-  z: 250.24481565209064
-  yaw: -292.3504333496094
-  pitch: -9.4500093460083
+  world: d6698210-a44c-4be3-8091-be5a69f93971
+  world-name: world_nether
+  x: 170.69999998807907
+  y: 28.0
+  z: -24.69999998807907
+  yaw: -106.3516845703125
+  pitch: -68.84999084472656
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -19.44342400333229
+  x: -36.01026424767568
   y: 67.0
-  z: 253.8310088017557
-  yaw: -120.90042114257812
-  pitch: 19.4999942779541
+  z: 224.00014453868536
+  yaw: -5.249908447265625
+  pitch: 18.749990463256836
 homes:
   home:
     world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760

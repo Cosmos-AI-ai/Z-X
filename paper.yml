@@ -65,10 +65,7 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
-    prevent-moving-into-unloaded-chunks: false
-    use-vanilla-world-scoreboard-name-coloring: false
     portal-search-radius: 128
-    queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
     delay-chunk-unloads-by: 10s
@@ -104,6 +101,7 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
+    queue-light-updates: false
     lootables:
       auto-replenish: false
       restrict-player-reloot: true
@@ -120,6 +118,8 @@ world-settings:
       push-based: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
+    prevent-moving-into-unloaded-chunks: false
+    use-vanilla-world-scoreboard-name-coloring: false
     remove-corrupt-tile-entities: false
     keep-spawn-loaded-range: 6
     auto-save-interval: -1
