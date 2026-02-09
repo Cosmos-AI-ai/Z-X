@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1770382304717
-  login: 1770381336329
+  logout: 1770644824969
+  login: 1770644434695
   kits:
     opkit: 1768306697925
     bow: 1770380928766
@@ -35,11 +35,11 @@ nickname: §8§laruj§0_gamer
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -666.6082517624509
+  x: -662.016431592892
   y: 21.0
-  z: -2.392665059007094
-  yaw: 100.44287109375
-  pitch: 2.849982738494873
+  z: 3.035910701898263
+  yaw: 91.4423828125
+  pitch: -7.650043964385986
 homes:
   home:
     world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
