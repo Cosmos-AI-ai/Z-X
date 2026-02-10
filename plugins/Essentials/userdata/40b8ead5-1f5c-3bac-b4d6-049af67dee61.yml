@@ -11,35 +11,36 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1770381962903
+  lastteleport: 1770727401933
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1770644824969
-  login: 1770644434695
+  logout: 1770727668633
+  login: 1770727099428
   kits:
     opkit: 1768306697925
-    bow: 1770380928766
-money: '21468.89'
+    bow: 1770726269868
+    starter: 1770725462020
+money: '21346.89'
 last-account-name: aruj_gamer
 lastlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: 0.5031269774194373
-  y: 67.0
-  z: 287.95478940021974
-  yaw: -330.44891357421875
-  pitch: 13.499981880187988
+  x: -678.303233198797
+  y: 49.0
+  z: -2.043004928225561
+  yaw: 129.24105834960938
+  pitch: 26.249984741210938
 nickname: §8§laruj§0_gamer
 logoutlocation:
   world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
   world-name: world
-  x: -662.016431592892
-  y: 21.0
-  z: 3.035910701898263
-  yaw: 91.4423828125
-  pitch: -7.650043964385986
+  x: -658.7030079616947
+  y: 23.0
+  z: 6.455795009312337
+  yaw: -98.15507507324219
+  pitch: -34.79999923706055
 homes:
   home:
     world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
@@ -49,3 +50,11 @@ homes:
     z: -0.3000000119209289
     yaw: 29.04442024230957
     pitch: 88.19999694824219
+  home2:
+    world: 8d9f7df2-d8a3-4d01-9340-98ce4bfe7760
+    world-name: world
+    x: -659.3351508359978
+    y: 76.0
+    z: 1.2526840735310492
+    yaw: 276.2398681640625
+    pitch: 60.90000915527344
